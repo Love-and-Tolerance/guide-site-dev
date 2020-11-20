@@ -34,7 +34,7 @@ A plain text editor is a program that edits text files, but does not have fancy 
 Here are some links which will be useful or needed to make a resource pack.
 
 ### Files
-[Resource Pack Template]
+[Resource Pack Template]  
 This is what we will be using to build our resource pack.
 
 ### Essential Software
@@ -64,68 +64,110 @@ A free code editor I recommend for editing text files.
 [Notepad++]  
 Another free light-weight text editor alternative 
 
+#### Useful software  
+Depending on what you want to include in your pack, a program from the relevant category may be needed, or at least save a lot of frustration.
 
-
-[Minecraft Sound Extractor](https://github.com/Ravbug/MCSoundsExtractorCPP)  
-This is for extracting the sound if you want to see how to structure the sound directory in your resource pack.
-
-[Blockbench](https://blockbench.net/)  
+[Blockbench]    
 A free program to create 3d models for Minecraft.
 
-[Dinnerbone's Texture Pack Unstitcher Program (Direct Download)](http://assets.minecraft.net/unstitcher/unstitcher.jar)  
+[Mr. Crayfish’s Model Creator]  
+An alternative program for creating Minecraft models.
+
+#### Texture/Resource Pack Converters
+Tools to convert texture & resource packs to newer versions.
+
+[Dinnerbone's Texture Pack Unstitcher Program (Direct Download)]    
 A tool to convert texture packs to Minecraft version 1.5.
 
-[Flying-Sheep's Texture Pack Unstitcher Rewrite](https://github.com/flying-sheep/unstitcher/)  
+[Flying-Sheep's Texture Pack Unstitcher Rewrite]   
 A rewrite of Dinnerbone’s tool made by a community member.
 
-[TextureEnder made by Mojang (Direct Download)](http://s3.amazonaws.com/Minecraft.Download/utilities/TextureEnder.jar)  
+[TextureEnder made by Mojang (Direct Download)]  
 A tool made by Mojang to convert Texture Packs from 1.5 to resource packs. (also on GitHub)
 
-[Resource Pack Optimizer](https://github.com/PCelestia/optimise-resourcepack)  
-An optimization tool that compresses the image files to save space.
-
-[Quiver](https://github.com/DeflatedPickle/Quiver)  
-A resource pack creator and manager for Minecraft.
-
-[Resource Pack Converter](https://www.planetminecraft.com/mod/minecraft-1-12-1-13-1-14-1-15-resource-pack-converter/)  
+[Resource Pack Converter]  
 A tool to convert resource packs to newer versions.
 
-[Java to Bedrock Resource Pack Converter](https://ozelot379.github.io/ConvertJavaTextureToBedrock/)  
+[Java to Bedrock Resource Pack Converter]  
 A tool to convert your java resource pack to bedrock.
 
-[Minecraft Wiki for Resource Packs](https://minecraft.gamepedia.com/Resource_Pack)  
+#### Other Useful Software
+Not always needed, but useful to have sometimes.
+
+[Resource Pack Optimizer]  
+An optimization tool that compresses the image files to save space.
+
+[Quiver]  
+A resource pack creator and manager for Minecraft.
+
+[WinMerge]  
+A useful tool to compare your pack to default Minecraft and see what you're missing and what files are the same as default to remove them.
+
+[Minecraft Sound Extractor]  
+This is for extracting the sound if you want to see how to structure the sound directory in your resource pack.
+
+#### Information and Resources
+A collection of useful info and resources.
+
+#### Minecraft Wiki
+Use ful Minecrafr Wiki pages.
+
+[Minecraft Wiki for Resource Packs]  
 The official wiki on Minecraft resource packs. Will be updated regularly per update/snapshot, documenting changes between versions.
 
-[Minecraft Wiki for Creating a Resource Pack](https://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack)  
+[Minecraft Wiki for Creating a Resource Pack]  
 Will be updated regularly per update/snapshot, documenting changes between versions.
 
-[Minecraft Wiki for Texture Packs](https://minecraft.gamepedia.com/Texture_Pack)  
+[Minecraft Wiki for Texture Packs]  
 Useful information on texture packs for Minecraft versions 1.6.0 and newer.
 
-[Minecraft Wiki for Creating a Texture Pack](https://minecraft.gamepedia.com/Tutorials/Custom_texture_packs)  
+[Minecraft Wiki for Creating a Texture Pack]  
 Has useful info on making texture packs for Minecraft 1.6.0 and older.
 
-[Minecraft Wiki for Formatting codes](https://minecraft.gamepedia.com/Formatting_codes)  
+[Minecraft Wiki for Formatting codes]  
 Useful reference when editing text files such as pack.mcmeta and credits.txt.
 
-[Minecraft Wiki for Models](https://minecraft.gamepedia.com/Model)  
+[Minecraft Wiki for Models]  
 Has a lot of useful info about blockstates and model files.
 
-[Minecraft Resource Pack Subreddit](https://www.reddit.com/r/mcresourcepack/)  
-A great place to share your resource pack or ask questions if you are having trouble.
+[Minecraft Wiki for Tint]  
+Useful info about the grass and foliage color tinting.
 
-[A word about texture packs](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256365-a-word-about-texturepacks)  
+#### Other Guides
+an assortment of other guides with a lot of useful information in them.
+
+[A word about texture packs]  
 A good read about myths surrounding texture/resource packs.
 
-[The All-Inclusive Guide to Texturing](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256314-the-all-inclusive-guide-to-texturing)  
+[Animation in Resource Packs]  
+A useful guide on animated block and item textures.
+
+[Making Alternate Textures Guide]
+A useful guide for variant/alternate textures.
+
+[The All-Inclusive Guide to Texturing]  
 A helpful guide to making texture packs, mostly useful for older versions of Minecraft before 1.5.
 
-[The All-Inclusive Guide to Texturing (Version 2)](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256366-the-all-inclusive-updated-guide-to-texturing)  
+[The All-Inclusive Guide to Texturing (Version 2)]  
 An updated version that has useful information on newer versions of Minecraft.
 
-[How To Make A Resource Pack video series by Uncle Jam](https://www.youtube.com/playlist?list=PLLl4D8G2NepWULG7fqAeBvpd1SOtP7pe8)  
+[How To Make A Resource Pack video series by Uncle Jam]  
 A good playlist of videos about making a resource pack. (Has a lot of useful info in it, just please do not copy the default Minecraft assets folder like he does. See common mistakes below.)
 
+[Customizing Minecraft video series by How To Gurus]  
+A great playlist with a lot of useful guides for making a resource pack.
+
+#### Places to find help and submit your pack
+Good places to go if you need help or want to submit your pack to be seen by the public.
+
+[Minecraft Resource Pack Subreddit]  
+A great place to share your resource pack or ask questions if you are having trouble.
+
+[Planet Minecraft]  
+A goo place to ask for help or post your pack.
+
+[Minecraft Forums]  
+Another good place to ask for help or post your pack.
 
 
 
@@ -135,3 +177,31 @@ A good playlist of videos about making a resource pack. (Has a lot of useful inf
 [Paint.NET]: https://www.getpaint.net/
 [Brackets]: http://brackets.io/
 [Notepad++]: https://notepad-plus-plus.org/
+[Blockbench]: https://blockbench.net/
+[Mr. Crayfish’s Model Creator]: https://mrcrayfish.com/tools?id=mc#downloads
+[Dinnerbone's Texture Pack Unstitcher Program (Direct Download)]: http://assets.minecraft.net/unstitcher/unstitcher.jar
+[Flying-Sheep's Texture Pack Unstitcher Rewrite]: https://github.com/flying-sheep/unstitcher/
+[TextureEnder made by Mojang (Direct Download)]: http://s3.amazonaws.com/Minecraft.Download/utilities/TextureEnder.jar
+[Resource Pack Converter]: https://www.planetminecraft.com/mod/minecraft-1-12-1-13-1-14-1-15-resource-pack-converter/
+[Java to Bedrock Resource Pack Converter]: https://ozelot379.github.io/ConvertJavaTextureToBedrock/
+[Resource Pack Optimizer]: https://github.com/PCelestia/optimise-resourcepack  
+[Quiver]: https://github.com/DeflatedPickle/Quiver
+[WinMerge]: https://winmerge.org/?lang=en
+[Minecraft Sound Extractor]: https://github.com/Ravbug/MCSoundsExtractorCPP
+[Minecraft Wiki for Resource Packs]: https://minecraft.gamepedia.com/Resource_Pack
+[Minecraft Wiki for Creating a Resource Pack]: https://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack
+[Minecraft Wiki for Texture Packs]: https://minecraft.gamepedia.com/Texture_Pack
+[Minecraft Wiki for Creating a Texture Pack]: https://minecraft.gamepedia.com/Tutorials/Custom_texture_packs
+[Minecraft Wiki for Formatting codes]: https://minecraft.gamepedia.com/Formatting_codes
+[Minecraft Wiki for Models]: https://minecraft.gamepedia.com/Model
+[Minecraft Wiki for Tint]: https://minecraft.gamepedia.com/Tint
+[A word about texture packs]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256365-a-word-about-texturepacks
+[Animation in Resource Packs]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256350-animation-in-resource-packs-a-minecraft-1-6
+[Making Alternate Textures Guide]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/2209236-1-8-tutorial-alternate-textures-and-custom-models
+[The All-Inclusive Guide to Texturing]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256314-the-all-inclusive-guide-to-texturing
+[The All-Inclusive Guide to Texturing (Version 2)]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256366-the-all-inclusive-updated-guide-to-texturing
+[How To Make A Resource Pack video series by Uncle Jam]: https://www.youtube.com/playlist?list=PLLl4D8G2NepWULG7fqAeBvpd1SOtP7pe8
+[Customizing Minecraft video series by How To Gurus]: https://www.youtube.com/playlist?list=PLfp-NJt_DpgG2odTDbwjtXkdjdBgpSxng
+[Minecraft Resource Pack Subreddit]: https://www.reddit.com/r/mcresourcepack/
+[Planet Minecraft]: https://www.planetminecraft.com/texture-packs/
+[Minecraft Forums]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs
