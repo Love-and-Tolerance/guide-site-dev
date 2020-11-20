@@ -6,12 +6,77 @@ This guide will walk you through the steps of making your very own resource pack
 This guide has been hosted on GitHub for a reason; we want you to help make this guide the best it can be. If you see something that is wrong, or think you can expand a section to make it better, we encourage you to Fork this repository and do a Pull Request with your additions (don't forget to add yourself to the credits).
 
 ## Table of contents:
+1. [Introduction](#introduction)  
 
+2. [FAQ](#faq)  
+  A. [What is a resource pack?](#what-is-a-resource-pack)  
+  B. [Are resource packs the same as texture packs?](#  
+  C. Are they hard to make?  
+  D. Do I have to change every texture?  
+  E. What programs do I need to make a texture pack?  
+  F. So what is a “plain” text editor?  
+Useful Links    4
+Software    4
+Essential    4
+Image Editing    4
+Text Editing    5
+Useful    5
+Model Editing    5
+Pack Conversion    5
+Other    5
+Files    6
+Information    6
+Useful Keybinds    7
+Minecraft:    7
+GIMP:    8
+Paint.NET:    8
+General Advice    8
+Resource Pack Structure    9
+Making a New Pack    15
+Resource Pack Folder:    15
+Extracting the .jar File:    16
+Blocks and Items    24
+Making Your First Texture:    24
+Seeing Your Texture In-Game:    30
+Texture Animation:    32
+Resolution:    34
+Changing Models: (Shapes):    35
+Blockstates: (More Fanciness):    35
+Different Looks for Different Cases:    35
+Variant Textures:    35
+Weighted variants:    38
+Different models for different states:    45
+Plant Color:    45
+GUIs    45
+Making a tittle screen panorama:    45
+Entities    46
+Other Visuals    47
+Debugging    47
+Common Problems:    47
+Pack Missing from Menu:    47
+Pack Listed as Out of Date:    47
+Changes are Missing:    47
+Purple and Black Texture:    47
+The Output Log:    48
+Activating the Output Log:    48
+Interpreting the Output Log:    48
+File Not Found Exception:    48
+Malformed Json Exception:    49
+Optifine (Fanciness Mod)    50
+Language Files    50
+Changing Text:    50
+Changing Text Color & Format:    51
+Things to Consider:    51
+Splash Texts    52
+End Poem & Credits    52
+Fonts    52
+Sounds    52
+Credits    
 
 ## F.A.Q.
 Let’s start off by answering some questions you may have about resource packs.
 
-**What is a resource pack?**  
+#### What is a resource pack?  
 A resource pack is a folder or .zip that changes the “assets” loaded into Minecraft. It is a way to customize or completely change how the game looks and sounds.
 
 **Are resource packs the same as texture packs?**  
