@@ -77,20 +77,20 @@ A plain text editor is a program that edits text files, but does not have fancy 
 ## useful links
 Here are some links which will be useful or needed to make a resource pack.
 
-**Files**
+**Files**  
 [Resource Pack Template]  
 This is what we will be using to build our resource pack.
 
-**Essential Software**
+**Essential Software**  
 You will need one from each of these catogories to make a resource pack.
 
-**Archival Tool**
+**Archival Tool**  
 Needed to unzip the Minecraft jar file and to zip your pack when it is done.  
 
 [7-Zip]  
 Archive tool we will use to extract textures from the Minecraft JAR file and zip our texture pack when they’re done.
 
-**Image Editor**
+**Image Editor**  
 Required to edit the textures in your pack.
 
 [GNU image Manipulation Program] (GIMP)  
@@ -99,7 +99,7 @@ A free image editing program we will use to make and edit our textures.
 [Paint.NET]  
 An alternative program you can use to edit textures, and has plug-in support for extra image editing.
 
-**Text Editor**
+**Text Editor**  
 Used to edit the text files in your pack.
 
 [Brackets]  
@@ -117,7 +117,7 @@ A free program to create 3d models for Minecraft.
 [Mr. Crayfish’s Model Creator]  
 An alternative program for creating Minecraft models.
 
-**Texture/Resource Pack Converters**
+**Texture/Resource Pack Converters**  
 Tools to convert texture & resource packs to newer versions.
 
 [Dinnerbone's Texture Pack Unstitcher Program (Direct Download)]    
@@ -135,7 +135,7 @@ A tool to convert resource packs to newer versions.
 [Java to Bedrock Resource Pack Converter]  
 A tool to convert your java resource pack to bedrock.
 
-**Other Useful Software**
+**Other Useful Software**  
 Not always needed, but useful to have sometimes.
 
 [Resource Pack Optimizer]  
@@ -150,10 +150,10 @@ A useful tool to compare your pack to default Minecraft and see what you're miss
 [Minecraft Sound Extractor]  
 This is for extracting the sound if you want to see how to structure the sound directory in your resource pack.
 
-**Information and Resources**
+**Information and Resources**  
 A collection of useful info and resources.
 
-**Minecraft Wiki**
+**Minecraft Wiki**  
 Use ful Minecrafr Wiki pages.
 
 [Minecraft Wiki for Resource Packs]  
@@ -177,7 +177,7 @@ Has a lot of useful info about blockstates and model files.
 [Minecraft Wiki for Tint]  
 Useful info about the grass and foliage color tinting.
 
-**Other Guides**
+**Other Guides**  
 an assortment of other guides with a lot of useful information in them.
 
 [A word about texture packs]  
@@ -201,7 +201,7 @@ A good playlist of videos about making a resource pack. (Has a lot of useful inf
 [Customizing Minecraft video series by How To Gurus]  
 A great playlist with a lot of useful guides for making a resource pack.
 
-**Places to find help and submit your pack**
+**Places to find help and submit your pack**  
 Good places to go if you need help or want to submit your pack to be seen by the public.
 
 [Minecraft Resource Pack Subreddit]  
