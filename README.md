@@ -6,9 +6,27 @@ This guide will walk you through the steps of making your very own resource pack
 This guide has been hosted on GitHub for a reason; we want you to help make this guide the best it can be. If you see something that is wrong, or think you can expand a section to make it better, we encourage you to Fork this repository and do a Pull Request with your additions (don't forget to add yourself to the credits).
 
 ## Table of contents:
-- [Introduction](#introduction)
-- [FAQ](#faq)
-- Useful Links
+### [Introduction](#introduction)
+### [FAQ](#faq)
+  - What is a resource pack?
+  - Are resource packs the same as texture packs?
+  - Are they hard to make?
+  - Do I have to change every texture?
+  - What programs do I need to make a texture pack?
+  - So what is a “plain” text editor?  
+### Useful Links
+  - Files
+  - Esential software
+    - Archival Tool
+    - Image Editor
+    - Text Editor
+  - Useful Software
+  - Texture/Resource Pack Converters
+  - Other Software
+  - Information and Resources
+   - Minecraft Wiki
+   - Other Guides
+   - Places to find help and submit your pack
 - Useful Keybinds
 - General Advice
 - Resource Pack Structure
@@ -135,7 +153,7 @@ A tool to convert resource packs to newer versions.
 [Java to Bedrock Resource Pack Converter]  
 A tool to convert your java resource pack to bedrock.
 
-**Other Useful Software**  
+**Other Software**  
 Not always needed, but useful to have sometimes.
 
 [Resource Pack Optimizer]  
