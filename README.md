@@ -239,27 +239,31 @@ Another good place to ask for help or post your pack.
 
 Here are some useful key binds I will mention in this guide.
 
-Minecraft:
-Reload resource packs: F3 + T
+**Minecraft:**
+Action | Keybind
+-------|--------
+Reload resources | F3 + T
 
 **GIMP:**
-Key | Action
-----|-------
+Action | Keybind
+-------|--------
 Pencil | N
-Undo:         Ctrl + Z
-Redo:         Ctrl + Y
-Zoom:     Ctrl + mouse wheel in and out.
-Color picker: Ctrl + primary mouse click (only works when pencil/paintbrush is the selected tool)
-Pan:         Hold the spacebar and drag the mouse.
+Undo | Ctrl + Z
+Redo | Ctrl + Y
+Zoom | Ctrl + mouse wheel in and out.
+Color picker | Ctrl + primary mouse click (only works when pencil/paintbrush is the selected tool)
+Pan | Hold the spacebar and drag the mouse.
 
-Paint.NET:
-Pencil:     P
-Line Tool:     O
-Pan:         Hold the spacebar and left click and drag (alternatively press H to select the pan tool)
-Color picker:     K
-Eraser:     E
-Paint Bucket: F
-Shape tool:     O, O (press O twice)
+**Paint.NET:**
+Action | Keybind
+-------|--------
+Pencil | P
+Line Tool | O
+Pan | Hold the spacebar and left click and drag (alternatively press H to select the pan tool)
+Color picker | K
+Eraser | E
+Paint Bucket | F
+Shape tool | O, O (press O twice)
 
 
 
