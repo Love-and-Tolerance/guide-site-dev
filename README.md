@@ -388,42 +388,46 @@ Making a New Pack
 Resource Pack Folder:
 
 Now that you have a basic understanding of how a texture pack is structured, let's start making one. You're going to want to find your resource pack folder; it can be found at:
-
-%APPDATA%\.minecraft\resourcepacks on Windows
-~/Library/Application Support/minecraft/resourcepacks on macOS
-~/.minecraft/resourcepacks on Linux
+Operating System | Location
+-----------------|---------
+Windows | `%APPDATA%\.minecraft\resourcepacks`
+MacOS | `~/Library/Application Support/minecraft/resourcepacks`
+Linux | `~/.minecraft/resourcepacks`
 
 You can also get to it by clicking “Open Pack Folder” in Minecraft:
+![Open Resource Pack Folder]
 
 Extracting the .jar File:
 Once this folder is open, you are going to want to extract the template and copy that folder here:
+![Copy Template Here]
 
-
-Once it is copied over, you can rename the folder to what you want your resource pack to be named. I recommend you use dashes (-) or underscores (_) rather than spaces, but you don't have to.
+Once it is copied over, you can rename the folder to what you want your resource pack to be named. I recommend you use dashes `-` or underscores `_` rather than spaces, but you don't have to.
 
 Right-click the template folder and click “Open in new window”. Minimize the old window, as we will come back to it when we are done editing the template.
 
 Inside, the template pack looks like this:
-
+![Template mane]
 
 Right-click the LICENSE file and click “Open with Brackets”. (or “Edit with Notepad++”)
 
 Read the license and if you plan on keeping it, change the Copyright at the top in this red box to your resource packs name:
-
+![License File]
 
 If you are going to use it, save after editing and close Brackets. If you don't want to use the License, delete the file.
 
 Now right-click the pack.mcmeta file and click “Open with Brackets”.
-
+![Pack Mcmeta]
 
 The pack format tells Minecraft what versions this pack will work with:
-1 - 1.6.1 to 1.8.9
-2 - 1.9 to 1.10.2
-3 - 1.11 to 1.12.2
-4 - 1.13 to 1.14.4
-5 - 1.15 to 1.16.1
-6 - 1.16.2 to 1.16.4
-7 - 1.17
+Pack Format | Minecraft Versions
+:----------:|:-----------------:
+1 | 1.6.1 to 1.8.9
+2 | 1.9 to 1.10.2
+3 | 1.11 to 1.12.2
+4 | 1.13 to 1.14.4
+5 | 1.15 to 1.16.1
+6 | 1.16.2 to 1.16.4
+7 | 1.17
 
 Change this to the version you will be making the pack for.
 
@@ -1335,3 +1339,8 @@ Additional programs/some fact checking (?)
 [Default Minecraft Assets]: /assets/resourcepackguide/images/structure/default-mc.png
 [Default Minecraft Models]: /assets/resourcepackguide/images/structure/default-models.png
 [Default Minecraft Textures]: /assets/resourcepackguide/images/structure/default-textures.png
+[Open Resource Pack Folder]: /assets/resourcepackguide/images/making-a-pack/open-rp-folder.png
+[Copy Template Here]: /assets/resourcepackguide/images/making-a-pack/copy-template.png
+[Template mane]: /assets/resourcepackguide/images/making-a-pack/template-mane.png
+[License File]: /assets/resourcepackguide/images/making-a-pack/license.png
+[Pack Mcmeta]: /assets/resourcepackguide/images/making-a-pack/pack-mcmeta.png
