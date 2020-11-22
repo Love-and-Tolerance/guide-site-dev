@@ -267,118 +267,122 @@ Shape tool | O, O (press O twice)
 
 
 
-General Advice
+## Helpful Advice
 
+
+### General Advice
 Before we get started I'm going to give some general advice when creating your resource pack:
 
- It is best to stick to one resolution size for your pack, changing resolution on a texture by texture basis can be jarring to players as well as potentially stress the texture system.
-If you want to make sure builds using default textures look good with your pack, or vice versa, use the same colors as the default texture.
-While you don't have to follow any of this advice, I recommend following them at least while you are learning how to make a resource pack.
+  - It is best to stick to one resolution size for your pack, changing resolution on a texture by texture basis can be jarring to players as well as potentially stress the texture system.
+ - If you want to make sure builds using default textures look good with your pack, or vice versa, use the same colors as the default texture.
+ - While you don't have to follow any of this advice, I recommend following them at least while you are learning how to make a resource pack.
 
+### Common mistakes
 Here are some common mistakes to avoid while making your texture pack.
 
-Do not just copy Minecraft’s assets folder and make your texture pack on top of it, this bloats the size of your resource pack and makes it hard to find and fix problems in the future. Minecraft loads your pack overtop of the default assets so this is not needed and is not recommended. (seriously, you will thank me later)
-Make sure your textures have the exact same name as default Minecraft.
-Make sure you place your textures in the right folders.
-Resource Pack Structure
+ - Do not just copy Minecraft’s assets folder and make your texture pack on top of it, this bloats the size of your resource pack and makes it hard to find and fix problems in the future. Minecraft loads your pack overtop of the default assets so this is not needed and is not recommended. (seriously, you will thank me later)
+ - Make sure your textures have the exact same name as default Minecraft.
+ - Make sure you place your textures in the right folders.
+ 
+## Resource Pack Structure
 Before we start making a resource pack, I’m going to go over how a resource pack is structured.
 
-Pictured below is the resource pack template I provided the link to earlier:
-
+Pictured below is the resource pack template I provided the link to earlier:  
+![Resource Pack Template Mane]
 
 This is the main folder of your resource pack; let's go over the files inside it.
 
-LICENSE - This file is not needed, but is included in all the packs I manage. It lets anyone know this resource pack has this license and in what ways they may use it. You can edit it to be for your pack or delete it entirely.
+**LICENSE** - This file is not needed, but is included in all the packs I manage. It lets anyone know this resource pack has this license and in what ways they may use it. You can edit it to be for your pack or delete it entirely.
 
-pack.mcmeta - This file is needed for Minecraft to recognize your texture pack. This tells Minecraft what pack format your pack is (aka what version is it compatible with), what the description of your pack in-game is, and it also tells Minecraft if you have any custom language files (which we’ll get into later).
+**pack.mcmeta** - This file is needed for Minecraft to recognize your texture pack. This tells Minecraft what pack format your pack is (aka what version is it compatible with), what the description of your pack in-game is, and it also tells Minecraft if you have any custom language files (which we’ll get into later).
 
-pack.png - This file is the icon for your pack in the resource pack menu in Minecraft.
+**pack.png** - This file is the icon for your pack in the resource pack menu in Minecraft.
 
-README.md - This file is not needed but is included in all my packs to give information about the pack and credit everyone who works on it. This file can be deleted if not desired.
+**README.md** - This file is not needed but is included in all my packs to give information about the pack and credit everyone who works on it. This file can be deleted if not desired.
 
 
 Now let's go one folder deeper into the pack. Pictured below is the assets folder:
-
+![Resource Pack Template Assets]
 
 The assets folder holds all the textures for Minecraft. If you want to support Minecraft Realms or any mods, then you add the mod folder to the assets folder. Below is an example:
-
+![Resource Pack Reamls Mod Example]
 
 The “realms” folder holds textures for Minecraft Realms, and the “minelittlepony” folder is for textures for that mod.
 
 For now, we will only be covering textures for default Minecraft. Let's go one level deeper into the minecraft folder:
-
+![Resource Pack Minecraft Empty]
 
 That's right, it's empty. This is where you're going to need to make folders for the areas of minecraft you will want to change.
 
 Let's figure that out by looking at the default minecraft structure:
-
+![Default Minecraft Assets]
 
 Your resource pack can contain any of these folders. Let's go over them:
 
-blockstates - These point Minecraft to the models used in-game for every block.
+**blockstates** - These point Minecraft to the models used in-game for every block.
 
-font - Contains information about the size and location of each letter in the font. Most font changes happen at the texture level, you probably won't need this folder.
+**font** - Contains information about the size and location of each letter in the font. Most font changes happen at the texture level, you probably won't need this folder.
 
-lang - Contains the language files, this is where you put your custom language or edit the default one.
+**lang** - Contains the language files, this is where you put your custom language or edit the default one.
 
-models - These are the in-game models for every item and block, they tell Minecraft what shape it is and what texture to use for each side.
+**models** - These are the in-game models for every item and block, they tell Minecraft what shape it is and what texture to use for each side.
 
-particles - These point Minecraft to the texture file for each particle effect.
+**particles** - These point Minecraft to the texture file for each particle effect.
 
-shaders - The shaders for the old in-game ‘super secret settings’ button that have since been removed. Not modified by most resource packs.
+**shaders** - The shaders for the old in-game ‘super secret settings’ button that have since been removed. Not modified by most resource packs.
 
-sounds - (not pictured above) The sounds go into this folder but do not appear when you extract the Minecraft jar file as they are stored separately.
+**sounds** - (not pictured above) The sounds go into this folder but do not appear when you extract the Minecraft jar file as they are stored separately.
 
-texts - contains the text files for the credits, the end poem, and the title screen splashes.
+**texts** - contains the text files for the credits, the end poem, and the title screen splashes.
 
-textures - this is where all the textures are stored, this is where you will do most of your work.
+**textures** - this is where all the textures are stored, this is where you will do most of your work.
 
-gpu_warnlist.json - This is a default vanilla file you don't need in your texture pack.
+**gpu_warnlist.json** - This is a default vanilla file you don't need in your texture pack.
 
 
 Two of these folders have sub folders, we will now go over those.
 
 models:
-
+![Default Minecraft Models]
 
 These subfolders are pretty self-explanatory:
 
-blocks - block models go here
+**blocks** - block models go here
 
-items - item models go here
+**items** - item models go here
 
 textures:
-
+![Default Minecraft Textures]
 
 Let's go over the folders in the above image.
 
-block - All the block textures are here. (This is for versions 1.13+; For 1.12.2 and under use “blocks”)
+**block** - All the block textures are here. (This is for versions 1.13+; For 1.12.2 and under use “blocks”)
 
-colormap - The grass and foliage colormaps are here.
+**colormap** - The grass and foliage colormaps are here.
 
-effect - Contains the dither texture, which is used in the notch shading effect that has been removed from default Minecraft.
+**effect** - Contains the dither texture, which is used in the notch shading effect that has been removed from default Minecraft.
 
-entity - Contains all the mob, NPC, and entity textures, like signs, boats, etc.
+**entity** - Contains all the mob, NPC, and entity textures, like signs, boats, etc.
 
-environment - Contains the sun, moon, rain, snow, clouds, and end sky textures.
+**environment** - Contains the sun, moon, rain, snow, clouds, and end sky textures.
 
-font - Contains the font textures.
+**font** - Contains the font textures.
 
-gui - Contains all the UI textures, from menus, to the hot bar, containers and more.
+**gui** - Contains all the UI textures, from menus, to the hot bar, containers and more.
 
-item - Contains all the item textures. (This is for versions 1.13+; For 1.12.2 and under use “items”)
+**item** - Contains all the item textures. (This is for versions 1.13+; For 1.12.2 and under use “items”)
 
-map - Contains the map icons and background textures.
+**map** - Contains the map icons and background textures.
 
-misc - Contains misc textures, from enchantment glint to unknown server & pack.
+**misc** - Contains misc textures, from enchantment glint to unknown server & pack.
 
-mob effect - Contains all the status effect textures, like strength & speed.
+**mob effect** - Contains all the status effect textures, like strength & speed.
 
-models - Contains the textures for the armor in the game.
+**models** - Contains the textures for the armor in the game.
 
-painting - Contains the painting textures.
+**painting** - Contains the painting textures.
 
-particle - contains all the particles, like explosions, anger, bubble, etc.
+**particle** - contains all the particles, like explosions, anger, bubble, etc.
 
 Making a New Pack
 Resource Pack Folder:
@@ -1287,7 +1291,7 @@ Additional programs/some fact checking (?)
 
 
 
-
+<!-- Links go here -->
 [Resource Pack Template]: https://github.com/Love-and-Tolerance/Resource-Pack-template/releases/latest
 [7-Zip]: https://www.7-zip.org/
 [GNU image Manipulation Program]: https://www.gimp.org/
@@ -1322,3 +1326,12 @@ Additional programs/some fact checking (?)
 [Minecraft Resource Pack Subreddit]: https://www.reddit.com/r/mcresourcepack/
 [Planet Minecraft]: https://www.planetminecraft.com/texture-packs/
 [Minecraft Forums]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs
+
+<!-- Image links go here -->
+[Resource Pack Template Mane]: /assets/resourcepackguide/images/structure/template-mane.png
+[Resource Pack Template Assets]: /assets/resourcepackguide/images/structure/template-assets.png
+[Resource Pack Reamls Mod Example]: /assets/resourcepackguide/images/structure/realms-mod-assets-example.png
+[Resource Pack Minecraft Empty]: /assets/resourcepackguide/images/structure/template-mc-empty.png
+[Default Minecraft Assets]: /assets/resourcepackguide/images/structure/default-mc.png
+[Default Minecraft Models]: /assets/resourcepackguide/images/structure/default-models.png
+[Default Minecraft Textures]: /assets/resourcepackguide/images/structure/default-textures.png
