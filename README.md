@@ -480,35 +480,36 @@ Next go into the “block” folder:
 There are a lot of files in here; these are all the default block textures. For now, we are going to search for one block at a time. I’m going to be using stone for this example, but you can use any block you want.
 
 Search for the block you want to make a texture for:
-
+![Search For Block]
 
 Right-click the image and click copy. Move back to your other window and paste it:
-
+![Block Copied]
 
 Now right click that copied image, hover over “Open with” and click “GIMP”. It will take a few seconds to open up, but you should be met with a screen like this:
+![Gimp Open]
 
 That texture is tiny. Zoom in by holding down Ctrl and scrolling the mouse wheel in:
-
+![Gimp Zoom]
 
 Now that's better. Hit the N key to switch the selected tool to the Pencil. On the left side of the screen you will see a menu of tool options; you will want to set size to 1:
-
+![Gimp Set Pencil To 1]
 
 Now it's time to make your texture. If you're reusing the existing colors in the texture, hold down Ctrl and click the color in the image you want to use. This will make it the active color.
 
 Use the colors in the texture and make a new texture you like. This may take a while and several attempts, but don't give up. Making textures can be hard, but I know you can do it!
 
 Here is what I came up with for stone:
+![Stone Done]
 
-
-Once you are happy with the texture you have made you are going to want to export it. Hit the file menu button and click “Overwrite stone.png”:
-
+Once you are happy with the texture you have made you are going to want to export it. Hit the file menu button and click “Overwrite stone.png”:  
+![Gimp Overwrite]
 
 Seeing Your Texture In-Game:
 Once your texture has finished exporting, open up Minecraft and go to the resource packs menu, find your pack on the left, and click the arrow to move it to the active side:
-
+![move-To-Active]
 
 Now hit done and wait for it to reload resources. Once back at the menu, create a new world and go see your texture in game:
-
+![Stone-In-Game]
 
 (The above texture has been made for demonstration purposes only; it is not used in any packs. It is loosely based on the stone in “Love & Tolerance”.)
 Texture Animation:
@@ -1360,3 +1361,14 @@ Minecraft uses .ogg files at 96kb/s for its sounds. If using Audacity to make yo
 [Default Minecraft]: /assets/resourcepackguide/images/extracting-the-jar/default-mc.png
 [Default Textures]: /assets/resourcepackguide/images/extracting-the-jar/default-textures.png
 [Default block]: /assets/resourcepackguide/images/extracting-the-jar/default-block.png
+
+[Search For Block]: /assets/resourcepackguide/images/making-a-texture/block-search.png
+[Block Copied]: /assets/resourcepackguide/images/making-a-texture/stone-copied.png
+[Gimp Open]: /assets/resourcepackguide/images/making-a-texture/gimp-open.png
+[Gimp Zoom]: /assets/resourcepackguide/images/making-a-texture/gimp-zoom.png
+[Gimp Set Pencil To 1]: /assets/resourcepackguide/images/making-a-texture/gimp-pencil-1.png
+[Stone Done]: /assets/resourcepackguide/images/making-a-texture/stone-new.png
+[Gimp Overwrite]: /assets/resourcepackguide/images/making-a-texture/stone-overwrite.png
+
+[Move-To-Active]: /assets/resourcepackguide/images/seeing-first-texture-in-game/move-to-active.png
+[Stone-In-Game]: /assets/resourcepackguide/images/seeing-first-texture-in-game/stone-in-game.png
