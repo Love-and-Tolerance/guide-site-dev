@@ -628,19 +628,19 @@ For best performance, it is generally advised to use 256x256 or smaller.
 
 Changing Models: (Shapes):
 
-Blockstates: (More Fanciness):
+## Blockstates: (More Fanciness):
 
-Different Looks for Different Cases:
-Some blocks can use different textures or models depending on their in-game “block state”. The simplest and most common alternative state is rotation, such as how dispensers look different depending on their orientation. Other common blockstates include on or off, full or empty, growth level, connected or disconnected, etc. It can be useful to understand these blockstates if you want to change the way a block with multiple states will look.
+### Different Looks for Different Cases:
+Some blocks can use different textures or models depending on their in-game `block state`. The simplest and most common alternative state is rotation, such as how dispensers look different depending on their orientation. Other common blockstates include on or off, full or empty, growth level, connected or disconnected, etc. It can be useful to understand these blockstates if you want to change the way a block with multiple states will look.
 
 Some blocks have multiple states, but look the same in the vanilla resource pack. That doesn’t mean they have to in yours! For example, you could make a pack wherein beehives look different depending on how much honey they contain, or wherein saplings get bigger when they are half-way to growing into a tree!
 
 In this example we are going to make beehives show their exact honey level, rather than just full or not like in vanilla.
 
-By default, beehives have two models. One used by completely full hives, and the other by empty, or partially full hives. The game knows which model to use by referencing the “beehive.json” blockstate file in the “assets/minecraft/blockstates” folder.
+By default, beehives have two models. One used by completely full hives, and the other by empty, or partially full hives. The game knows which model to use by referencing the `beehive.json` blockstate file in the `assets/minecraft/blockstates` folder.
 
-By default, this file looks like this:
-
+By default, this file looks like this:  
+```JSON
 {
   "variants": {
     "facing=east,honey_level=0": {
@@ -735,21 +735,22 @@ By default, this file looks like this:
     }
   }
 }
+```
 
-Each “variant” in this list refers to one model for the game to use. But wait; didn’t I say there were only two? Well if you look carefully, four of these entries actually refer to the same model (“beehive_honey”) which is the model full of honey. They simply instruct the game to rotate the block based on its facing. For example, 
+Each `variant` in this list refers to one model for the game to use. But wait; didn’t I say there were only two? Well if you look carefully, four of these entries actually refer to the same model `beehive_honey`, which is the model full of honey. They simply instruct the game to rotate the block based on its facing. For example, 
 
-“"facing = west,honey_level=5"” means “if the block is facing west, and has 5 levels of honey”. 
-“"Model": "minecraft:block/beehive_honey"” means use the “beehive_honey.json” model file from “assets/minecraft/block”.
-“"Y": 270” means rotate that model 270 degrees around the vertical axis.
+ - `"facing = west,honey_level=5"` means “if the block is facing west, and has 5 levels of honey”. 
+ - `"Model": "minecraft:block/beehive_honey"` means use the `beehive_honey.json` model file from `assets/minecraft/block`.
+ - `"Y": 270` means rotate that model 270 degrees around the vertical axis.
 
-The other 20 all refer to the “beehive” model, in each combination of honey level and rotation.
+The other 20 all refer to the `beehive` model, in each combination of honey level and rotation.
 
-To tell the game to use a different model for each honey level, all we have to do, is make new models and textures for each case, (see sections above for more detail) and refer to those models accordingly. My recommendation would be to simply copy the existing “beehive_honey.json” model file and “beehive_front_honey.png” 4 times each, and rename those copies “beehive_1.json” through “beehive_4.json”, and “beehive_front_1.png” through “beehive_front_4.png”. In each of these model files, simply edit the “honey” texture references to the appropriate number, and edit your texture files to look however you want. These are the ones I used:
- 
+To tell the game to use a different model for each honey level, all we have to do, is make new models and textures for each case, (see sections above for more detail) and refer to those models accordingly. My recommendation would be to simply copy the existing `beehive_honey.json` model file and `beehive_front_honey.png` 4 times each, and rename those copies `beehive_1.json` through `beehive_4.json`, and `beehive_front_1.png` through `beehive_front_4.png`. In each of these model files, simply edit the `honey` texture references to the appropriate number, and edit your texture files to look however you want. These are the ones I used:  
+![Honey Files]  
 (Note: I also edited the empty and full textures to better match my new style.)
 
-Finally, change the appropriate lines in the blockstate file to refer to your new model filenames. Your “assets/minecraft/blockstates/beehive.json” file should end up looking something like this:
-
+Finally, change the appropriate lines in the blockstate file to refer to your new model filenames. Your `assets/minecraft/blockstates/beehive.json` file should end up looking something like this:  
+```JSON
 {
   "variants": {
     "facing=east,honey_level=0": {
@@ -844,6 +845,11 @@ Finally, change the appropriate lines in the blockstate file to refer to your ne
     }
   }
 }
+```
+Once done, go in game and see how it looks:  
+![Honey Level In Game]
+
+
 Variant Textures:
 Minecraft supports the ability to have more than one model for a single block. With this we can make it so blocks have variant textures, to make the world look more alive.
 
@@ -1392,3 +1398,6 @@ Minecraft uses .ogg files at 96kb/s for its sounds. If using Audacity to make yo
 [Glowstone Six]: /assets/resourcepackguide/images/texture-animation/glowstone-6.png
 [Glowstone Six Done]: /assets/resourcepackguide/images/texture-animation/glowstone-6-done.png
 [Glowstone In Game]: /assets/resourcepackguide/images/texture-animation/glowstone-in-game.gif
+
+[Honey Files]: /assets/resourcepackguide/images/different-looks-different-states/bee-files.png
+[honey level In Game]: /assets/resourcepackguide/images/different-looks-different-states/honey-level-in-game.png
