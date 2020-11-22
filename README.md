@@ -514,18 +514,20 @@ Now hit done and wait for it to reload resources. Once back at the menu, create 
 ![Stone-In-Game]
 
 (The above texture has been made for demonstration purposes only; it is not used in any packs. It is loosely based on the stone in “Love & Tolerance”.)
-Texture Animation:
-Any block or item texture in Minecraft can be animated. Let’s take a look at one from default Minecraft, to see how they work. Pictured below is “sealantern.png”:
 
+## Texture Animation
+Any block or item texture in Minecraft can be animated. Let’s take a look at one from default Minecraft, to see how they work. Pictured below is “sealantern.png”:  
+![Sealantern Image]
 
 As you can see, it looks like it has 5 textures stacked on top each other. These are actually the frames of the animation on the block.
 
-Each block or item with animated textures must have a .mcmeta file to work. It is very important this file is named correctly and includes the .png in the filename. Pictured below is the “sealantern.png.mcmeta” file:
+Each block or item with animated textures must have a .mcmeta file to work. It is very important this file is named correctly and includes the .png in the filename. Pictured below is the `sealantern.png.mcmeta` file:
+![Sealantern Mcmeta]
 
+The `frametime` parameter above, tells Minecraft to hold each frame for 5 in-game ticks before going to the next one.
 
-The “frametime” parameter above, tells Minecraft to hold each frame for 5 in-game ticks before going to the next one.
-
-By default, Minecraft will play these in order. If you wanted to play them out of order, you would use the “frames” parameter, as shown below:
+By default, Minecraft will play these in order. If you wanted to play them out of order, you would use the `frames` parameter, as shown below:
+```JSON
 {
   "animation": {
     "frametime": 8,
@@ -537,40 +539,44 @@ By default, Minecraft will play these in order. If you wanted to play them out o
     ]
   }
 }
+```
 
-In the code above, the 0, 1, and 2 are the frames, and can be placed in any order. They can even repeat.
+In the code above, the `0`, `1`, and `2` are the frames, and can be placed in any order. They can even repeat.
 
-Some key things to remember is Minecraft starts with a 0 when counting frames, and the last item in a list does not need the comma “,” at the end.
+Some key things to remember is Minecraft starts with a `0` when counting frames, and the last item in a list does not need the comma `,` at the end.
 
-The “interpolate” parameter, if “true”, means Minecraft will generate frames in between the frames of the image if the frametime is more than 1 between those frames.
+The `interpolate` parameter, if `true`, means Minecraft will generate frames in between the frames of the image if the frametime is more than 1 between those frames.
 
-There are two more parameters you can use in conjunction with the “frames” parameter; “index”, and “time”.
+There are two more parameters you can use in conjunction with the `frames` parameter; `index`, and `time`.
 
 Index refers to which frame of the texture you are specifying and time refers to how long to hold that frame in game ticks.
 
-Now that we have a general idea of how animated textures work, let's make one. I’m going to be making an animated texture for glowstone. Here is the texture I am going to animate:
+Now that we have a general idea of how animated textures work, let's make one. I’m going to be making an animated texture for glowstone. Here is the texture I am going to animate:  
+![Glowstone Image]
 
+As you can see, right now it is just a regular texture. To make it animated, we need to increase the height proportional to the number of frames we want. I want to add 5 frames, and the current height is 16 pixels. 16 x 6 is 96. Remember to include the original frame in your calculation. In GIMP, click the image button, then click canvas size:  
+![Gimp Canvas]
 
-As you can see, right now it is just a regular texture. To make it animated, we need to increase the height proportional to the number of frames we want. I want to add 5 frames, and the current height is 16 pixels. 16 x 6 is 96. Remember to include the original frame in your calculation. In GIMP, click the image button, then click canvas size:
+A window will pop up like this:  
+![Gimp Height]
 
+Set this to what you calculated earlier; I will use 96. After it changes, you will notice some blank space under the original texture. Hit `Ctrl + C`, then `Ctrl + V` to copy and paste the original texture. Use the move tool, and move them so they are stacked on top each other, like this:  
+![Glowstone Six]
 
-A window will pop up like this:
+Now, you need to make your edits to make it animated. I will make a simple expanding ring for demonstration:  
+![Glowstone Six Done]
 
-
-Set this to what you calculated earlier; I will use 96. After it changes, you will notice some blank space under the original texture. Hit Ctrl + C, then Ctrl + V to copy and paste the original texture. Use the move tool, and move them so they are stacked on top each other, like this:
-
-
-Now, you need to make your edits to make it animated. I will make a simple expanding ring for demonstration:
-
-
-After you make your texture, save it, and copy it to your resource pack. In the same folder, create a new file, and name it, “glowstone.png.mcmeta”. After that, open it up. It should be blank. We need to tell minecraft this is an animation. Start by typing:
+After you make your texture, save it, and copy it to your resource pack. In the same folder, create a new file, and name it, `glowstone.png.mcmeta`. After that, open it up. It should be blank. We need to tell minecraft this is an animation. Start by typing:
+```JSON
 {
   "animation": {
 
   }
 }
+```
 
-We are going to want to add some parameters to this to make it work the way we want. I'm going to add the “frametime” and “frames” parameters, like this:
+We are going to want to add some parameters to this to make it work the way we want. I'm going to add the `frametime` and `frames` parameters, like this:
+```JSON
 {
   "animation": {
     "frametime": 2,
@@ -584,8 +590,10 @@ We are going to want to add some parameters to this to make it work the way we w
     ]
   }
 }
+```
 
-I don't want it to constantly repeat. I want it to hold on the first frame for a bit, I’ll do this by adding the “index” and “time” parameters to the first frame in the “frames” parameter like this:
+I don't want it to constantly repeat. I want it to hold on the first frame for a bit, I’ll do this by adding the `index` and `time` parameters to the first frame in the `frames` parameter like this:
+```JSON
 {
   "animation": {
     "frametime": 2,
@@ -602,11 +610,12 @@ I don't want it to constantly repeat. I want it to hold on the first frame for a
     ]
   }
 }
-
-Now save the file and go into Minecraft to see how it turned out:
-
+```
+Now save the file and go into Minecraft to see how it turned out:  
+![Glowstone In Game]
 
 Works great, yay!
+
 
 Resolution:
 Resource packs come in a wide variety of resolutions, but what does resolution mean?
@@ -1374,3 +1383,12 @@ Minecraft uses .ogg files at 96kb/s for its sounds. If using Audacity to make yo
 
 [Move-To-Active]: /assets/resourcepackguide/images/seeing-first-texture-in-game/move-to-active.png
 [Stone-In-Game]: /assets/resourcepackguide/images/seeing-first-texture-in-game/stone-in-game.png
+
+[Sealantern Image]: /assets/resourcepackguide/images/texture-animation/sea-lantern-png.png
+[Sealantern Mcmeta]: /assets/resourcepackguide/images/texture-animation/sea-lantern-mcmeta.png
+[Glowstone Image]: /assets/resourcepackguide/images/texture-animation/glowstone.png
+[Gimp Canvas]: /assets/resourcepackguide/images/texture-animation/canvas.png
+[Gimp Height]: /assets/resourcepackguide/images/texture-animation/canvas-hieght.png
+[Glowstone Six]: /assets/resourcepackguide/images/texture-animation/glowstone-6.png
+[Glowstone Six Done]: /assets/resourcepackguide/images/texture-animation/glowstone-6-done.png
+[Glowstone In Game]: /assets/resourcepackguide/images/texture-animation/glowstone-in-game.gif
