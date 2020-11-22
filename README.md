@@ -6,33 +6,33 @@ This guide will walk you through the steps of making your very own resource pack
 This guide has been hosted on GitHub for a reason; we want you to help make this guide the best it can be. If you see something that is wrong, or think you can expand a section to make it better, we encourage you to Fork this repository and do a Pull Request with your additions (don't forget to add yourself to the credits).
 
 ## Table of contents:
-### [Introduction](#introduction)
-### [FAQ](#faq)
-  - What is a resource pack?
-  - Are resource packs the same as texture packs?
-  - Are they hard to make?
-  - Do I have to change every texture?
-  - What programs do I need to make a texture pack?
-  - So what is a “plain” text editor?  
-### Useful Links
-  - Files
-  - Esential software
-    - Archival Tool
-    - Image Editor
-    - Text Editor
-  - Useful Software
-  - Texture/Resource Pack Converters
-  - Other Software
-  - Information and Resources
-   - Minecraft Wiki
-   - Other Guides
-   - Places to find help and submit your pack
-- Useful Keybinds
+[Introduction](#introduction)  
+[FAQ](#faq)
+ - What is a resource pack?
+ - Are resource packs the same as texture packs?
+ - Are they hard to make?
+ - Do I have to change every texture?
+ - What programs do I need to make a texture pack?
+ - So what is a “plain” text editor?  
+[Useful Links](#useful-links)  
+- Files
+- Esential software
+- Archival Tool
+- Image Editor
+- Text Editor
+- Useful Software
+- Texture/Resource Pack Converters
+- Other Software
+- Information and Resources
+- Minecraft Wiki
+- Other Guides
+- Places to find help and submit your pack
+[Useful Keybinds](#useful-keybinds)  
 Minecraft  
 GIMP  
 Paint.NET  
-- General Advice
-- Resource Pack Structure
+[Helpful Advice](#helpful-advice)  
+[Resource Pack Structure](#resource-pack-structure)  
 - Making a New Pack
 - Resource Pack Folder
 - Extracting the .jar File
@@ -307,7 +307,7 @@ Now let's go one folder deeper into the pack. Pictured below is the assets folde
 The assets folder holds all the textures for Minecraft. If you want to support Minecraft Realms or any mods, then you add the mod folder to the assets folder. Below is an example:
 ![Resource Pack Reamls Mod Example]
 
-The “realms” folder holds textures for Minecraft Realms, and the “minelittlepony” folder is for textures for that mod.
+The `realms` folder holds textures for Minecraft Realms, and the `minelittlepony` folder is for textures for that mod.
 
 For now, we will only be covering textures for default Minecraft. Let's go one level deeper into the minecraft folder:
 ![Resource Pack Minecraft Empty]
@@ -395,7 +395,7 @@ Windows | `%APPDATA%\.minecraft\resourcepacks`
 MacOS | `~/Library/Application Support/minecraft/resourcepacks`
 Linux | `~/.minecraft/resourcepacks`
 
-You can also get to it by clicking “Open Pack Folder” in Minecraft:
+You can also get to it by clicking `Open Pack Folder` in Minecraft:
 ![Open Resource Pack Folder]
 
 ### Extracting the .jar File:
@@ -404,19 +404,19 @@ Once this folder is open, you are going to want to extract the template and copy
 
 Once it is copied over, you can rename the folder to what you want your resource pack to be named. I recommend you use dashes `-` or underscores `_` rather than spaces, but you don't have to.
 
-Right-click the template folder and click “Open in new window”. Minimize the old window, as we will come back to it when we are done editing the template.
+Right-click the template folder and click `Open in new window`. Minimize the old window, as we will come back to it when we are done editing the template.
 
 Inside, the template pack looks like this:
 ![Template mane]
 
-Right-click the LICENSE file and click “Open with Brackets”. (or “Edit with Notepad++”)
+Right-click the `LICENSE` file and click `Open with Brackets` or `Edit with Notepad++`.
 
 Read the license and if you plan on keeping it, change the Copyright at the top in this red box to your resource packs name:
 ![License File]
 
 If you are going to use it, save after editing and close Brackets. If you don't want to use the License, delete the file.
 
-Now right-click the pack.mcmeta file and click “Open with Brackets”.
+Now right-click the pack.mcmeta file and click `Open with Brackets`.
 ![Pack Mcmeta]
 
 The pack format tells Minecraft what versions this pack will work with:
@@ -436,12 +436,12 @@ The description is what appears in the game on the resource pack selection scree
 
 Once you've made your changes, save and close Brackets.
 
-The last text file in this folder is README.md. If you plan on keeping it, open it in Brackets and edit it to be what you want. I like to have information about the pack and any relevant links for that specific pack and a credits listing everyone who has worked on it. This entire guide has been written in Markdown, [here][README Raw] is the raw code. [Here][Markdown Guide] is a guide to Markdown. Having a README file is especially useful if you have your resource pack on GitHub, as it is what people see when they look at your repository.
+The last text file in this folder is `README.md`. If you plan on keeping it, open it in Brackets and edit it to be what you want. I like to have information about the pack and any relevant links for that specific pack and a credits listing everyone who has worked on it. This entire guide has been written in Markdown, [here][README Raw] is the raw code. [Here][Markdown Guide] is a guide to Markdown. Having a README file is especially useful if you have your resource pack on GitHub, as it is what people see when they look at your repository.
 
-Once you are done with that, go into the assets folder, then into the minecraft folder. Right-click and hover over new then select folder, name this folder “textures” like this:
+Once you are done with that, go into the assets folder, then into the minecraft folder. Right-click and hover over `New` then select `Folder`, name this folder `textures` like this:
 ![Make Textures Folder]
 
-Next, you are going to go into the textures folder and make a new folder inside it, called “block”, like this:
+Next, you are going to go into the textures folder and make a new folder inside it, called `block`, like this:
 ![Make Block Folder]
 
 After that, go into the block folder. Now we are going to minimize this window down and go extract the Minecraft .jar file.
@@ -458,23 +458,25 @@ Once inside, you will see a folder for each Minecraft version you have installed
 Once inside you are going to see the Minecraft .jar file. This is where all the default assets are for Minecraft:
 ![Jar File]
 
-You are going to want to extract it. If using 7-Zip, right-click the .jar file and hover over the 7-Zip submenu, then click “Extract to 1.16.4\”
+You are going to want to extract it. If using 7-Zip, right-click the .jar file and hover over the 7-Zip submenu, then click `Extract to 1.16.4\`
 
 Wait a few seconds for it to finish, then go into the folder it made:
 ![Inside Extracted Jar]
 
-Most of these files are pointless to you. The only thing we care about is the “assets” folder at the top; go into it:
+Most of these files are pointless to you. The only thing we care about is the `assets` folder at the top; go into it:
 ![Default Assets Folder]
 
-Starting to look familiar? Go into the “minecraft” folder:
+Starting to look familiar? Go into the `minecraft` folder:
 ![Default Minecraft]
 
-Blocks and Items
-Making Your First Texture:
-Now go into the “textures” folder:
+## Blocks and Items
+
+### Making Your First Texture:
+
+Now go into the `textures` folder:
 ![Default Textures]
 
-Next go into the “block” folder:
+Next go into the `block` folder:
 ![Default Block]
 
 There are a lot of files in here; these are all the default block textures. For now, we are going to search for one block at a time. I’m going to be using stone for this example, but you can use any block you want.
@@ -485,7 +487,7 @@ Search for the block you want to make a texture for:
 Right-click the image and click copy. Move back to your other window and paste it:
 ![Block Copied]
 
-Now right click that copied image, hover over “Open with” and click “GIMP”. It will take a few seconds to open up, but you should be met with a screen like this:
+Now right click that copied image, hover over `Open with` and click `GIMP`. It will take a few seconds to open up, but you should be met with a screen like this:
 ![Gimp Open]
 
 That texture is tiny. Zoom in by holding down Ctrl and scrolling the mouse wheel in:
@@ -501,7 +503,7 @@ Use the colors in the texture and make a new texture you like. This may take a w
 Here is what I came up with for stone:
 ![Stone Done]
 
-Once you are happy with the texture you have made you are going to want to export it. Hit the file menu button and click “Overwrite stone.png”:  
+Once you are happy with the texture you have made you are going to want to export it. Hit the file menu button and click `Overwrite stone.png`:  
 ![Gimp Overwrite]
 
 Seeing Your Texture In-Game:
