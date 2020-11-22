@@ -273,7 +273,7 @@ Shape tool | O, O (press O twice)
 ### General Advice
 Before we get started I'm going to give some general advice when creating your resource pack:
 
-  - It is best to stick to one resolution size for your pack, changing resolution on a texture by texture basis can be jarring to players as well as potentially stress the texture system.
+ - It is best to stick to one resolution size for your pack, changing resolution on a texture by texture basis can be jarring to players as well as potentially stress the texture system.
  - If you want to make sure builds using default textures look good with your pack, or vice versa, use the same colors as the default texture.
  - While you don't have to follow any of this advice, I recommend following them at least while you are learning how to make a resource pack.
 
@@ -384,8 +384,9 @@ Let's go over the folders in the above image.
 
 **particle** - contains all the particles, like explosions, anger, bubble, etc.
 
-Making a New Pack
-Resource Pack Folder:
+## Making a New Pack
+
+### Resource Pack Folder:
 
 Now that you have a basic understanding of how a texture pack is structured, let's start making one. You're going to want to find your resource pack folder; it can be found at:
 Operating System | Location
@@ -397,7 +398,7 @@ Linux | `~/.minecraft/resourcepacks`
 You can also get to it by clicking “Open Pack Folder” in Minecraft:
 ![Open Resource Pack Folder]
 
-Extracting the .jar File:
+### Extracting the .jar File:
 Once this folder is open, you are going to want to extract the template and copy that folder here:
 ![Copy Template Here]
 
@@ -1273,26 +1274,24 @@ Sounds
 Minecraft sound files do not show up when you use a normal archive extraction tool. We can use a specific program to extract them though. Linked above is a program made specifically to extract Minecraft's sounds. After they are extracted, you can see where to put sounds in your resource pack.
 
 Minecraft uses .ogg files at 96kb/s for its sounds. If using Audacity to make your sound files, when exporting as OGG, use quality setting 3 if you want to match default minecraft kb/s.
-Credits
-Velvet Remedy(anjelpriest)
-Initiative
-Most of the work
 
 
+## Credits
+**Velvet Remedy(anjelpriest)**
+ - Initiative
+ - Most of the work
 
-Cultist_O
-Debugging & Output Log
-Language & Text Files
-Blockstates Part 1
-“Partially Filled Hives” Example Resource Pack & Textures
-Light Editing and Proofreading
+**Cultist_O**
+ - Debugging & Output Log
+ - Language & Text Files
+ - Blockstates Part 1
+ - “Partially Filled Hives” Example Resource Pack & Textures
+ - Light Editing and Proofreading
 
-Epic Acrylic
-Proofreading
-Additional programs/some fact checking (?)
-
-
-
+**Epic Acrylic**
+ - Proofreading
+ - Alternative image/text/model editor programs
+ - Light fact checking
 
 
 <!-- Links go here -->
