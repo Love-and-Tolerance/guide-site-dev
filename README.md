@@ -436,45 +436,46 @@ The description is what appears in the game on the resource pack selection scree
 
 Once you've made your changes, save and close Brackets.
 
-The last text file in this folder is README.md. If you plan on keeping it, open it in Brackets and edit it to be what you want. I like to have information about the pack and any relevant links for that specific pack and a credits listing everyone who has worked on it. Here is an example of how mine looks, and here is the raw code. Here is a guide to Markdown. Having a README file is especially useful if you have your resource pack on GitHub, as it is what people see when they look at your repository.
+The last text file in this folder is README.md. If you plan on keeping it, open it in Brackets and edit it to be what you want. I like to have information about the pack and any relevant links for that specific pack and a credits listing everyone who has worked on it. This entire guide has been written in Markdown, [here][README Raw] is the raw code. [Here][Markdown Guide] is a guide to Markdown. Having a README file is especially useful if you have your resource pack on GitHub, as it is what people see when they look at your repository.
 
 Once you are done with that, go into the assets folder, then into the minecraft folder. Right-click and hover over new then select folder, name this folder “textures” like this:
-
+![Make Textures Folder]
 
 Next, you are going to go into the textures folder and make a new folder inside it, called “block”, like this:
-
+![Make Block Folder]
 
 After that, go into the block folder. Now we are going to minimize this window down and go extract the Minecraft .jar file.
 
 Open up the window you minimized earlier. In the resource pack folder, click the up arrow to get to the .minecraft directory:
-
+![Up To Minecraft Folder]
 
 Once inside your .minecraft folder, you will want to go into the versions' folder:
-
+![Into Versions Folder]
 
 Once inside, you will see a folder for each Minecraft version you have installed. You will want to go into the folder for the version you are making the resource pack for. We will be using 1.16.4 for this guide:
-
+![1.16.4 Folder]
 
 Once inside you are going to see the Minecraft .jar file. This is where all the default assets are for Minecraft:
-
+![Jar File]
 
 You are going to want to extract it. If using 7-Zip, right-click the .jar file and hover over the 7-Zip submenu, then click “Extract to 1.16.4\”
 
 Wait a few seconds for it to finish, then go into the folder it made:
-
+![Inside Extracted Jar]
 
 Most of these files are pointless to you. The only thing we care about is the “assets” folder at the top; go into it:
-
+![Default Assets Folder]
 
 Starting to look familiar? Go into the “minecraft” folder:
+![Default Minecraft]
 
 Blocks and Items
 Making Your First Texture:
 Now go into the “textures” folder:
-
+![Default Textures]
 
 Next go into the “block” folder:
-
+![Default Block]
 
 There are a lot of files in here; these are all the default block textures. For now, we are going to search for one block at a time. I’m going to be using stone for this example, but you can use any block you want.
 
@@ -1330,6 +1331,9 @@ Minecraft uses .ogg files at 96kb/s for its sounds. If using Audacity to make yo
 [Planet Minecraft]: https://www.planetminecraft.com/texture-packs/
 [Minecraft Forums]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs
 
+[README Raw]: https://github.com/Love-and-Tolerance/Resource-Pack-Guide/raw/master/README.md
+[Markdown Guide]: https://guides.github.com/features/mastering-markdown/
+
 <!-- Image links go here -->
 [Resource Pack Template Mane]: /assets/resourcepackguide/images/structure/template-mane.png
 [Resource Pack Template Assets]: /assets/resourcepackguide/images/structure/template-assets.png
@@ -1338,8 +1342,21 @@ Minecraft uses .ogg files at 96kb/s for its sounds. If using Audacity to make yo
 [Default Minecraft Assets]: /assets/resourcepackguide/images/structure/default-mc.png
 [Default Minecraft Models]: /assets/resourcepackguide/images/structure/default-models.png
 [Default Minecraft Textures]: /assets/resourcepackguide/images/structure/default-textures.png
+
 [Open Resource Pack Folder]: /assets/resourcepackguide/images/making-a-pack/open-rp-folder.png
 [Copy Template Here]: /assets/resourcepackguide/images/making-a-pack/copy-template.png
 [Template mane]: /assets/resourcepackguide/images/making-a-pack/template-mane.png
 [License File]: /assets/resourcepackguide/images/making-a-pack/license.png
 [Pack Mcmeta]: /assets/resourcepackguide/images/making-a-pack/pack-mcmeta.png
+[Make Textures Folder]: /assets/resourcepackguide/images/making-a-pack/make-textures-folder.png
+[Make Block Folder]: /assets/resourcepackguide/images/making-a-pack/make-block-folder.png
+
+[Up To Minecraft Folder]: /assets/resourcepackguide/images/extracting-the-jar/up-folder-to-dotmc.png
+[Into Versions Folder]: /assets/resourcepackguide/images/extracting-the-jar/versions.png
+[1.16.4 Folder]: /assets/resourcepackguide/images/extracting-the-jar/1.16.4.png
+[Jar File]: /assets/resourcepackguide/images/extracting-the-jar/jar-file.png
+[Inside Extracted Jar]: /assets/resourcepackguide/images/extracting-the-jar/jar-extracted.png
+[Default Assets Folder]: /assets/resourcepackguide/images/extracting-the-jar/default-assets.png
+[Default Minecraft]: /assets/resourcepackguide/images/extracting-the-jar/default-mc.png
+[Default Textures]: /assets/resourcepackguide/images/extracting-the-jar/default-textures.png
+[Default block]: /assets/resourcepackguide/images/extracting-the-jar/default-block.png
