@@ -222,6 +222,11 @@ A good playlist of videos about making a resource pack. (Has a lot of useful inf
 [Customizing Minecraft video series by How To Gurus]  
 A great playlist with a lot of useful guides for making a resource pack.
 
+**Other Documentation**
+
+[Optifine Documentation]  
+The official documentation for Optifine.
+
 **Places to find help and submit your pack**  
 Good places to go if you need help or want to submit your pack to be seen by the public.
 
@@ -1348,6 +1353,7 @@ Minecraft uses .ogg files at 96kb/s for its sounds. If using Audacity to make yo
 [The All-Inclusive Guide to Texturing (Version 2)]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256366-the-all-inclusive-updated-guide-to-texturing
 [How To Make A Resource Pack video series by Uncle Jam]: https://www.youtube.com/playlist?list=PLLl4D8G2NepWULG7fqAeBvpd1SOtP7pe8
 [Customizing Minecraft video series by How To Gurus]: https://www.youtube.com/playlist?list=PLfp-NJt_DpgG2odTDbwjtXkdjdBgpSxng
+[Optifine Documentation]: https://github.com/sp614x/optifine/tree/master/OptiFineDoc/doc
 [Minecraft Resource Pack Subreddit]: https://www.reddit.com/r/mcresourcepack/
 [Planet Minecraft]: https://www.planetminecraft.com/texture-packs/
 [Minecraft Forums]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs
