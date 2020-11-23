@@ -327,6 +327,8 @@ Your resource pack can contain any of these folders. Let's go over them:
 
 **models** - These are the in-game models for every item and block, they tell Minecraft what shape it is and what texture to use for each side.
 
+**optifine** - (not pictured above) This is where you would put files for optifine support like connected textures.
+
 **particles** - These point Minecraft to the texture file for each particle effect.
 
 **shaders** - The shaders for the old in-game ‘super secret settings’ button that have since been removed. Not modified by most resource packs.
@@ -356,7 +358,7 @@ textures:
 
 Let's go over the folders in the above image.
 
-**block** - All the block textures are here. (This is for versions 1.13+; For 1.12.2 and under use “blocks”)
+**block** - All the block textures are here. (This is for versions 1.13+; For 1.12.2 and under use `blocks`)
 
 **colormap** - The grass and foliage colormaps are here.
 
@@ -370,7 +372,7 @@ Let's go over the folders in the above image.
 
 **gui** - Contains all the UI textures, from menus, to the hot bar, containers and more.
 
-**item** - Contains all the item textures. (This is for versions 1.13+; For 1.12.2 and under use “items”)
+**item** - Contains all the item textures. (This is for versions 1.13+; For 1.12.2 and under use `items`)
 
 **map** - Contains the map icons and background textures.
 
@@ -458,7 +460,7 @@ Once inside, you will see a folder for each Minecraft version you have installed
 Once inside you are going to see the Minecraft .jar file. This is where all the default assets are for Minecraft:
 ![Jar File]
 
-You are going to want to extract it. If using 7-Zip, right-click the .jar file and hover over the 7-Zip submenu, then click `Extract to 1.16.4\`
+You are going to want to extract it. If using 7-Zip, right-click the .jar file and hover over the 7-Zip submenu, then click `Extract to 1.16.4\`.
 
 Wait a few seconds for it to finish, then go into the folder it made:
 ![Inside Extracted Jar]
@@ -516,7 +518,7 @@ Now hit done and wait for it to reload resources. Once back at the menu, create 
 (The above texture has been made for demonstration purposes only; it is not used in any packs. It is loosely based on the stone in “Love & Tolerance”.)
 
 ## Texture Animation
-Any block or item texture in Minecraft can be animated. Let’s take a look at one from default Minecraft, to see how they work. Pictured below is “sealantern.png”:  
+Any block or item texture in Minecraft can be animated. Let’s take a look at one from default Minecraft, to see how they work. Pictured below is `sealantern.png`:  
 ![Sealantern Image]
 
 As you can see, it looks like it has 5 textures stacked on top each other. These are actually the frames of the animation on the block.
@@ -616,17 +618,15 @@ Now save the file and go into Minecraft to see how it turned out:
 
 Works great, yay!
 
-
-Resolution:
-Resource packs come in a wide variety of resolutions, but what does resolution mean?
+## Resolution:
+Resource packs come in a wide variety of resolutions, but what does resolution mean?  
 Resolution refers to the width and height in pixels of the textures in your pack, usually measured by the resolution of block textures.
 
-Default Minecraft uses a resolution of 16 pixels by 16 pixels. Your resource pack can be any "power-of-two" resolution you want, from 1x1 all the way to 1024x1024. 
-(The powers of two are: 1, 2, 4, 8, 16, 32 etc.)
+Default Minecraft uses a resolution of 16 pixels by 16 pixels. Your resource pack can be any "power-of-two" resolution you want, from 1x1 all the way to 1024x1024. (The powers of two are: 1, 2, 4, 8, 16, 32 etc.)
 
 For best performance, it is generally advised to use 256x256 or smaller.
 
-Changing Models: (Shapes):
+## Changing Models: (Shapes):
 
 ## Blockstates: (More Fanciness):
 
@@ -850,17 +850,18 @@ Once done, go in game and see how it looks:
 ![Honey Level In Game]
 
 
-Variant Textures:
+## Variant Textures:
 Minecraft supports the ability to have more than one model for a single block. With this we can make it so blocks have variant textures, to make the world look more alive.
 
-To do this we are going to need a few things. First we are going to need a texture for each variant you plan to have. Here are the textures I will be using:
+To do this we are going to need a few things. First we are going to need a texture for each variant you plan to have. Here are the textures I will be using:  
+![Variants Files]
 
-
-As you can see above, I have 6 diamond ore textures. The first one is named exactly like default and the rest have a _2, 3, 4, 5, 6 after. You will want to copy these textures into your block folder in your resource pack.
+As you can see above, I have 6 diamond ore textures. The first one is named exactly like default and the rest have a `_2`, `_3`, `_4`, `_5`, `_6` after. You will want to copy these textures into your block folder in your resource pack.
 
 Once we have done that, we are going to need to get the blockstate file for diamond ore. Go into your extracted minecraft .jar folder, go into the blockstates folder, and copy the blockstate for the block you want to use.
 
 Go into your resource pack, into the minecraft folder, and make a folder called blockstate. Then, go into it and paste the blockstate you copied earlier. Now, right-click the blockstate and open it in brackets. This is how it looks:
+```JSON
 {
   "variants": {
     "": {
@@ -868,8 +869,10 @@ Go into your resource pack, into the minecraft folder, and make a folder called 
     }
   }
 }
+```
 
 As you can see there is only 1 variant at the moment. We want to add 5 more. We do this by adding more models like this:
+```JSON
 {
   "variants": {
     "": [
@@ -882,20 +885,20 @@ As you can see there is only 1 variant at the moment. We want to add 5 more. We 
     ]
   }
 }
+```
 
-To add a list in JSON, you need to use “[“ to start it and “]” to end it. Notice where we place these in the file: after the “:” that tells minecraft the state to apply these models to, and at the end of the list.
+To add a list in JSON, you need to use `[` to start it and `]` to end it. Notice where we place these in the file: after the `:` that tells minecraft the state to apply these models to, and at the end of the list.
 
-The last step is to make the model files. Start by going into the default minecraft models folder, go into blocks, and find “diamond_ore.json”. Copy it, and place it in the same folder in your pack (“/assets/minecraft/models/block”). Once copied there, you will want to make a copy of it for each variant that you want. Rename these to what you put in the blockstates file:
-
+The last step is to make the model files. Start by going into the default minecraft models folder, go into blocks, and find `diamond_ore.json`. Copy it, and place it in the same folder in your pack `/assets/minecraft/models/block`. Once copied there, you will want to make a copy of it for each variant that you want. Rename these to what you put in the blockstates file:  
+![Copy Variant Models]
 
 Now, you are going to want to open each model, and edit it to point to the correct texture, like this:
-
+![Edit Variant Model Files]
 
 Once you have done that for all of them, we can go in game and try it out. Here are my results:
+![Variants In Game]
 
-
-
-Weighted variants:
+## Weighted variants:
 
 Blockstates also can support weighted variants, meaning we can create scarcity in our variant textures. A fun idea for this, is to hide stuff inside the barrel. We are going to be hiding a pink pony inside 15% of the barrels when they are open.
 
@@ -1401,3 +1404,8 @@ Minecraft uses .ogg files at 96kb/s for its sounds. If using Audacity to make yo
 
 [Honey Files]: /assets/resourcepackguide/images/different-looks-different-states/bee-files.png
 [honey level In Game]: /assets/resourcepackguide/images/different-looks-different-states/honey-level-in-game.png
+
+[Variants Files]: /assets/resourcepackguide/images/variant-textures/6-diamond-textures.png
+[Copy Variant Models]: /assets/resourcepackguide/images/variant-textures/variants-model-copy.png
+[Edit Variant Model Files]: /assets/resourcepackguide/images/variant-textures/edit-models.png
+[Variants In Game]: /assets/resourcepackguide/images/variant-textures/variants-in-game.png
