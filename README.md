@@ -907,12 +907,13 @@ Once you have done that for all of them, we can go in game and try it out. Here 
 
 Blockstates also can support weighted variants, meaning we can create scarcity in our variant textures. A fun idea for this, is to hide stuff inside the barrel. We are going to be hiding a pink pony inside 15% of the barrels when they are open.
 
-You're going to want to start off again, by having textures already made:
-
+You're going to want to start off again, by having textures already made:  
+![Barrel Texture Files]
 
 As you can see, I have 2 barrel open textures. One is normal and one has a little surprise in it. We are going to want to copy these to our block textures folder.
 
 After that, you will want to copy the default blockstate file for the barrel into the blockstate folder for your pack. Opening it up, we see that it is rather long:
+```JSON
 {
   "variants": {
     "facing=down,open=false": {
@@ -969,10 +970,12 @@ After that, you will want to copy the default blockstate file for the barrel int
     }
   }
 }
+```
 
-The barrel has quite a lot going on in its blockstate, but don't be intimidated by how complex it looks; it's easy to understand. The “facing” parameter refers to the direction the front or top of the block is facing. In this case, the barrel is directed by the top side. The “x” and “y” parameters refer to the rotation of the model on that axis, when facing that direction. The “open” parameter refers to whether the barrel is being used by a player. If true it switches to an open-top texture. Lastly, the “model” parameter refers to the model it will use in that state.
+The barrel has quite a lot going on in its blockstate, but don't be intimidated by how complex it looks; it's easy to understand. The `facing` parameter refers to the direction the front or top of the block is facing. In this case, the barrel is directed by the top side. The `x` and `y` parameters refer to the rotation of the model on that axis, when facing that direction. The `open` parameter refers to whether the barrel is being used by a player. If true it switches to an open-top texture. Lastly, the `model` parameter refers to the model it will use in that state.
 
-Now we are going to want to add our variant. We are also going to want to add the “weight” parameter to each open barrel model. Start by making a list for each open barrel model, with [ right after open=true”: and place one at the end of the model, right after }. After you do this, copy the model and paste it below itself like this:
+Now we are going to want to add our variant. We are also going to want to add the `weight` parameter to each open barrel model. Start by making a list for each open barrel model, with `[` right after `open=true”:` and place one at the end of the model, right after `}`. After you do this, copy the model and paste it below itself like this:
+```JSON
     "facing=down,open=true": [ {
       "x": 180,
       "model": "minecraft:block/barrel_open"
@@ -981,8 +984,10 @@ Now we are going to want to add our variant. We are also going to want to add th
       "x": 180,
       "model": "minecraft:block/barrel_open"
     } ],
+```
 
 Let’s fix the formatting a bit, by moving the close of the first model, and open of the second to the same line. Also, let’s change the second model to be our variant, like this:
+```JSON
     "facing=down,open=true": [ {
       "x": 180,
       "model": "minecraft:block/barrel_open"
@@ -990,8 +995,10 @@ Let’s fix the formatting a bit, by moving the close of the first model, and op
       "x": 180,
       "model": "minecraft:block/barrel_open_ponk"
     } ],
+```
 
-Now let’s add our weight. Do this by adding a comma “,” after the model, and putting “weight”: 85 for the top model, and “weight”: 15 for the second model, like this:
+Now let’s add our weight. Do this by adding a comma `,` after the model, and putting `“weight”: 85` for the top model, and `weight”: 15` for the second model, like this:
+```JSON
     "facing=down,open=true": [ {
       "x": 180,
       "model": "minecraft:block/barrel_open",
@@ -1001,8 +1008,10 @@ Now let’s add our weight. Do this by adding a comma “,” after the model, a
       "model": "minecraft:block/barrel_open_ponk",
       "weight": 15
     } ],
+```
 
 Do this same process for all the open barrel variants. When done, it should look like this:
+```JSON
 {
   "variants": {
     "facing=down,open=false": {
@@ -1091,17 +1100,18 @@ Do this same process for all the open barrel variants. When done, it should look
     } ]
   }
 }
+```
 
-After you are done with the blockstate file, you are going to want to copy both default barrel models from minecraft, into your resource pack. Make a copy of the barrel open model and change its name to “barrel_open_ponk.json”. After that, edit the file to point to the barrel_open_ponk.png texture. Save this file, then you are done.
+After you are done with the blockstate file, you are going to want to copy both default barrel models from minecraft, into your resource pack. Make a copy of the barrel open model and change its name to `barrel_open_ponk.json`. After that, edit the file to point to the `barrel_open_ponk.png` texture. Save this file, then you are done.
 
-Once you are done with everything, it's time to go test it in game. Here is what the barrels look like closed:
+Once you are done with everything, it's time to go test it in game. Here is what the barrels look like closed:  
+![Barrel closed In Game]
 
+Here is what most of them look like when they are opened:  
+![Barrel Normal Open]
 
-Here is what most of them look like when they are opened:
-
-
-Here is what is hiding inside 15% of them:
-
+Here is what is hiding inside 15% of them:  
+![Barrel Ponk Open]
 
 
 Plant Color:
@@ -1415,3 +1425,8 @@ Minecraft uses .ogg files at 96kb/s for its sounds. If using Audacity to make yo
 [Copy Variant Models]: /assets/resourcepackguide/images/variant-textures/variants-model-copy.png
 [Edit Variant Model Files]: /assets/resourcepackguide/images/variant-textures/edit-models.png
 [Variants In Game]: /assets/resourcepackguide/images/variant-textures/variants-in-game.png
+
+[Barrel Texture Files]: /assets/resourcepackguide/images/weighted-variants/barrel-texture-files.png
+[Barrel closed In Game]: /assets/resourcepackguide/images/weighted-variants/closed-barrel-in-game.png
+[Barrel Normal Open]: /assets/resourcepackguide/images/weighted-variants/open-barrel-in-game.png
+[Barrel Ponk Open]: /assets/resourcepackguide/images/weighted-variants/ponk-barrel-in-game.png
