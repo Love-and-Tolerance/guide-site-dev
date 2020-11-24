@@ -1114,13 +1114,13 @@ Here is what is hiding inside 15% of them:
 ![Barrel Ponk Open]
 
 
-Plant Color:
-Most grass and foliage in Minecraft derive its color from one of two colormaps called grass.png for grass and foliage.png for foliage, we can edit these to change how grass looks in our world.
+## Plant Color:
+Most grass and foliage in Minecraft derive its color from one of two colormaps called `grass.png` for grass and `foliage.png` for foliage, we can edit these to change how grass looks in our world.
 
 Here is a template made by Word_Wizard:
 
 
-As the template says it is pixel perfect, we are going to use it to adjust our own colors for the grass and foliage. Download the template (Download). Now go into your extracted jar and go into the colormaps folder “/assets/minecraft/textures/colormaps/”. Inside you will see 2 files, this template works on both, so I will only be covering how to do this on one, you can repeat this for the other.
+As the template says it is pixel perfect, we are going to use it to adjust our own colors for the grass and foliage. Download the template (Download). Now go into your extracted jar and go into the colormaps folder `/assets/minecraft/textures/colormaps/`. Inside you will see 2 files, this template works on both, so I will only be covering how to do this on one, you can repeat this for the other.
 
 
 Unchangeable plant and foliage colors:
@@ -1142,119 +1142,151 @@ Find the installation you want to use and click on the 3 dots to the right. Clic
 
 Once you have it set, hit save, then go back to the play tab and launch the installation you edited. When you get to the menu, you will want to go to options. At the top, you will need to set your FOV: to 90. After this, go into the world you want to use for your panorama. In the chat, type this command:
 
-/tp @p ~ ~ ~ 0 0
+`/tp @p ~ ~ ~ 0 0`
 
 This will center you perfectly on the block. Press F1 to hide your UI and then F2 to take a screenshot. Do this 5 more times after running each of these commands:
 
-/tp @p ~ ~ ~ 90 0
-/tp @p ~ ~ ~ 180 0
-/tp @p ~ ~ ~ 270 0
-/tp @p ~ ~ ~ 0 -90
-/tp @p ~ ~ ~ 0 90
+`/tp @p ~ ~ ~ 90 0`  
+`/tp @p ~ ~ ~ 180 0`  
+`/tp @p ~ ~ ~ 270 0`  
+`/tp @p ~ ~ ~ 0 -90`  
+`/tp @p ~ ~ ~ 0 90`  
 
-Once you have all 6 screenshots done, you will want to move them into this folder on your resource pack: “/assets/minecraft/textures/gui/title/background” Like this:
+Once you have all 6 screenshots done, you will want to move them into this folder on your resource pack: `/assets/minecraft/textures/gui/title/background` Like this:
 
 (I've followed many guides and videos on this but I can't replicate it, do you know how to do it? I've tried different windows sizes, different FOVs, idk what to do)
 
 Now you will want to rename them like this:
 
 
-Start with panorma_0 and go to _5.
-Entities
+Start with `panorma_0` and go to `_5`.
 
-Other Visuals
+## Entities
+
+## Other Visuals
 Particles, Icons, Environmental Textures and various other visual effects can be edited in the same way as the other textures, but advanced changes, such as to resolution variation, models, animation etc are generally not supported in the vanilla game (see Optifine below). Paintings can also be altered, including adjusting their resolution.
-Debugging
-Common Problems:
-Pack Missing from Menu:
+
+## Debugging
+
+### Common Problems:
+
+#### Pack Missing from Menu:
 Make sure your folder structure is accurate. In particular:
 
-Ensure the folder structure is as follows: .minecraft/resourcepacks/packName/pack.mcmeta
-Ensure the pack.mcmeta file is correctly formatted
-Ensure you have file-extensions shown, and it is not actually “pack.mcmeta.txt”
-Check the output log (see below) to see if there’s another problem preventing the back from loading.
-Pack Listed as Out of Date:
-Ensure your pack.mcmeta file lists the latest “pack_format”. (Mojang simply changes this number any time they change something that might break old packs, so players know which packs might not work anymore. The change might not actually apply to your pack.)
-Changes are Missing:
-If one or more of your changes hasn’t taken effect, an error in the “output log” (see below) may solve your problem. If no relevant errors are listed there, make sure the relevant files are named appropriately, and in the right places.
-Purple and Black Texture:
+1. Ensure the folder structure is as follows: `.minecraft/resourcepacks/packName/pack.mcmeta`
+2. Ensure the pack.mcmeta file is correctly formatted
+3. Ensure you have file-extensions shown, and it is not actually `pack.mcmeta.txt`
+4. Check the output log (see below) to see if there’s another problem preventing the back from loading.
+
+#### Pack Listed as Out of Date:
+
+Ensure your pack.mcmeta file lists the latest `“pack_format”`. (Mojang simply changes this number any time they change something that might break old packs, so players know which packs might not work anymore. The change might not actually apply to your pack.)
+
+#### Changes are Missing:
+
+If one or more of your changes hasn’t taken effect, an error in the `output log` (see below) may solve your problem. If no relevant errors are listed there, make sure the relevant files are named appropriately, and in the right places.
+
+#### Purple and Black Texture:
+
 This is the default texture the game uses when it knows it’s supposed to use a custom texture, but gets confused. The good news is, if you see this error, you can guarantee the output log (see below) will have some information to help.
-Animated textures not working/look weird:
-All animated textures in Minecraft need a .mcmeta file for them to work. Make sure you have one, that it is formatted correctly and that the filename includes the exact name of the texture you want to animate, including the “.png”.
-The Output Log:
+
+#### Animated textures not working/look weird:
+
+All animated textures in Minecraft need a .mcmeta file for them to work. Make sure you have one, that it is formatted correctly and that the filename includes the exact name of the texture you want to animate, including the `.png`.
+
+### The Output Log:
+
 The output log is a handy little window which tracks a wide variety of things, mostly useful for debugging purposes. If you load your resource pack, and something isn’t working right, there’s a good chance the output log will tell you why, or at least narrow down the options.
 
-Activating the Output Log:
-In the Minecraft launcher, go to settings in the bottom left
-Check "Open output log when minecraft starts"
+#### Activating the Output Log:
+
+1. In the Minecraft launcher, go to settings in the bottom left.
+2. Check `Open output log when minecraft starts`.
 
 This will run a little window in the background, which keeps track of some things. You're looking for yellow or red text in the log, either when the game is launching, or when the resource pack is reloaded (reload your active resource packs with F3+T, or by switching packs)
-Interpreting the Output Log:
+
+#### Interpreting the Output Log:
+
 The output log will be full of all sorts of stuff, but only a few lines will be useful for our purpose.
 
 There are common error types that are valuable to debugging your resource pack:
+
 File Not Found Exception:
 
 This error means the game was looking for a particular file in your pack, but couldn’t find it. Usually it’s a simple fix.
 
 This error will look something like this:
 
+```
 Unable to load model: 'minecraft:block/stone' referenced from: minecraft:stone#: 
 java.io.FileNotFoundException: minecraft:models/block/stone.json
+```
 
 This looks complicated, but is straightforward once you know what you’re looking at. Let’s break it down.
 
-“Unable to load model” means it’s the model file it couldn’t deal with, as opposed to a blockstate file or a texture file for example. 
-“'minecraft:block/stone'” Tells us it’s the “stone” model that it couldn’t load
-“FileNotFoundException” tells us it couldn’t load the file because it couldn’t find it (for other exceptions, see the other sections of this guide)
-“minecraft:models/block/stone.json” tells you that it’s your “stone” model it had trouble finding, and that it expected to find it in the “block” folder, itself in the “models” folder
+ - “Unable to load model” means it’s the model file it couldn’t deal with, as opposed to a blockstate file or a texture file for example. 
+ - “'minecraft:block/stone'” Tells us it’s the “stone” model that it couldn’t load
+ - “FileNotFoundException” tells us it couldn’t load the file because it couldn’t find it (for other exceptions, see the other sections of this guide)
+ - “minecraft:models/block/stone.json” tells you that it’s your “stone” model it had trouble finding, and that it expected to find it in the “block” folder, itself in the “models” folder
 
 File not found exceptions are caused by two problems:
-The file is mistitled or in the wrong place
-You misspelled the name of the file when you referenced it elsewhere (such as referencing the model file-path in a blockstate file, or a texture file in a model file)
+1. The file is mistitled or in the wrong place
+2. You misspelled the name of the file when you referenced it elsewhere (such as referencing the model file-path in a blockstate file, or a texture file in a model file)
+
 Malformed Json Exception:
 
 Malformed exceptions are caused when there's a typo in the model file, it will try to tell you where that error is. It may look something like this:
 
-Unable to load model: 'minecraft:block/stone' referenced from: minecraft:stone: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 24 column 22 path $.elements[0].faces.north
+```
+Unable to load model: 'minecraft:block/stone' referenced from: minecraft:stone:
+com.google.gson.JsonSyntaxException: 
+com.google.gson.stream.MalformedJsonException: Unterminated object at line 
+24 column 22 path $.elements[0].faces.north
+```
 
 This is more complicated to interpret than the file not found exception, but we can still break it down:
 
-“Unable to load model” means it’s the model file it couldn’t deal with, as opposed to a blockstate file for example. 
-“'minecraft:block/stone'” tells us it’s the “stone” model that it couldn’t load
-“MalformedJsonException” tells us it couldn’t load the file because there was something inside it couldn’t understand (for other exceptions, see the other sections of this guide)
-“Line 24 column 22” tells us it thinks the problem is the 22nd character on line 24. It is quite likely however, that the problem is actually somewhere later. For example, if you open a ‘{‘ on line 24, but forget to close it with ‘}’ on line 45, it will still think the problem is line 24.
-“path $.elements[0].faces.north” This tells us what section it thinks is a problem. Usually, a typo will confuse where the sections start and end though, so rarely as helpful as the line number.
-It usually attempts to guess what kind of typo it was. Some examples below:
-“Unterminated object” or “java.io.EOFException: End of input at” means there’s something off about your parentheses, brackets, braces or commas. (Probably an extra or one missing)
-“Expected ‘:’ at” means basically what it says on the tin, but it could easily be confused. Check your nearby quotation marks if the problem isn’t otherwise obvious
-“Unknown facing: souh” this means you’ve made a typo in a variable name (in this case, “south” is a real facing, while “souh” (missing the ‘t’)is not.
-Optifine (Fanciness Mod)
-Language Files
+ - “Unable to load model” means it’s the model file it couldn’t deal with, as opposed to a blockstate file for example. 
+ - “'minecraft:block/stone'” tells us it’s the “stone” model that it couldn’t load
+ - “MalformedJsonException” tells us it couldn’t load the file because there was something inside it couldn’t understand (for other exceptions, see the other sections of this guide)
+ - “Line 24 column 22” tells us it thinks the problem is the 22nd character on line 24. It is quite likely however, that the problem is actually somewhere later. For example, if you open a ‘{‘ on line 24, but forget to close it with ‘}’ on line 45, it will still think the problem is line 24.
+ - “path $.elements[0].faces.north” This tells us what section it thinks is a problem. Usually, a typo will confuse where the sections start and end though, so rarely as helpful as the line number.
+ - It usually attempts to guess what kind of typo it was. Some examples below:
+  - “Unterminated object” or “java.io.EOFException: End of input at” means there’s something off about your parentheses, brackets, braces or commas. (Probably an extra or one missing)
+  - “Expected ‘:’ at” means basically what it says on the tin, but it could easily be confused. Check your nearby quotation marks if the problem isn’t otherwise obvious
+  - “Unknown facing: souh” this means you’ve made a typo in a variable name (in this case, “south” is a real facing, while “souh” (missing the ‘t’)is not.
+  
+## Optifine (Fanciness Mod)
+
+## Language Files
+
 Minecraft is translated into over 120 languages. We can take advantage of this, by modifying the files the game references to do this.
 
 These files are stored in assets/minecraft/lang, and are named in the format “en_us.json”, where the first two letters stand for the language, and the second two letters stand for the regional variant (in this case, American English). You do not need to make a file for every language, but be aware that players that use your pack in a language you have not altered, will not see your language changes. (A full list of supported languages can be found ____)
 
 Each piece of text is called a “string”. Strings can be anything from a single character, like the Roman numeral “I” used as part of the potion tooltip, or entire paragraphs, like in some options screens. Each line of the .json file tells the game how to display one string.
-Changing Text:
-Let’s say you are annoyed that oak trees drop apples, so you want to rename them to apple trees. 
-Make a copy of the language file for each language you wish to support
-Delete every string that you don’t intend to change (every one that doesn’t reference “oak”), making sure to keep the “{“ and  “}” at the ends of the file
-Change the text in the second set of parentheses as you see fit
-Ensure every string but the last has a comma after
 
-So for our example, 
- "block.minecraft.oak_planks": "Oak Leaves",
-becomes
- "block.minecraft.oak_planks": "Apple Leaves",
+### Changing Text:
+
+Let’s say you are annoyed that oak trees drop apples, so you want to rename them to apple trees. 
+1. Make a copy of the language file for each language you wish to support
+2. Delete every string that you don’t intend to change (every one that doesn’t reference “oak”), making sure to keep the “{“ and  “}” at the ends of the file
+3. Change the text in the second set of parentheses as you see fit
+4. Ensure every string but the last has a comma after
+
+So for our example,  
+ `"block.minecraft.oak_planks": "Oak Leaves",`
+becomes  
+ `"block.minecraft.oak_planks": "Apple Leaves",`
 
 “%s” and "%1$s” refer to variables such as a number or another string. The number after the percentage references the order. For example, we could change the string
-"%1$s was blown up by %2$s"
-(which might say “Cultist_O was blown up by Creeper”)
-to
-"%2$s blew %1$s up",
-(which would instead say “Creeper blew Cultist_O up”)
-Changing Text Color & Format:
+`"%1$s was blown up by %2$s"`  
+(which might say “Cultist_O was blown up by Creeper”)  
+to  
+`"%2$s blew %1$s up",`  
+(which would instead say “Creeper blew Cultist_O up”)  
+
+### Changing Text Color & Format:
 Sometimes you may want to change the color or format of text, for example, if you want to change the color of a GUI to something that would make light-grey text hard to read. 
 
 To do this, simply use the “§” symbol, followed by the number for the appropriate color or format. For example, 
@@ -1306,26 +1338,26 @@ End Poem & Credits
 These files are found in assets/minecraft/texts. Editing them should be fairly self-explanatory. Note that PLAYERNAME will be replaced with the player’s name in the end poem.
 Fonts
 
-Sounds
+## Sounds
 
 Minecraft sound files do not show up when you use a normal archive extraction tool. We can use a specific program to extract them though. Linked above is a program made specifically to extract Minecraft's sounds. After they are extracted, you can see where to put sounds in your resource pack.
 
-Minecraft uses .ogg files at 96kb/s for its sounds. If using Audacity to make your sound files, when exporting as OGG, use quality setting 3 if you want to match default minecraft kb/s.
+Minecraft uses `.ogg` files at 96kb/s for its sounds. If using Audacity to make your sound files, when exporting as OGG, use quality setting 3 if you want to match default minecraft kb/s.
 
 
 ## Credits
-**Velvet Remedy(anjelpriest)**
+**[Velvet Remedy]**
  - Initiative
  - Most of the work
 
-**Cultist_O**
+**[Cultist_O]**
  - Debugging & Output Log
  - Language & Text Files
  - Blockstates Part 1
  - “Partially Filled Hives” Example Resource Pack & Textures
  - Light Editing and Proofreading
 
-**Epic Acrylic**
+**[Epic Acrylic]**
  - Proofreading
  - Alternative image/text/model editor programs
  - Light fact checking
@@ -1370,6 +1402,10 @@ Minecraft uses .ogg files at 96kb/s for its sounds. If using Audacity to make yo
 
 [README Raw]: https://github.com/Love-and-Tolerance/Resource-Pack-Guide/raw/master/README.md
 [Markdown Guide]: https://guides.github.com/features/mastering-markdown/
+
+[Velvet Remedy]: https://github.com/VelvetRemedy
+[Cultist_O]: https://www.reddit.com/user/Cultist_O
+[Epic Acrylic]: http://www.twitter.com/epicacrylic
 
 <!-- Image links go here -->
 [Resource Pack Template Mane]: /assets/resourcepackguide/images/structure/template-mane.png
