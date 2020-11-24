@@ -393,7 +393,7 @@ Let's go over the folders in the above image.
 
 ## Making a New Pack
 
-### Resource Pack Folder:
+### Resource Pack Folder
 
 Now that you have a basic understanding of how a texture pack is structured, let's start making one. You're going to want to find your resource pack folder; it can be found at:
 Operating System | Location
@@ -405,7 +405,7 @@ Linux | `~/.minecraft/resourcepacks`
 You can also get to it by clicking `Open Pack Folder` in Minecraft:
 ![Open Resource Pack Folder]
 
-### Extracting the .jar File:
+### Extracting the .jar File
 Once this folder is open, you are going to want to extract the template and copy that folder here:
 ![Copy Template Here]
 
@@ -478,7 +478,7 @@ Starting to look familiar? Go into the `minecraft` folder:
 
 ## Blocks and Items
 
-### Making Your First Texture:
+### Making Your First Texture
 
 Now go into the `textures` folder:
 ![Default Textures]
@@ -623,7 +623,7 @@ Now save the file and go into Minecraft to see how it turned out:
 
 Works great, yay!
 
-## Resolution:
+## Resolution
 Resource packs come in a wide variety of resolutions, but what does resolution mean?  
 Resolution refers to the width and height in pixels of the textures in your pack, usually measured by the resolution of block textures.
 
@@ -631,11 +631,12 @@ Default Minecraft uses a resolution of 16 pixels by 16 pixels. Your resource pac
 
 For best performance, it is generally advised to use 256x256 or smaller.
 
-## Changing Models: (Shapes):
+## Changing Models
+Coming Soon.<sup>TM
 
-## Blockstates: (More Fanciness):
+## Blockstates
 
-### Different Looks for Different Cases:
+### Different Looks for Different Cases
 Some blocks can use different textures or models depending on their in-game `block state`. The simplest and most common alternative state is rotation, such as how dispensers look different depending on their orientation. Other common blockstates include on or off, full or empty, growth level, connected or disconnected, etc. It can be useful to understand these blockstates if you want to change the way a block with multiple states will look.
 
 Some blocks have multiple states, but look the same in the vanilla resource pack. That doesn’t mean they have to in yours! For example, you could make a pack wherein beehives look different depending on how much honey they contain, or wherein saplings get bigger when they are half-way to growing into a tree!
@@ -855,7 +856,7 @@ Once done, go in game and see how it looks:
 ![Honey Level In Game]
 
 
-## Variant Textures:
+### Variant Textures
 Minecraft supports the ability to have more than one model for a single block. With this we can make it so blocks have variant textures, to make the world look more alive.
 
 To do this we are going to need a few things. First we are going to need a texture for each variant you plan to have. Here are the textures I will be using:  
@@ -1114,7 +1115,7 @@ Here is what is hiding inside 15% of them:
 ![Barrel Ponk Open]
 
 
-## Plant Color:
+## Plant Color
 Most grass and foliage in Minecraft derive its color from one of two colormaps called `grass.png` for grass and `foliage.png` for foliage, we can edit these to change how grass looks in our world.
 
 Here is a template made by Word_Wizard:
@@ -1128,9 +1129,10 @@ Some plant colors can't be changed in default minecraft, to do that you will nee
 
 Here is a list of everything that you need Optifine to change:
 
-GUIs
+## GUI
+More Coming Soon.<sup>TM
 
-Making a title screen panorama:
+### Making a title screen panorama: (WIP)
 Making a panorama is pretty easy. To get started, you are going to want to find the spot in the world you want to use. I will be using this spot:
 
 
@@ -1154,23 +1156,21 @@ This will center you perfectly on the block. Press F1 to hide your UI and then F
 
 Once you have all 6 screenshots done, you will want to move them into this folder on your resource pack: `/assets/minecraft/textures/gui/title/background` Like this:
 
-(I've followed many guides and videos on this but I can't replicate it, do you know how to do it? I've tried different windows sizes, different FOVs, idk what to do)
-
 Now you will want to rename them like this:
-
 
 Start with `panorma_0` and go to `_5`.
 
 ## Entities
+Coming Soon.<sup>TM
 
 ## Other Visuals
 Particles, Icons, Environmental Textures and various other visual effects can be edited in the same way as the other textures, but advanced changes, such as to resolution variation, models, animation etc are generally not supported in the vanilla game (see Optifine below). Paintings can also be altered, including adjusting their resolution.
 
 ## Debugging
 
-### Common Problems:
+### Common Problems
 
-#### Pack Missing from Menu:
+#### Pack Missing from Menu
 Make sure your folder structure is accurate. In particular:
 
 1. Ensure the folder structure is as follows: `.minecraft/resourcepacks/packName/pack.mcmeta`
@@ -1178,34 +1178,34 @@ Make sure your folder structure is accurate. In particular:
 3. Ensure you have file-extensions shown, and it is not actually `pack.mcmeta.txt`
 4. Check the output log (see below) to see if there’s another problem preventing the back from loading.
 
-#### Pack Listed as Out of Date:
+#### Pack Listed as Out of Date
 
 Ensure your pack.mcmeta file lists the latest `“pack_format”`. (Mojang simply changes this number any time they change something that might break old packs, so players know which packs might not work anymore. The change might not actually apply to your pack.)
 
-#### Changes are Missing:
+#### Changes are Missing
 
 If one or more of your changes hasn’t taken effect, an error in the `output log` (see below) may solve your problem. If no relevant errors are listed there, make sure the relevant files are named appropriately, and in the right places.
 
-#### Purple and Black Texture:
+#### Purple and Black Texture
 
 This is the default texture the game uses when it knows it’s supposed to use a custom texture, but gets confused. The good news is, if you see this error, you can guarantee the output log (see below) will have some information to help.
 
-#### Animated textures not working/look weird:
+#### Animated textures not working/look weird
 
 All animated textures in Minecraft need a .mcmeta file for them to work. Make sure you have one, that it is formatted correctly and that the filename includes the exact name of the texture you want to animate, including the `.png`.
 
-### The Output Log:
+### The Output Log
 
 The output log is a handy little window which tracks a wide variety of things, mostly useful for debugging purposes. If you load your resource pack, and something isn’t working right, there’s a good chance the output log will tell you why, or at least narrow down the options.
 
-#### Activating the Output Log:
+#### Activating the Output Log
 
 1. In the Minecraft launcher, go to settings in the bottom left.
 2. Check `Open output log when minecraft starts`.
 
 This will run a little window in the background, which keeps track of some things. You're looking for yellow or red text in the log, either when the game is launching, or when the resource pack is reloaded (reload your active resource packs with F3+T, or by switching packs)
 
-#### Interpreting the Output Log:
+#### Interpreting the Output Log
 
 The output log will be full of all sorts of stuff, but only a few lines will be useful for our purpose.
 
@@ -1256,7 +1256,8 @@ This is more complicated to interpret than the file not found exception, but we 
   - “Expected ‘:’ at” means basically what it says on the tin, but it could easily be confused. Check your nearby quotation marks if the problem isn’t otherwise obvious
   - “Unknown facing: souh” this means you’ve made a typo in a variable name (in this case, “south” is a real facing, while “souh” (missing the ‘t’)is not.
   
-## Optifine (Fanciness Mod)
+## Optifine
+Coming Soon.<sup>TM
 
 ## Language Files
 
@@ -1286,7 +1287,7 @@ to
 `"%2$s blew %1$s up",`  
 (which would instead say “Creeper blew Cultist_O up”)  
 
-### Changing Text Color & Format:
+### Changing Text Color & Format
 Sometimes you may want to change the color or format of text, for example, if you want to change the color of a GUI to something that would make light-grey text hard to read. 
 
 To do this, simply use the “§” symbol, followed by the number for the appropriate color or format. For example, 
