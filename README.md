@@ -5,73 +5,50 @@ This guide will walk you through the steps of making your very own resource pack
 
 This guide has been hosted on GitHub for a reason; we want you to help make this guide the best it can be. If you see something that is wrong, or think you can expand a section to make it better, we encourage you to Fork this repository and do a Pull Request with your additions (don't forget to add yourself to the credits).
 
-## Table of contents:
-[Introduction](#introduction)  
-[FAQ](#faq)
- - What is a resource pack?
- - Are resource packs the same as texture packs?
- - Are they hard to make?
- - Do I have to change every texture?
- - What programs do I need to make a texture pack?
- - So what is a “plain” text editor?  
-[Useful Links](#useful-links)  
-- Files
-- Esential software
-- Archival Tool
-- Image Editor
-- Text Editor
-- Useful Software
-- Texture/Resource Pack Converters
-- Other Software
-- Information and Resources
-- Minecraft Wiki
-- Other Guides
-- Places to find help and submit your pack
-[Useful Keybinds](#useful-keybinds)  
-Minecraft  
-GIMP  
-Paint.NET  
-[Helpful Advice](#helpful-advice)  
-[Resource Pack Structure](#resource-pack-structure)  
-- Making a New Pack
-- Resource Pack Folder
-- Extracting the .jar File
-- Blocks and Items
-- Making Your First Texture
-- Seeing Your Texture In-Game
-- Texture Animation
-- Resolution
-- Changing Models: (Shapes)
-- Blockstates: (More Fanciness)
-- Different Looks for Different Cases
-- Variant Textures
-- Weighted variants
-- Plant Color
-- GUIs
-- Making a tittle screen panorama
-- Entities
-- Other Visuals
-- Debugging
-- Common Problems
-- Pack Missing from Menu
-- Pack Listed as Out of Date
-- Changes are Missing
-- Purple and Black Texture
-- The Output Log
-- Activating the Output Log
-- Interpreting the Output Log
-- File Not Found Exception
-- Malformed Json Exception
-- Optifine (Fanciness Mod)
-- Language Files
-- Changing Text
-- Changing Text Color & Format
-- Things to Consider
-- Splash Texts
-- End Poem & Credits
-- Fonts
-- Sounds
-- Credits
+## Table of contents
+- [Minecraft Java Resource Pack Creation Guide](#minecraft-java-resource-pack-creation-guide)
+ - [Introduction](#introduction)
+ - [Table of contents:](#table-of-contents)
+ - [F.A.Q.](#faq)
+ - [useful links](#useful-links)
+ - [Useful Keybinds](#useful-keybinds)
+ - [Helpful Advice](#helpful-advice)
+     - [General Advice](#general-advice)
+     - [Common mistakes](#common-mistakes)
+ - [Resource Pack Structure](#resource-pack-structure)
+ - [Making a New Pack](#making-a-new-pack)
+     - [Resource Pack Folder](#resource-pack-folder)
+     - [Extracting the .jar File](#extracting-the-jar-file)
+ - [Blocks and Items](#blocks-and-items)
+     - [Making Your First Texture](#making-your-first-texture)
+ - [Texture Animation](#texture-animation)
+ - [Resolution](#resolution)
+ - [Changing Models](#changing-models)
+ - [Blockstates](#blockstates)
+     - [Different Looks for Different Cases](#different-looks-for-different-cases)
+     - [Variant Textures](#variant-textures)
+ - [Weighted variants:](#weighted-variants)
+ - [Plant Color](#plant-color)
+ - [GUI](#gui)
+     - [Making a title screen panorama: (WIP)](#making-a-title-screen-panorama-wip)
+ - [Entities](#entities)
+ - [Other Visuals](#other-visuals)
+ - [Debugging](#debugging)
+     - [Common Problems](#common-problems)
+         - [Pack Missing from Menu](#pack-missing-from-menu)
+         - [Pack Listed as Out of Date](#pack-listed-as-out-of-date)
+         - [Changes are Missing](#changes-are-missing)
+         - [Purple and Black Texture](#purple-and-black-texture)
+         - [Animated textures not working/look weird](#animated-textures-not-workinglook-weird)
+     - [The Output Log](#the-output-log)
+         - [Activating the Output Log](#activating-the-output-log)
+         - [Interpreting the Output Log](#interpreting-the-output-log)
+ - [Optifine](#optifine)
+ - [Language Files](#language-files)
+     - [Changing Text:](#changing-text)
+     - [Changing Text Color & Format](#changing-text-color--format)
+ - [Sounds](#sounds)
+ - [Credits](#credits)
 
 ## F.A.Q.
 Let’s start off by answering some questions you may have about resource packs.
