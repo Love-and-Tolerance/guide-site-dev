@@ -70,22 +70,22 @@ This guide has been hosted on GitHub for a reason; we want you to help make this
 
 Let’s start off by answering some questions you may have about resource packs.
 
-**What is a resource pack?**
+**What is a resource pack?**\
 A resource pack is a folder or .zip that changes the “assets” loaded into Minecraft. It is a way to customize or completely change how the game looks and sounds.
 
-**Are resource packs the same as texture packs?**
+**Are resource packs the same as texture packs?**\
 These terms are sometimes used that way, but “texture packs” were for Minecraft 1.5.2 and before, and only changed the images the game used for things like blocks, items and GUIs. Resource packs replaced this functionality, and can also manage models, sounds, and much more.
 
-**Are they hard to make?**
+**Are they hard to make?**\
 No, they are rather easy to do once you have an understanding of how Minecraft structures its assets folder. This guide will help you with that.
 
-**Do I have to change every texture?**
+**Do I have to change every texture?**\
 No, the great thing about Minecraft is you only need to texture the stuff you want to change. Minecraft loads your pack(s) over top of the default textures, so anything you don't change will remain the default.
 
-**What programs do I need to make a resource pack?**
+**What programs do I need to make a resource pack?**\
 For most resource packs, all you need is an archive tool, a plain text editor, and an image editor.
 
-**So what is a “plain” text editor?**
+**So what is a “plain” text editor?**\
 A plain text editor is a program that edits text files, but does not have fancy features like fonts, bold or colored text, and text size. Notepad and Notepad++ are examples of these. “Rich” text editors will not work, and using them will break any minecraft asset you edit with them, probably permanently. (Rich text editors include programs like Microsoft Word, Google Docs, etc.)
 
 ## useful links
@@ -94,7 +94,7 @@ Here are some links which will be useful or needed to make a resource pack.
 
 ### Files
 
-[Resource Pack Template]
+[Resource Pack Template]\
 This is what we will be using to build our resource pack.
 
 ### Essential Software
@@ -105,72 +105,72 @@ You will need one from each of these catogories to make a resource pack.
 
 Needed to unzip the Minecraft jar file and to zip your pack when it is done.
 
-[7-Zip]
+[7-Zip]\
 Archive tool we will use to extract textures from the Minecraft JAR file and zip our texture pack when they’re done.
 
 #### Image Editor
 
 Required to edit the textures in your pack.
 
-[GNU image Manipulation Program] (GIMP)
+[GNU image Manipulation Program] (GIMP)\
 A free image editing program we will use to make and edit our textures.
 
-[Paint.NET]
+[Paint.NET]\
 An alternative program you can use to edit textures, and has plug-in support for extra image editing.
 
 #### Text Editor
 
 Used to edit the text files in your pack.
 
-[Brackets]
+[Brackets]\
 A free code editor I recommend for editing text files.
 
-[Notepad++]
+[Notepad++]\
 Another free light-weight text editor alternative
 
 #### Useful software
 
 Depending on what you want to include in your pack, a program from the relevant category may be needed, or at least save a lot of frustration.
 
-[Blockbench]
+[Blockbench]\
 A free program to create 3d models for Minecraft.
 
-[Mr. Crayfish’s Model Creator]
+[Mr. Crayfish’s Model Creator]\
 An alternative program for creating Minecraft models.
 
 #### Texture/Resource Pack Converters
 
 Tools to convert texture & resource packs to newer versions.
 
-[Dinnerbone's Texture Pack Unstitcher Program (Direct Download)]
+[Dinnerbone's Texture Pack Unstitcher Program (Direct Download)]\
 A tool to convert texture packs to Minecraft version 1.5.
 
-[Flying-Sheep's Texture Pack Unstitcher Rewrite]
+[Flying-Sheep's Texture Pack Unstitcher Rewrite]\
 A rewrite of Dinnerbone’s tool made by a community member.
 
-[TextureEnder made by Mojang (Direct Download)]
+[TextureEnder made by Mojang (Direct Download)]\
 A tool made by Mojang to convert Texture Packs from 1.5 to resource packs. (also on GitHub)
 
-[Resource Pack Converter]
+[Resource Pack Converter]\
 A tool to convert resource packs to newer versions.
 
-[Java to Bedrock Resource Pack Converter]
+[Java to Bedrock Resource Pack Converter]\
 A tool to convert your java resource pack to bedrock.
 
 #### Other Software
 
 Not always needed, but useful to have sometimes.
 
-[Resource Pack Optimizer]
+[Resource Pack Optimizer]\
 An optimization tool that compresses the image files to save space.
 
-[Quiver]
+[Quiver]\
 A resource pack creator and manager for Minecraft.
 
-[WinMerge]
+[WinMerge]\
 A useful tool to compare your pack to default Minecraft and see what you're missing and what files are the same as default to remove them.
 
-[Minecraft Sound Extractor]
+[Minecraft Sound Extractor]\
 This is for extracting the sound if you want to see how to structure the sound directory in your resource pack.
 
 ### Information and Resources
@@ -181,68 +181,68 @@ A collection of useful info and resources.
 
 Use ful Minecrafr Wiki pages.
 
-[Minecraft Wiki for Resource Packs]
+[Minecraft Wiki for Resource Packs]\
 The official wiki on Minecraft resource packs. Will be updated regularly per update/snapshot, documenting changes between versions.
 
-[Minecraft Wiki for Creating a Resource Pack]
+[Minecraft Wiki for Creating a Resource Pack]\
 Will be updated regularly per update/snapshot, documenting changes between versions.
 
-[Minecraft Wiki for Texture Packs]
+[Minecraft Wiki for Texture Packs]\
 Useful information on texture packs for Minecraft versions 1.6.0 and newer.
 
-[Minecraft Wiki for Creating a Texture Pack]
+[Minecraft Wiki for Creating a Texture Pack]\
 Has useful info on making texture packs for Minecraft 1.6.0 and older.
 
-[Minecraft Wiki for Formatting codes]
+[Minecraft Wiki for Formatting codes]\
 Useful reference when editing text files such as pack.mcmeta and credits.txt.
 
-[Minecraft Wiki for Models]
+[Minecraft Wiki for Models]\
 Has a lot of useful info about blockstates and model files.
 
-[Minecraft Wiki for Tint]
+[Minecraft Wiki for Tint]\
 Useful info about the grass and foliage color tinting.
 
 #### Other Guides
 
 an assortment of other guides with a lot of useful information in them.
 
-[A word about texture packs]
+[A word about texture packs]\
 A good read about myths surrounding texture/resource packs.
 
-[Animation in Resource Packs]
+[Animation in Resource Packs]\
 A useful guide on animated block and item textures.
 
-[Making Alternate Textures Guide]
+[Making Alternate Textures Guide]\
 A useful guide for variant/alternate textures.
 
-[The All-Inclusive Guide to Texturing]
+[The All-Inclusive Guide to Texturing]\
 A helpful guide to making texture packs, mostly useful for older versions of Minecraft before 1.5.
 
-[The All-Inclusive Guide to Texturing (Version 2)]
+[The All-Inclusive Guide to Texturing (Version 2)]\
 An updated version that has useful information on newer versions of Minecraft.
 
-[How To Make A Resource Pack video series by Uncle Jam]
+[How To Make A Resource Pack video series by Uncle Jam]\
 A good playlist of videos about making a resource pack. (Has a lot of useful info in it, just please do not copy the default Minecraft assets folder like he does. See common mistakes below.)
 
-[Customizing Minecraft video series by How To Gurus]
+[Customizing Minecraft video series by How To Gurus]\
 A great playlist with a lot of useful guides for making a resource pack.
 
 #### Other Documentation
 
-[Optifine Documentation]
+[Optifine Documentation]\
 The official documentation for Optifine.
 
 #### Places to find help and submit your pack
 
 Good places to go if you need help or want to submit your pack to be seen by the public.
 
-[Minecraft Resource Pack Subreddit]
+[Minecraft Resource Pack Subreddit]\
 A great place to share your resource pack or ask questions if you are having trouble.
 
-[Planet Minecraft]
+[Planet Minecraft]\
 A goo place to ask for help or post your pack.
 
-[Minecraft Forums]
+[Minecraft Forums]\
 Another good place to ask for help or post your pack.
 
 ## Useful Keybinds
@@ -251,32 +251,32 @@ Here are some useful key binds I will mention in this guide.
 
 ### Minecraft
 
-Action | Keybind
--------|--------
-Reload resources | F3 + T
+| Action           | Keybind |
+| ---------------- | ------- |
+| Reload resources | F3 + T  |
 
 ### GIMP
 
-Action | Keybind
--------|--------
-Pencil | N
-Undo | Ctrl + Z
-Redo | Ctrl + Y
-Zoom | Ctrl + mouse wheel in and out.
-Color picker | Ctrl + primary mouse click (only works when pencil/paintbrush is the selected tool)
-Pan | Hold the spacebar and drag the mouse.
+| Action       | Keybind                                                                             |
+| ------------ | ----------------------------------------------------------------------------------- |
+| Pencil       | N                                                                                   |
+| Undo         | Ctrl + Z                                                                            |
+| Redo         | Ctrl + Y                                                                            |
+| Zoom         | Ctrl + mouse wheel in and out.                                                      |
+| Color picker | Ctrl + primary mouse click (only works when pencil/paintbrush is the selected tool) |
+| Pan          | Hold the spacebar and drag the mouse.                                               |
 
 ### Paint.NET
 
-Action | Keybind
--------|--------
-Pencil | P
-Line Tool | O
-Pan | Hold the spacebar and left click and drag (alternatively press H to select the pan tool)
-Color picker | K
-Eraser | E
-Paint Bucket | F
-Shape tool | O, O (press O twice)
+| Action       | Keybind                                                                                  |
+| ------------ | ---------------------------------------------------------------------------------------- |
+| Pencil       | P                                                                                        |
+| Line Tool    | O                                                                                        |
+| Pan          | Hold the spacebar and left click and drag (alternatively press H to select the pan tool) |
+| Color picker | K                                                                                        |
+| Eraser       | E                                                                                        |
+| Paint Bucket | F                                                                                        |
+| Shape tool   | O, O (press O twice)                                                                     |
 
 ## Helpful Advice
 
@@ -402,11 +402,11 @@ Let's go over the folders in the above image.
 ### Resource Pack Folder
 
 Now that you have a basic understanding of how a texture pack is structured, let's start making one. You're going to want to find your resource pack folder; it can be found at:
-Operating System | Location
------------------|---------
-Windows | `%APPDATA%\.minecraft\resourcepacks`
-MacOS | `~/Library/Application Support/minecraft/resourcepacks`
-Linux | `~/.minecraft/resourcepacks`
+| Operating System | Location                                                |
+| ---------------- | ------------------------------------------------------- |
+| Windows          | `%APPDATA%\.minecraft\resourcepacks`                    |
+| MacOS            | `~/Library/Application Support/minecraft/resourcepacks` |
+| Linux            | `~/.minecraft/resourcepacks`                            |
 
 You can also get to it by clicking `Open Pack Folder` in Minecraft:
 ![Open Resource Pack Folder]
@@ -434,15 +434,15 @@ Now right-click the pack.mcmeta file and click `Open with Brackets`.
 ![Pack Mcmeta]
 
 The pack format tells Minecraft what versions this pack will work with:
-Pack Format | Minecraft Versions
-:----------:|:-----------------:
-1 | 1.6.1 to 1.8.9
-2 | 1.9 to 1.10.2
-3 | 1.11 to 1.12.2
-4 | 1.13 to 1.14.4
-5 | 1.15 to 1.16.1
-6 | 1.16.2 to 1.16.4
-7 | 1.17
+| Pack Format | Minecraft Versions |
+| :---------: | :----------------: |
+|      1      |   1.6.1 to 1.8.9   |
+|      2      |   1.9 to 1.10.2    |
+|      3      |   1.11 to 1.12.2   |
+|      4      |   1.13 to 1.14.4   |
+|      5      |   1.15 to 1.16.1   |
+|      6      |  1.16.2 to 1.16.4  |
+|      7      |        1.17        |
 
 Change this to the version you will be making the pack for.
 
@@ -531,7 +531,7 @@ Now hit done and wait for it to reload resources. Once back at the menu, create 
 
 ## Texture Animation
 
-Any block or item texture in Minecraft can be animated. Let’s take a look at one from default Minecraft, to see how they work. Pictured below is `sealantern.png`:
+Any block or item texture in Minecraft can be animated. Let’s take a look at one from default Minecraft, to see how they work. Pictured below is `sealantern.png`:\
 ![Sealantern Image]
 
 As you can see, it looks like it has 5 textures stacked on top each other. These are actually the frames of the animation on the block.
@@ -567,19 +567,19 @@ There are two more parameters you can use in conjunction with the `frames` param
 
 Index refers to which frame of the texture you are specifying and time refers to how long to hold that frame in game ticks.
 
-Now that we have a general idea of how animated textures work, let's make one. I’m going to be making an animated texture for glowstone. Here is the texture I am going to animate:
+Now that we have a general idea of how animated textures work, let's make one. I’m going to be making an animated texture for glowstone. Here is the texture I am going to animate:\
 ![Glowstone Image]
 
-As you can see, right now it is just a regular texture. To make it animated, we need to increase the height proportional to the number of frames we want. I want to add 5 frames, and the current height is 16 pixels. 16 x 6 is 96. Remember to include the original frame in your calculation. In GIMP, click the image button, then click canvas size:
+As you can see, right now it is just a regular texture. To make it animated, we need to increase the height proportional to the number of frames we want. I want to add 5 frames, and the current height is 16 pixels. 16 x 6 is 96. Remember to include the original frame in your calculation. In GIMP, click the image button, then click canvas size:\
 ![Gimp Canvas]
 
-A window will pop up like this:
+A window will pop up like this:\
 ![Gimp Height]
 
-Set this to what you calculated earlier; I will use 96. After it changes, you will notice some blank space under the original texture. Hit `Ctrl + C`, then `Ctrl + V` to copy and paste the original texture. Use the move tool, and move them so they are stacked on top each other, like this:
+Set this to what you calculated earlier; I will use 96. After it changes, you will notice some blank space under the original texture. Hit `Ctrl + C`, then `Ctrl + V` to copy and paste the original texture. Use the move tool, and move them so they are stacked on top each other, like this:\
 ![Glowstone Six]
 
-Now, you need to make your edits to make it animated. I will make a simple expanding ring for demonstration:
+Now, you need to make your edits to make it animated. I will make a simple expanding ring for demonstration:\
 ![Glowstone Six Done]
 
 After you make your texture, save it, and copy it to your resource pack. In the same folder, create a new file, and name it, `glowstone.png.mcmeta`. After that, open it up. It should be blank. We need to tell minecraft this is an animation. Start by typing:
@@ -631,14 +631,14 @@ I don't want it to constantly repeat. I want it to hold on the first frame for a
 }
 ```
 
-Now save the file and go into Minecraft to see how it turned out:
+Now save the file and go into Minecraft to see how it turned out:\
 ![Glowstone In Game]
 
 Works great, yay!
 
 ## Resolution
 
-Resource packs come in a wide variety of resolutions, but what does resolution mean?
+Resource packs come in a wide variety of resolutions, but what does resolution mean?\
 Resolution refers to the width and height in pixels of the textures in your pack, usually measured by the resolution of block textures.
 
 Default Minecraft uses a resolution of 16 pixels by 16 pixels. Your resource pack can be any "power-of-two" resolution you want, from 1x1 all the way to 1024x1024. (The powers of two are: 1, 2, 4, 8, 16, 32 etc.)
@@ -760,7 +760,7 @@ By default, this file looks like this:
 }
 ```
 
-Each `variant` in this list refers to one model for the game to use. But wait; didn’t I say there were only two? Well if you look carefully, four of these entries actually refer to the same model `beehive_honey`, which is the model full of honey. They simply instruct the game to rotate the block based on its facing. For example,
+Each `variant` in this list refers to one model for the game to use. But wait; didn’t I say there were only two? Well if you look carefully, four of these entries actually refer to the same model `beehive_honey`, which is the model full of honey. They simply instruct the game to rotate the block based on its facing. For example:
 
 - `"facing = west,honey_level=5"` means “if the block is facing west, and has 5 levels of honey”.
 - `"Model": "minecraft:block/beehive_honey"` means use the `beehive_honey.json` model file from `assets/minecraft/block`.
@@ -768,8 +768,8 @@ Each `variant` in this list refers to one model for the game to use. But wait; d
 
 The other 20 all refer to the `beehive` model, in each combination of honey level and rotation.
 
-To tell the game to use a different model for each honey level, all we have to do, is make new models and textures for each case, (see sections above for more detail) and refer to those models accordingly. My recommendation would be to simply copy the existing `beehive_honey.json` model file and `beehive_front_honey.png` 4 times each, and rename those copies `beehive_1.json` through `beehive_4.json`, and `beehive_front_1.png` through `beehive_front_4.png`. In each of these model files, simply edit the `honey` texture references to the appropriate number, and edit your texture files to look however you want. These are the ones I used:
-![Honey Files]
+To tell the game to use a different model for each honey level, all we have to do, is make new models and textures for each case, (see sections above for more detail) and refer to those models accordingly. My recommendation would be to simply copy the existing `beehive_honey.json` model file and `beehive_front_honey.png` 4 times each, and rename those copies `beehive_1.json` through `beehive_4.json`, and `beehive_front_1.png` through `beehive_front_4.png`. In each of these model files, simply edit the `honey` texture references to the appropriate number, and edit your texture files to look however you want. These are the ones I used:\
+![Honey Files]\
 (Note: I also edited the empty and full textures to better match my new style.)
 
 Finally, change the appropriate lines in the blockstate file to refer to your new model filenames. Your `assets/minecraft/blockstates/beehive.json` file should end up looking something like this:
@@ -871,14 +871,14 @@ Finally, change the appropriate lines in the blockstate file to refer to your ne
 }
 ```
 
-Once done, go in game and see how it looks:
+Once done, go in game and see how it looks:\
 ![Honey Level In Game]
 
 ### Variant Textures
 
 Minecraft supports the ability to have more than one model for a single block. With this we can make it so blocks have variant textures, to make the world look more alive.
 
-To do this we are going to need a few things. First we are going to need a texture for each variant you plan to have. Here are the textures I will be using:
+To do this we are going to need a few things. First we are going to need a texture for each variant you plan to have. Here are the textures I will be using:\
 ![Variants Files]
 
 As you can see above, I have 6 diamond ore textures. The first one is named exactly like default and the rest have a `_2`, `_3`, `_4`, `_5`, `_6` after. You will want to copy these textures into your block folder in your resource pack.
@@ -916,20 +916,20 @@ As you can see there is only 1 variant at the moment. We want to add 5 more. We 
 
 To add a list in JSON, you need to use `[` to start it and `]` to end it. Notice where we place these in the file: after the `:` that tells minecraft the state to apply these models to, and at the end of the list.
 
-The last step is to make the model files. Start by going into the default minecraft models folder, go into blocks, and find `diamond_ore.json`. Copy it, and place it in the same folder in your pack `/assets/minecraft/models/block`. Once copied there, you will want to make a copy of it for each variant that you want. Rename these to what you put in the blockstates file:
+The last step is to make the model files. Start by going into the default minecraft models folder, go into blocks, and find `diamond_ore.json`. Copy it, and place it in the same folder in your pack `/assets/minecraft/models/block`. Once copied there, you will want to make a copy of it for each variant that you want. Rename these to what you put in the blockstates file:\
 ![Copy Variant Models]
 
-Now, you are going to want to open each model, and edit it to point to the correct texture, like this:
+Now, you are going to want to open each model, and edit it to point to the correct texture, like this:\
 ![Edit Variant Model Files]
 
-Once you have done that for all of them, we can go in game and try it out. Here are my results:
+Once you have done that for all of them, we can go in game and try it out. Here are my results:\
 ![Variants In Game]
 
 ## Weighted variants
 
 Blockstates also can support weighted variants, meaning we can create scarcity in our variant textures. A fun idea for this, is to hide stuff inside the barrel. We are going to be hiding a pink pony inside 15% of the barrels when they are open.
 
-You're going to want to start off again, by having textures already made:
+You're going to want to start off again, by having textures already made:\
 ![Barrel Texture Files]
 
 As you can see, I have 2 barrel open textures. One is normal and one has a little surprise in it. We are going to want to copy these to our block textures folder.
@@ -1131,13 +1131,13 @@ Do this same process for all the open barrel variants. When done, it should look
 
 After you are done with the blockstate file, you are going to want to copy both default barrel models from minecraft, into your resource pack. Make a copy of the barrel open model and change its name to `barrel_open_ponk.json`. After that, edit the file to point to the `barrel_open_ponk.png` texture. Save this file, then you are done.
 
-Once you are done with everything, it's time to go test it in game. Here is what the barrels look like closed:
+Once you are done with everything, it's time to go test it in game. Here is what the barrels look like closed:\
 ![Barrel closed In Game]
 
-Here is what most of them look like when they are opened:
+Here is what most of them look like when they are opened:\
 ![Barrel Normal Open]
 
-Here is what is hiding inside 15% of them:
+Here is what is hiding inside 15% of them:\
 ![Barrel Ponk Open]
 
 ## Plant Color
@@ -1148,7 +1148,7 @@ Here is a template made by Word_Wizard:
 
 As the template says it is pixel perfect, we are going to use it to adjust our own colors for the grass and foliage. Download the template (Download). Now go into your extracted jar and go into the colormaps folder `/assets/minecraft/textures/colormaps/`. Inside you will see 2 files, this template works on both, so I will only be covering how to do this on one, you can repeat this for the other.
 
-Unchangeable plant and foliage colors:
+Unchangeable plant and foliage colors:\
 Some plant colors can't be changed in default minecraft, to do that you will need to use Optifine.
 
 Here is a list of everything that you need Optifine to change:
@@ -1171,10 +1171,10 @@ Once you have it set, hit save, then go back to the play tab and launch the inst
 
 This will center you perfectly on the block. Press F1 to hide your UI and then F2 to take a screenshot. Do this 5 more times after running each of these commands:
 
-`/tp @p ~ ~ ~ 90 0`
-`/tp @p ~ ~ ~ 180 0`
-`/tp @p ~ ~ ~ 270 0`
-`/tp @p ~ ~ ~ 0 -90`
+`/tp @p ~ ~ ~ 90 0`\
+`/tp @p ~ ~ ~ 180 0`\
+`/tp @p ~ ~ ~ 270 0`\
+`/tp @p ~ ~ ~ 0 -90`\
 `/tp @p ~ ~ ~ 0 90`
 
 Once you have all 6 screenshots done, you will want to move them into this folder on your resource pack: `/assets/minecraft/textures/gui/title/background` Like this:
@@ -1304,16 +1304,16 @@ Let’s say you are annoyed that oak trees drop apples, so you want to rename th
 3. Change the text in the second set of parentheses as you see fit
 4. Ensure every string but the last has a comma after
 
-So for our example,
+So for our example,\
  `"block.minecraft.oak_planks": "Oak Leaves",`
-becomes
+becomes\
  `"block.minecraft.oak_planks": "Apple Leaves",`
 
 “%s” and "%1$s” refer to variables such as a number or another string. The number after the percentage references the order. For example, we could change the string
-`"%1$s was blown up by %2$s"`
+`"%1$s was blown up by %2$s"`\
 (which might say “Cultist_O was blown up by Creeper”)
 to
-`"%2$s blew %1$s up",`
+`"%2$s blew %1$s up",`\
 (which would instead say “Creeper blew Cultist_O up”)
 
 ### Changing Text Color & Format
@@ -1330,31 +1330,30 @@ would result in the word “Inventory” appearing light blue, while
 
 would result in the word “Luck” being green, and “Sea” being both blue and bold.
 
-§0 Black
-§1 Blue
-§2 Green
-§3 Cyan
-§4 Red
-§5 Magenta
-§6 Yellow
-§7 Gray
-§8 Dark Gray
-§9 Light Blue
-§a Light Green
-§b Light Cyan
-§c Light Red
-§d Light Magenta
-§e Light Yellow
-§f  White
+§0 Black\
+§1 Blue\
+§2 Green\
+§3 Cyan\
+§4 Red\
+§5 Magenta\
+§6 Yellow\
+§7 Gray\
+§8 Dark Gray\
+§9 Light Blue\
+§a Light Green\
+§b Light Cyan\
+§c Light Red\
+§d Light Magenta\
+§e Light Yellow\
+§f White
 
-§l    Bold
-§m    Strikethrough
-§n    Underline
-§o    Italic
+§l    Bold\
+§m    Strikethrough\
+§n    Underline\
+§o    Italic\
 §r    Reset
 
-§k    Obfuscated
-(Characters that scroll randomly)
+§k    Obfuscated (Characters that scroll randomly)
 
 Things to Consider:
 
