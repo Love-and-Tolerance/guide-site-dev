@@ -10,7 +10,7 @@ This guide has been hosted on GitHub for a reason; we want you to help make this
 
 - [Introduction](#introduction)
 - [FAQ](#faq)
-- [useful links](#useful-links)
+- [Useful Links](#useful-links)
   - [Files](#files)
   - [Essential Software](#essential-software)
     - [Archival Tools](#archival-tools)
@@ -43,7 +43,7 @@ This guide has been hosted on GitHub for a reason; we want you to help make this
 - [Blockstates](#blockstates)
   - [Different Looks for Different Cases](#different-looks-for-different-cases)
   - [Variant Textures](#variant-textures)
-- [Weighted variants](#weighted-variants)
+- [Weighted Variants](#weighted-variants)
 - [Plant Color](#plant-color)
 - [GUI](#gui)
   - [Making a title screen panorama (WIP)](#making-a-title-screen-panorama-wip)
