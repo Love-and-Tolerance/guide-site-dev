@@ -88,7 +88,7 @@ For most resource packs, all you need is an archive tool, a plain text editor, a
 **So what is a “plain” text editor?**\
 A plain text editor is a program that edits text files, but does not have fancy features like fonts, bold or colored text, and text size. Notepad and Notepad++ are examples of these. “Rich” text editors will not work, and using them will break any minecraft asset you edit with them, probably permanently. (Rich text editors include programs like Microsoft Word, Google Docs, etc.)
 
-## useful links
+## Useful Links
 
 Here are some links which will be useful or needed to make a resource pack.
 
@@ -401,7 +401,7 @@ Let's go over the folders in the above image.
 
 ### Resource Pack Folder
 
-Now that you have a basic understanding of how a texture pack is structured, let's start making one. You're going to want to find your resource pack folder; it can be found at:\
+Now that you have a basic understanding of how a texture pack is structured, let's start making one. You're going to want to find your resource pack folder; it can be found at:
 | Operating System | Location                                                |
 | ---------------- | ------------------------------------------------------- |
 | Windows          | `%APPDATA%\.minecraft\resourcepacks`                    |
@@ -926,7 +926,7 @@ Now, you are going to want to open each model, and edit it to point to the corre
 Once you have done that for all of them, we can go in game and try it out. Here are my results:\
 ![Variants In Game]
 
-## Weighted variants
+## Weighted Variants
 
 Blockstates also can support weighted variants, meaning we can create scarcity in our variant textures. A fun idea for this, is to hide stuff inside the barrel. We are going to be hiding a pink pony inside 15% of the barrels when they are open.
 
