@@ -11,19 +11,19 @@ This guide has been hosted on GitHub for a reason; we want you to help make this
 - [Introduction](#introduction)
 - [FAQ](#faq)
 - [Useful Links](#useful-links)
-  - [Files](#files)
-  - [Essential Software](#essential-software)
-    - [Archival Tools](#archival-tools)
-    - [Image Editor](#image-editor)
-    - [Text Editor](#text-editor)
-    - [Useful software](#useful-software)
-    - [Texture/Resource Pack Converters](#textureresource-pack-converters)
-    - [Other Software](#other-software)
-  - [Information and Resources](#information-and-resources)
-    - [Minecraft Wiki](#minecraft-wiki)
-    - [Other Guides](#other-guides)
-    - [Other Documentation](#other-documentation)
-    - [Places to find help and submit your pack](#places-to-find-help-and-submit-your-pack)
+- [Base Texturepack](#Base-Texturepack)
+- [Essential Software](#essential-software)
+  - [Image Editor](#image-editor)
+  - [Archival Tools](#archival-tools)
+  - [Text Editor](#text-editor)
+  - [Useful software](#useful-software)
+  - [Texture/Resource Pack Converters](#textureresource-pack-converters)
+  - [Other Software](#other-software)
+- [Information and Resources](#information-and-resources)
+  - [Minecraft Wiki](#minecraft-wiki)
+  - [Other Guides](#other-guides)
+  - [Other Documentation](#other-documentation)
+  - [Places to find help and submit your pack](#places-to-find-help-and-submit-your-pack)
 - [Useful Keybinds](#useful-keybinds)
   - [Minecraft](#minecraft)
   - [GIMP](#gimp)
@@ -92,33 +92,34 @@ A plain text editor is a program that edits text files, but does not have fancy 
 
 Here are some links which will be useful or needed to make a resource pack.
 
-### Files
+## Base Texturepack
 
 [Resource Pack Template]\
-This is what we will be using to build our resource pack.
+This is what we will be using to build our resource pack!
 
-### Essential Software
+## Essential Software
+
+### Image Editors
+
+Software | Price | OS | Features
+--|--|--|--
+MS paint | free | Windows | no downloads
+[Lospec Editor] | free | Web-Browser | no downloads + lospec palette integration
+[pixilart Editor] | free | Web-Browser | no downloads
+[Paint.NET] | free | Windows | plugin support
+[Aseprite] | $19.99, Free | Windows, macOS, Linux | high quality pixel art editor, scripts, themes
+[GNU image Manipulation Program] (GIMP) | free | - | -
 
 You will need one from each of these catogories to make a resource pack.
 
-#### Archival Tools
+### Archival Tools
 
 Needed to unzip the Minecraft jar file and to zip your pack when it is done.
+Software | Price | OS | Features
+--|--|--|--
+[7-Zip] | free | Windows, linux | -
 
-[7-Zip]\
-Archive tool we will use to extract textures from the Minecraft JAR file and zip our texture pack when they’re done.
-
-#### Image Editor
-
-Required to edit the textures in your pack.
-
-[GNU image Manipulation Program] (GIMP)\
-A free image editing program we will use to make and edit our textures.
-
-[Paint.NET]\
-An alternative program you can use to edit textures, and has plug-in support for extra image editing.
-
-#### Text Editor
+### Text Editor
 
 Used to edit the text files in your pack.
 
@@ -128,7 +129,7 @@ A free code editor I recommend for editing text files.
 [Notepad++]\
 Another free light-weight text editor alternative
 
-#### Useful software
+### Useful software
 
 Depending on what you want to include in your pack, a program from the relevant category may be needed, or at least save a lot of frustration.
 
@@ -138,7 +139,7 @@ A free program to create 3d models for Minecraft.
 [Mr. Crayfish’s Model Creator]\
 An alternative program for creating Minecraft models.
 
-#### Texture/Resource Pack Converters
+### Texture/Resource Pack Converters
 
 Tools to convert texture & resource packs to newer versions.
 
@@ -157,7 +158,7 @@ A tool to convert resource packs to newer versions.
 [Java to Bedrock Resource Pack Converter]\
 A tool to convert your java resource pack to bedrock.
 
-#### Other Software
+### Other Software
 
 Not always needed, but useful to have sometimes.
 
@@ -173,11 +174,11 @@ A useful tool to compare your pack to default Minecraft and see what you're miss
 [Minecraft Sound Extractor]\
 This is for extracting the sound if you want to see how to structure the sound directory in your resource pack.
 
-### Information and Resources
+## Information and Resources
 
 A collection of useful info and resources.
 
-#### Minecraft Wiki
+### Minecraft Wiki
 
 Use ful Minecrafr Wiki pages.
 
@@ -230,7 +231,7 @@ A great playlist with a lot of useful guides for making a resource pack.
 #### Other Documentation
 
 [Optifine Documentation]\
-The official documentation for Optifine.
+The official documentation for Optifine, use it if you want advanced help on some of the features optifine provides for us!
 
 #### Places to find help and submit your pack
 
@@ -247,7 +248,7 @@ Another good place to ask for help or post your pack.
 
 ## Useful Keybinds
 
-Here are some useful key binds I will mention in this guide.
+Here are some useful key binds I will mention in this guide!
 
 ### Minecraft
 
@@ -1403,6 +1404,7 @@ Minecraft uses `.ogg` files at 96kb/s for its sounds. If using Audacity to make 
 [7-Zip]: https://www.7-zip.org/
 [GNU image Manipulation Program]: https://www.gimp.org/
 [Paint.NET]: https://www.getpaint.net/
+<!-- brackets is discontinued -->
 [Brackets]: http://brackets.io/
 [Notepad++]: https://notepad-plus-plus.org/
 [Blockbench]: https://blockbench.net/
@@ -1441,6 +1443,14 @@ Minecraft uses `.ogg` files at 96kb/s for its sounds. If using Audacity to make 
 [Velvet Remedy]: https://github.com/VelvetRemedy
 [Cultist_O]: https://www.reddit.com/user/Cultist_O
 [Epic Acrylic]: http://www.twitter.com/epicacrylic
+
+[Lospec Editor]: https://lospec.com/pixel-editor/app
+[pixilart Editor]: https://www.pixilart.com/draw
+[Paint.net]: https://www.getpaint.net/download.html
+[krita]: https://krita.org/en/download/krita-desktop/
+[PYXELEDIT]: https://www.pyxeledit.com/
+[aseprite]: https://aseprite.org/#buy
+[Photoshop]: https://www.photoshop.com/en
 
 <!-- Image links go here -->
 [Resource Pack Template Mane]: /assets/resourcepackguide/images/structure/template-mane.png
