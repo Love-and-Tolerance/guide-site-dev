@@ -1294,6 +1294,8 @@ would result in the word “Inventory” appearing light blue, while
 "enchantment.minecraft.luck_of_the_sea": "§2Luck§r of the §1§lSea",
 
 would result in the word “Luck” being green, and “Sea” being both blue and bold.
+
+Better examples including support for colored text can be found on the Minecraft Wiki [Page for Formatting Codes](https://minecraft.fandom.com/wiki/Formatting_codes)
 Code| Color/Formatting
 :--:|:--:
 §0|Black
