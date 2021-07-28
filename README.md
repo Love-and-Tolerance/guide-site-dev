@@ -126,53 +126,39 @@ Used to edit the text files in your pack.
 
 Software | Price | OS | Features
 --|--|--|--
-[brackets]*** Transfer to VSCode | free | windows, mac, linux |open source
+[brackets]*** Transfer to [Visual Studio Code] | free | windows, mac, linux |open source
 [notepad++] | free | - | beginner friendly
+[Visual Studio Code] | free | windows, mac, linux | open source, coding features
 
 ### Useful software
 
 Depending on what you want to include in your pack, a program from the relevant category may be needed, or at least save a lot of frustration.
 
-[Blockbench]\
-A free program to create 3d models for Minecraft.
-
-[Mr. Crayfish’s Model Creator]\
-An alternative program for creating Minecraft models.
+Software | About
+--|--
+[Blockbench] | A free program to create 3d models for Minecraft and similar games.
+[Mr. Crayfish’s Model Creator] | An alternative program for creating 3d Minecraft models.
 
 ### Texture/Resource Pack Converters
 
 Tools to convert texture & resource packs to newer versions.
-
-[Dinnerbone's Texture Pack Unstitcher Program (Direct Download)]\
-A tool to convert texture packs to Minecraft version 1.5.
-
-[Flying-Sheep's Texture Pack Unstitcher Rewrite]\
-A rewrite of Dinnerbone’s tool made by a community member.
-
-[TextureEnder made by Mojang (Direct Download)]\
-A tool made by Mojang to convert Texture Packs from 1.5 to resource packs. (also on GitHub)
-
-[Resource Pack Converter]\
-A tool to convert resource packs to newer versions.
-
-[Java to Bedrock Resource Pack Converter]\
-A tool to convert your java resource pack to bedrock.
+Software | About
+--|--
+[Dinnerbone's Texture Pack Unstitcher Program (Direct Download)]|A tool to convert texture packs to Minecraft version 1.5.
+[Flying-Sheep's Texture Pack Unstitcher Rewrite]|A rewrite of Dinnerbone’s tool made by a community member.
+[TextureEnder made by Mojang (Direct Download)]|A tool made by Mojang to convert Texture Packs from 1.5 to resource packs. (also on GitHub)
+[Resource Pack Converter]|A tool to convert resource packs to newer versions.
+[Java to Bedrock Resource Pack Converter]|A tool to convert your java resource pack to bedrock.
 
 ### Other Software
 
 Not always needed, but useful to have sometimes.
-
-[Resource Pack Optimizer]\
-An optimization tool that compresses the image files to save space.
-
-[Quiver]\
-A resource pack creator and manager for Minecraft.
-
-[WinMerge]\
-A useful tool to compare your pack to default Minecraft and see what you're missing and what files are the same as default to remove them.
-
-[Minecraft Sound Extractor]\
-This is for extracting the sound if you want to see how to structure the sound directory in your resource pack.
+Software | About
+--|--
+[Resource Pack Optimizer]|An optimization tool that compresses the image files to save space.
+[Quiver]|A resource pack creator and manager for Minecraft.
+[WinMerge]|A useful tool to compare your pack to default Minecraft and see what you're missing and what files are the same as default to remove them.
+[Minecraft Sound Extractor]|This is for extracting the sound if you want to see how to structure the sound directory in your resource pack.
 
 ## Information and Resources
 
@@ -195,45 +181,32 @@ Minecraft Wiki Page Title | Description
 #### Other Guides
 
 an assortment of other guides with a lot of useful information in them.
-
-[A word about texture packs]\
-A good read about myths surrounding texture/resource packs.
-
-[Animation in Resource Packs]\
-A useful guide on animated block and item textures.
-
-[Making Alternate Textures Guide]\
-A useful guide for variant/alternate textures.
-
-[The All-Inclusive Guide to Texturing]\
-A helpful guide to making texture packs, mostly useful for older versions of Minecraft before 1.5.
-
-[The All-Inclusive Guide to Texturing (Version 2)]\
-An updated version that has useful information on newer versions of Minecraft.
-
-[How To Make A Resource Pack video series by Uncle Jam]\
-A good playlist of videos about making a resource pack. (Has a lot of useful info in it, just please do not copy the default Minecraft assets folder like he does. See common mistakes below.)
-
-[Customizing Minecraft video series by How To Gurus]\
-A great playlist with a lot of useful guides for making a resource pack.
+Title | About | type
+--|--|--
+[A word about texture packs]|A good read about myths surrounding texture/resource packs.|Minecraft Forums Thread
+[Animation in Resource Packs]|A useful guide on animated block and item textures.|Minecraft Forums Thread
+[Making Alternate Textures Guide]|A useful guide for variant/alternate textures.|Minecraft Forums Thread
+[The All-Inclusive Guide to Texturing]|A helpful guide to making texture packs, mostly useful for older versions of Minecraft before 1.5.|Minecraft Forums Thread
+[The All-Inclusive Guide to Texturing (Version 2)]|An updated version that has useful information on newer versions of Minecraft.|Minecraft Forums Thread
+[How To Make A Resource Pack video series by Uncle Jam]|A good playlist of videos about making a resource pack. (Has a lot of useful info in it, just please do not copy the default Minecraft assets folder like he does. See common mistakes below.)|Youtube Video Playlist
+[Customizing Minecraft video series by How To Gurus]|A great playlist with a lot of useful guides for making a resource pack.|Youtube Video Playlist
 
 #### Other Documentation
 
-[Optifine Documentation]\
-The official documentation for Optifine, use it if you want advanced help on some of the features optifine provides for us!
+Documentation | About
+--|--
+[Optifine Documentation]|The official documentation for Optifine, use it if you want advanced help on some of the features optifine provides for us!
 
 #### Places to find help and submit your pack
 
 Good places to go if you need help or want to submit your pack to be seen by the public.
-
-[Minecraft Resource Pack Subreddit]\
-A great place to share your resource pack or ask questions if you are having trouble.
-
-[Planet Minecraft]\
-A goo place to ask for help or post your pack.
-
-[Minecraft Forums]\
-Another good place to ask for help or post your pack.
+Place | About
+--|--
+[Minecraft Resource Pack Subreddit]|A great place to share your resource pack or ask questions if you are having trouble.
+[Planet Minecraft]|A goo place to ask for help or post your pack.
+[Minecraft Forums]|Another good place to ask for help or post your pack.
+[Pack Community Discord]| A discord for people making texturepacks and textures to showcase and get feedback
+[PVPRP Discord]| A discord for the PVPRP website, which also functions as a place to talk about texturepacks
 
 ## Useful Keybinds
 
@@ -241,32 +214,34 @@ Here are some useful key binds I will mention in this guide!
 
 ### Minecraft
 
-| Action           | Keybind |
-| ---------------- | ------- |
-| Reload resources | F3 + T  |
+Action| Keybind
+--|--
+F3 + T|Reload resources
+F3 + D|Clear Chat logs
+F1 | Toggle UI visiblity
 
 ### GIMP
 
-| Action       | Keybind                                                                             |
-| ------------ | ----------------------------------------------------------------------------------- |
-| Pencil       | N                                                                                   |
-| Undo         | Ctrl + Z                                                                            |
-| Redo         | Ctrl + Y                                                                            |
-| Zoom         | Ctrl + mouse wheel in and out.                                                      |
-| Color picker | Ctrl + primary mouse click (only works when pencil/paintbrush is the selected tool) |
-| Pan          | Hold the spacebar and drag the mouse.                                               |
+Action|Keybind
+--|--
+Pencil| N
+Undo| Ctrl + Z
+Redo| Ctrl + Y
+Zoom| Ctrl + mouse wheel in and out
+Color picker | Ctrl + primary mouse click (only works when pencil/paintbrush is the selected tool)
+Pan | Hold the spacebar and drag the mouse.
 
 ### Paint.NET
 
-| Action       | Keybind                                                                                  |
-| ------------ | ---------------------------------------------------------------------------------------- |
-| Pencil       | P                                                                                        |
-| Line Tool    | O                                                                                        |
-| Pan          | Hold the spacebar and left click and drag (alternatively press H to select the pan tool) |
-| Color picker | K                                                                                        |
-| Eraser       | E                                                                                        |
-| Paint Bucket | F                                                                                        |
-| Shape tool   | O, O (press O twice)                                                                     |
+Action|Keybind
+--|--
+Pencil| P
+Line Tool|O
+Pan| Hold the spacebar and left click and drag (alternatively press H to select the pan tool)
+Color picker | K
+Eraser| E
+Paint Bucket | F
+Shape tool | O, O (press O twice)
 
 ## Helpful Advice
 
@@ -392,11 +367,11 @@ Let's go over the folders in the above image.
 ### Resource Pack Folder
 
 Now that you have a basic understanding of how a texture pack is structured, let's start making one. You're going to want to find your resource pack folder; it can be found at:
-| Operating System | Location                                                |
-| ---------------- | ------------------------------------------------------- |
-| Windows          | `%APPDATA%\.minecraft\resourcepacks`                    |
-| MacOS            | `~/Library/Application Support/minecraft/resourcepacks` |
-| Linux            | `~/.minecraft/resourcepacks`                            |
+| Operating System | Location
+|-- | --
+Windows| `%APPDATA%\.minecraft\resourcepacks`
+MacOS| `~/Library/Application Support/minecraft/resourcepacks`
+Linux| `~/.minecraft/resourcepacks`
 
 You can also get to it by clicking `Open Pack Folder` in Minecraft:\
 ![Open Resource Pack Folder]
@@ -424,15 +399,15 @@ Now right-click the pack.mcmeta file and click `Open with Brackets`.\
 ![Pack Mcmeta]
 
 The pack format tells Minecraft what versions this pack will work with:\
-| Pack Format | Minecraft Versions |
-| :---------: | :----------------: |
-|      1      |   1.6.1 to 1.8.9   |
-|      2      |   1.9 to 1.10.2    |
-|      3      |   1.11 to 1.12.2   |
-|      4      |   1.13 to 1.14.4   |
-|      5      |   1.15 to 1.16.1   |
-|      6      |  1.16.2 to 1.16.4  |
-|      7      |        1.17        |
+Pack Format | Minecraft Versions
+:--: | :--:
+|1|1.6.1 to 1.8.9
+|2|1.9 to 1.10.2
+|3|1.11 to 1.12.2
+|4|1.13 to 1.14.4
+|5|1.15 to 1.16.1
+|6|1.16.2 to 1.16.4
+|7|1.17
 
 Change this to the version you will be making the pack for.
 
@@ -577,7 +552,6 @@ After you make your texture, save it, and copy it to your resource pack. In the 
 ```JSON
 {
   "animation": {
-
   }
 }
 ```
@@ -1320,31 +1294,31 @@ would result in the word “Inventory” appearing light blue, while
 "enchantment.minecraft.luck_of_the_sea": "§2Luck§r of the §1§lSea",
 
 would result in the word “Luck” being green, and “Sea” being both blue and bold.
-
-§0 Black\
-§1 Blue\
-§2 Green\
-§3 Cyan\
-§4 Red\
-§5 Magenta\
-§6 Yellow\
-§7 Gray\
-§8 Dark Gray\
-§9 Light Blue\
-§a Light Green\
-§b Light Cyan\
-§c Light Red\
-§d Light Magenta\
-§e Light Yellow\
-§f White
-
-§l    Bold\
-§m    Strikethrough\
-§n    Underline\
-§o    Italic\
-§r    Reset
-
-§k    Obfuscated (Characters that scroll randomly)
+Code| Color/Formatting
+:--:|:--:
+§0|Black
+§1|Blue
+§2|Green
+§3|Cyan
+§4|Red
+§5|Magenta
+§6|Yellow
+§7|Gray
+§8|Dark Gray
+§9|Light Blue
+§a|Light Green
+§b|Light Cyan
+§c|Light Red
+§d|Light Magenta
+§e|Light Yellow
+§f|White
+`--Non-Colored--`|`--Format--`
+§l|Bold
+§m|Strikethrough
+§n|Underline
+§o|Italic
+§r|Reset
+§k|Obfuscated `(Characters that cycle randomly)`
 
 Things to Consider:
 
@@ -1387,6 +1361,23 @@ Minecraft uses `.ogg` files at 96kb/s for its sounds. If using Audacity to make 
 - Proofreading
 - Alternative image/text/model editor programs
 - Light fact checking
+
+**[XCRunnerS]**
+
+- Reformatting tables
+- Additional tables
+- Additional editor programs
+
+## XC'S Plans
+
+- Figure out what was supposed to be in the optifine section
+- Add more info to some program descriptions
+- PVP-based texture tutorials
+  - Custom skies
+  - File optimizations
+  - Shading Styles
+- General pixel art section
+- More
 
 <!-- Links go here -->
 [Resource Pack Template]: https://github.com/Love-and-Tolerance/Resource-Pack-template/releases/latest
@@ -1432,6 +1423,7 @@ Minecraft uses `.ogg` files at 96kb/s for its sounds. If using Audacity to make 
 [Velvet Remedy]: https://github.com/VelvetRemedy
 [Cultist_O]: https://www.reddit.com/user/Cultist_O
 [Epic Acrylic]: http://www.twitter.com/epicacrylic
+[XCRunnerS]:https://github.com/XCRunnerS
 
 [Lospec Editor]: https://lospec.com/pixel-editor/app
 [pixilart Editor]: https://www.pixilart.com/draw
@@ -1440,6 +1432,9 @@ Minecraft uses `.ogg` files at 96kb/s for its sounds. If using Audacity to make 
 [PYXELEDIT]: https://www.pyxeledit.com/
 [aseprite]: https://aseprite.org/#buy
 [Photoshop]: https://www.photoshop.com/en
+[Visual Studio Code]: https://code.visualstudio.com/
+[Pack Community Discord]: discord.gg/packcommunity
+[PVPRP Discord]: discord.gg/pvprp
 
 <!-- Image links go here -->
 [Resource Pack Template Mane]: /assets/resourcepackguide/images/structure/template-mane.png
