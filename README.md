@@ -123,11 +123,10 @@ Software | Price | OS | Features
 
 Used to edit the text files in your pack.
 
-[Brackets]\
-A free code editor I recommend for editing text files.
-
-[Notepad++]\
-Another free light-weight text editor alternative
+Software | Price | OS | Features
+--|--|--|--
+[brackets]*** Transfer to VSCode | free | windows, mac, linux |open source
+[notepad++] | free | - | beginner friendly
 
 ### Useful software
 
@@ -180,28 +179,17 @@ A collection of useful info and resources.
 
 ### Minecraft Wiki
 
-Use ful Minecrafr Wiki pages.
+Useful Minecraf Wiki pages.
 
-[Minecraft Wiki for Resource Packs]\
-The official wiki on Minecraft resource packs. Will be updated regularly per update/snapshot, documenting changes between versions.
-
-[Minecraft Wiki for Creating a Resource Pack]\
-Will be updated regularly per update/snapshot, documenting changes between versions.
-
-[Minecraft Wiki for Texture Packs]\
-Useful information on texture packs for Minecraft versions 1.6.0 and newer.
-
-[Minecraft Wiki for Creating a Texture Pack]\
-Has useful info on making texture packs for Minecraft 1.6.0 and older.
-
-[Minecraft Wiki for Formatting codes]\
-Useful reference when editing text files such as pack.mcmeta and credits.txt.
-
-[Minecraft Wiki for Models]\
-Has a lot of useful info about blockstates and model files.
-
-[Minecraft Wiki for Tint]\
-Useful info about the grass and foliage color tinting.
+Minecraft Wiki Page Title | Description
+-- | --
+[Wiki Page:  Resource Packs] | The official wiki on Minecraft resource packs, updated regularly per update/snapshot, documenting changes between versions.
+[Wiki Page:  Creating a Resource Pack] | Will be updated regularly per update/snapshot, documenting changes between versions.
+[Wiki Page:  Texture Packs] | Useful information on texture packs for Minecraft versions 1.6.0 and newer.
+[Wiki Page:  Creating a Texture Pack] | Has useful info on making texture packs for Minecraft 1.6.0 and older.
+[Wiki Page:  Formatting codes]|Useful reference when editing text files such as pack.mcmeta and credits.txt.
+[Wiki Page:  Models]|Has a lot of useful info about blockstates and model files.
+[Wiki Page:  Tint]|Useful info about the grass and foliage color tinting.
 
 #### Other Guides
 
@@ -1418,13 +1406,13 @@ Minecraft uses `.ogg` files at 96kb/s for its sounds. If using Audacity to make 
 [Quiver]: https://github.com/DeflatedPickle/Quiver
 [WinMerge]: https://winmerge.org/?lang=en
 [Minecraft Sound Extractor]: https://github.com/Ravbug/MCSoundsExtractorCPP
-[Minecraft Wiki for Resource Packs]: https://minecraft.gamepedia.com/Resource_Pack
-[Minecraft Wiki for Creating a Resource Pack]: https://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack
-[Minecraft Wiki for Texture Packs]: https://minecraft.gamepedia.com/Texture_Pack
-[Minecraft Wiki for Creating a Texture Pack]: https://minecraft.gamepedia.com/Tutorials/Custom_texture_packs
-[Minecraft Wiki for Formatting codes]: https://minecraft.gamepedia.com/Formatting_codes
-[Minecraft Wiki for Models]: https://minecraft.gamepedia.com/Model
-[Minecraft Wiki for Tint]: https://minecraft.gamepedia.com/Tint
+[Wiki Page:  Resource Packs]: https://minecraft.gamepedia.com/Resource_Pack
+[Wiki Page:  Creating a Resource Pack]: https://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack
+[Wiki Page:  Texture Packs]: https://minecraft.gamepedia.com/Texture_Pack
+[Wiki Page:  Creating a Texture Pack]: https://minecraft.gamepedia.com/Tutorials/Custom_texture_packs
+[Wiki Page:  Formatting codes]: https://minecraft.gamepedia.com/Formatting_codes
+[Wiki Page:  Models]: https://minecraft.gamepedia.com/Model
+[Wiki Page:  Tint]: https://minecraft.gamepedia.com/Tint
 [A word about texture packs]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256365-a-word-about-texturepacks
 [Animation in Resource Packs]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256350-animation-in-resource-packs-a-minecraft-1-6
 [Making Alternate Textures Guide]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/2209236-1-8-tutorial-alternate-textures-and-custom-models
