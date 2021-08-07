@@ -102,7 +102,7 @@ This is what we will be using to build our resource pack!
 
 ### Image Editors
 
-Software | Price | OS | Features
+Software | Price | OS | Notes
 --|--|--|--
 MS paint | free | Windows | no downloads
 [Lospec Editor] | free | Web-Browser | no downloads + lospec palette integration
@@ -116,7 +116,7 @@ You will need one from each of these catogories to make a resource pack.
 ### Archival Tools
 
 Needed to unzip the Minecraft jar file and to zip your pack when it is done.
-Software | Price | OS | Features
+Software | Price | OS | Notes
 --|--|--|--
 [7-Zip] | free | Windows, linux | -
 
@@ -124,7 +124,7 @@ Software | Price | OS | Features
 
 Used to edit the text files in your pack.
 
-Software | Price | OS | Features
+Software | Price | OS | Notes
 --|--|--|--
 [brackets]*** Transfer to [Visual Studio Code] | free | windows, mac, linux |open source
 [notepad++] | free | - | beginner friendly
@@ -181,7 +181,7 @@ Minecraft Wiki Page Title | Description
 #### Other Guides
 
 an assortment of other guides with a lot of useful information in them.
-Title | About | type
+Title | About | Type
 --|--|--
 [A word about texture packs]|A good read about myths surrounding texture/resource packs.|Minecraft Forums Thread
 [Animation in Resource Packs]|A useful guide on animated block and item textures.|Minecraft Forums Thread
