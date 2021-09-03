@@ -11,9 +11,9 @@ This guide has been hosted on GitHub for a reason; we want you to help make this
 - [Introduction](#introduction)
 - [FAQ](#faq)
 - [Useful Links](#useful-links)
-- [Base Texturepack](#Base-Texturepack)
+- [Base Texturepack](#base-texturepack)
 - [Essential Software](#essential-software)
-  - [Image Editor](#image-editor)
+  - [Image Editors](#image-editors)
   - [Archival Tools](#archival-tools)
   - [Text Editor](#text-editor)
   - [Useful software](#useful-software)
@@ -177,7 +177,7 @@ Minecraft Wiki Page Title | Description
 [Wiki Page:  Models]|Has a lot of useful info about blockstates and model files.
 [Wiki Page:  Tint]|Useful info about the grass and foliage color tinting.
 
-#### Other Guides
+### Other Guides
 
 an assortment of other guides with a lot of useful information in them.
 Title | About | Type
@@ -190,13 +190,13 @@ Title | About | Type
 [How To Make A Resource Pack video series by Uncle Jam]|A good playlist of videos about making a resource pack. (Has a lot of useful info in it, just please do not copy the default Minecraft assets folder like he does. See common mistakes below.)|Youtube Video Playlist
 [Customizing Minecraft video series by How To Gurus]|A great playlist with a lot of useful guides for making a resource pack.|Youtube Video Playlist
 
-#### Other Documentation
+### Other Documentation
 
 Documentation | About
 --|--
 [Optifine Documentation]|The official documentation for Optifine, use it if you want advanced help on some of the features optifine provides for us!
 
-#### Places to find help and submit your pack
+### Places to find help and submit your pack
 
 Good places to go if you need help or want to submit your pack to be seen by the public.
 Place | About
