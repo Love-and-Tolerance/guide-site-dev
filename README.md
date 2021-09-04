@@ -127,7 +127,7 @@ Software | Price | OS | Notes
 --|--|--|--
 [brackets]*** Transfer to [Visual Studio Code] | free | windows, mac, linux |open source
 [notepad++] | free | - | beginner friendly
-[Visual Studio Code] | free | windows, mac, linux | open source, coding features
+[Visual Studio Code] | free | windows, mac, linux | built on open source, coding features
 
 ### Useful software
 
