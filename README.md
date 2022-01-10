@@ -1425,6 +1425,7 @@ Minecraft uses `.ogg` files at 96kb/s for its sounds. If using Audacity to make 
 [Visual Studio Code]: https://code.visualstudio.com/
 [Pack Community Discord]: discord.gg/packcommunity
 [PVPRP Discord]: discord.gg/pvprp
+[Microsoft Bedrock Creator Docs]: https://docs.microsoft.com/en-us/minecraft/creator/
 
 <!-- Image links go here -->
 [Resource Pack Template Mane]: /assets/resourcepackguide/images/structure/template-mane.png
