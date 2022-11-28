@@ -406,7 +406,13 @@ Pack Format | Minecraft Versions
 |4|1.13 to 1.14.4
 |5|1.15 to 1.16.1
 |6|1.16.2 to 1.16.4
-|7|1.17
+|7|1.17 to 1.17.1
+|8| 1.18 to 1.18.2
+|9| 1.19 to 1.19.2
+|11| 22w42a to 22w44a
+|12| 1.19.3
+
+Changes between these versions can be read [here][Pack Formats].
 
 Change this to the version you will be making the pack for.
 
@@ -1406,6 +1412,8 @@ Minecraft uses `.ogg` files at 96kb/s for its sounds. If using Audacity to make 
 [Minecraft Resource Pack Subreddit]: https://www.reddit.com/r/mcresourcepack/
 [Planet Minecraft]: https://www.planetminecraft.com/texture-packs/
 [Minecraft Forums]: https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs
+
+[Pack Formats]: https://minecraft.fandom.com/wiki/Resource_pack#Pack_format
 
 [README Raw]: https://github.com/Love-and-Tolerance/Resource-Pack-Guide/raw/master/README.md
 [Markdown Guide]: https://guides.github.com/features/mastering-markdown/
