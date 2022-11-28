@@ -397,7 +397,7 @@ If you are going to use it, save after editing and close Brackets. If you don't 
 Now right-click the pack.mcmeta file and click `Open with Brackets`.\
 ![Pack Mcmeta]
 
-The pack format tells Minecraft what versions this pack will work with:\
+The pack format tells Minecraft what versions this pack will work with:
 Pack Format | Minecraft Versions
 :--: | :--:
 |1|1.6.1 to 1.8.9
