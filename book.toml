@@ -1,0 +1,9 @@
+[book]
+authors = ["Silk Rose", "Cultist_O", "Autumn Meadow", "Epic Acrylic", "XCRunnerS"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Resource Pack Guide"
+
+[build]
+build-dir = "guide"
