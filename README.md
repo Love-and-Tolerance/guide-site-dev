@@ -1350,7 +1350,7 @@ Minecraft uses `.ogg` files at 96kb/s for its sounds. If using Audacity to make 
 
 ## Credits
 
-**[Velvet Remedy]**
+**[Silk Rose]**
 
 - Initiative
 - Most of the work
@@ -1418,7 +1418,7 @@ Minecraft uses `.ogg` files at 96kb/s for its sounds. If using Audacity to make 
 [README Raw]: https://github.com/Love-and-Tolerance/Resource-Pack-Guide/raw/master/README.md
 [Markdown Guide]: https://guides.github.com/features/mastering-markdown/
 
-[Velvet Remedy]: https://github.com/VelvetRemedy
+[Silk Rose]: https://github.com/SilkRose
 [Cultist_O]: https://www.reddit.com/user/Cultist_O
 [Epic Acrylic]: http://www.twitter.com/epicacrylic
 [XCRunnerS]:https://github.com/XCRunnerS
