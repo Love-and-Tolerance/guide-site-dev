@@ -115,6 +115,7 @@ You will need one from each of these catogories to make a resource pack.
 ### Archival Tools
 
 Needed to unzip the Minecraft jar file and to zip your pack when it is done.
+
 Software | Price | OS | Notes
 --|--|--|--
 [7-Zip] | free | Windows, linux | -
@@ -141,6 +142,7 @@ Software | About
 ### Texture/Resource Pack Converters
 
 Tools to convert texture & resource packs to newer versions.
+
 Software | About
 --|--
 [Dinnerbone's Texture Pack Unstitcher Program (Direct Download)]|A tool to convert texture packs to Minecraft version 1.5.
@@ -152,6 +154,7 @@ Software | About
 ### Other Software
 
 Not always needed, but useful to have sometimes.
+
 Software | About
 --|--
 [Resource Pack Optimizer]|An optimization tool that compresses the image files to save space.
@@ -168,7 +171,7 @@ A collection of useful info and resources.
 Useful Minecraf Wiki pages.
 
 Minecraft Wiki Page Title | Description
--- | --
+--|--
 [Wiki Page:  Resource Packs] | The official wiki on Minecraft resource packs, updated regularly per update/snapshot, documenting changes between versions.
 [Wiki Page:  Creating a Resource Pack] | Will be updated regularly per update/snapshot, documenting changes between versions.
 [Wiki Page:  Texture Packs] | Useful information on texture packs for Minecraft versions 1.6.0 and newer.
@@ -180,6 +183,7 @@ Minecraft Wiki Page Title | Description
 ### Other Guides
 
 an assortment of other guides with a lot of useful information in them.
+
 Title | About | Type
 --|--|--
 [A word about texture packs]|A good read about myths surrounding texture/resource packs.|Minecraft Forums Thread
@@ -199,6 +203,7 @@ Documentation | About
 ### Places to find help and submit your pack
 
 Good places to go if you need help or want to submit your pack to be seen by the public.
+
 Place | About
 --|--
 [Minecraft Resource Pack Subreddit]|A great place to share your resource pack or ask questions if you are having trouble.
@@ -366,6 +371,7 @@ Let's go over the folders in the above image.
 ### Resource Pack Folder
 
 Now that you have a basic understanding of how a texture pack is structured, let's start making one. You're going to want to find your resource pack folder; it can be found at:
+
 | Operating System | Location
 |-- | --
 Windows| `%APPDATA%\.minecraft\resourcepacks`
@@ -398,6 +404,7 @@ Now right-click the pack.mcmeta file and click `Open with Brackets`.\
 ![Pack Mcmeta]
 
 The pack format tells Minecraft what versions this pack will work with:
+
 Pack Format | Minecraft Versions
 :--: | :--:
 |1|1.6.1 to 1.8.9
@@ -1301,6 +1308,7 @@ would result in the word “Inventory” appearing light blue, while
 would result in the word “Luck” being green, and “Sea” being both blue and bold.
 
 Better examples including support for colored text can be found on the Minecraft Wiki [Page for Formatting Codes](https://minecraft.fandom.com/wiki/Formatting_codes)
+
 Code| Color/Formatting
 :--:|:--:
 §0|Black
