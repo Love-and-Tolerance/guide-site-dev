@@ -1,0 +1,179 @@
+.l_t code,
+.l_t .hljs {
+  background: #dfdfdf;
+}
+.l_t code .hljs-attr,
+.l_t code .hljs-string {
+  color: #fbff00;
+}
+.l_t code .hljs-tag {
+  color: #f38ba8;
+}
+.l_t code .hljs-name {
+  color: #f2cdcd;
+}
+.l_t pre .hljs {
+  background: #ececec !important;
+}
+.l_t pre .hljs-params {
+  color: #f38ba8 !important;
+}
+.l_t pre .hljs-built_in,
+.l_t pre .hljs-selector-tag,
+.l_t pre .hljs-section,
+.l_t pre .hljs-link {
+  color: #74c7ec !important;
+}
+.l_t pre .hljs-keyword {
+  color: #cba6f7 !important;
+}
+.l_t pre .hljs,
+.l_t pre .hljs-subst {
+  color: #292929 !important;
+}
+.l_t pre .hljs-title {
+  color: #89b4fa !important;
+}
+.l_t pre .hljs-attr,
+.l_t pre .hljs-meta-keyword {
+  color: #3dbe39 !important;
+}
+.l_t pre .hljs-type {
+  color: #89b4fa !important;
+}
+.l_t pre .hljs-string {
+  color: #ff0022 !important;
+}
+.l_t pre .hljs-tag {
+  color: #f38ba8 !important;
+}
+.l_t pre .hljs-meta,
+.l_t pre .hljs-name,
+.l_t pre .hljs-symbol,
+.l_t pre .hljs-bullet,
+.l_t pre .hljs-addition,
+.l_t pre .hljs-variable,
+.l_t pre .hljs-templ_te-tag,
+.l_t pre .hljs-templ_te-variable {
+  color: #f2cdcd !important;
+}
+.l_t pre .hljs-addition {
+  background-color: #181825 !important;
+  color: #a6e3a1 !important;
+}
+.l_t pre .hljs-deletion {
+  background-color: #181825 !important;
+  color: #f38ba8 !important;
+}
+.l_t pre .hljs-comment,
+.l_t pre .hljs-quote {
+  color: #2e2e2e !important;
+}
+.l_t pre .hljs-keyword,
+.l_t pre .hljs-selector-tag,
+.l_t pre .hljs-literal,
+.l_t pre .hljs-title,
+.l_t pre .hljs-section,
+.l_t pre .hljs-doctag,
+.l_t pre .hljs-type,
+.l_t pre .hljs-name,
+.l_t pre .hljs-strong {
+  font-weight: bold !important;
+}
+.l_t pre .hljs-literal,
+.l_t pre .hljs-number {
+  color: #0066ff !important;
+}
+.l_t pre .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.l_t_dark code,
+.l_t_dark .hljs {
+  background: #1a1a1a;
+}
+.l_t_dark code .hljs-attr,
+.l_t_dark code .hljs-string {
+  color: #fdff77;
+}
+.l_t_dark code .hljs-tag {
+  color: #ff759c;
+}
+.l_t_dark code .hljs-name {
+  color: #ff7b7b;
+}
+.l_t_dark pre .hljs {
+  background: #0a0a0a !important;
+}
+.l_t_dark pre .hljs-params {
+  color: #ff80a4 !important;
+}
+.l_t_dark pre .hljs-built_in,
+.l_t_dark pre .hljs-selector-tag,
+.l_t_dark pre .hljs-section,
+.l_t_dark pre .hljs-link {
+  color: #64ceff !important;
+}
+.l_t_dark pre .hljs-keyword {
+  color: #cba6f7 !important;
+}
+.l_t_dark pre .hljs,
+.l_t_dark pre .hljs-subst {
+  color: #cecece !important;
+}
+.l_t_dark pre .hljs-title {
+  color: #89b4fa !important;
+}
+.l_t_dark pre .hljs-attr,
+.l_t_dark pre .hljs-meta-keyword {
+  color: #ffaaf4 !important;
+}
+.l_t_dark pre .hljs-type {
+  color: #89b4fa !important;
+}
+.l_t_dark pre .hljs-string {
+  color: #fff671 !important;
+}
+.l_t_dark pre .hljs-tag {
+  color: #f38ba8 !important;
+}
+.l_t_dark pre .hljs-meta,
+.l_t_dark pre .hljs-name,
+.l_t_dark pre .hljs-symbol,
+.l_t_dark pre .hljs-bullet,
+.l_t_dark pre .hljs-addition,
+.l_t_dark pre .hljs-variable,
+.l_t_dark pre .hljs-templ_t_darke-tag,
+.l_t_dark pre .hljs-templ_t_darke-variable {
+  color: #f2cdcd !important;
+}
+.l_t_dark pre .hljs-addition {
+  background-color: #181825 !important;
+  color: #a6e3a1 !important;
+}
+.l_t_dark pre .hljs-deletion {
+  background-color: #181825 !important;
+  color: #f38ba8 !important;
+}
+.l_t_dark pre .hljs-comment,
+.l_t_dark pre .hljs-quote {
+  color: #bdc5ff !important;
+}
+.l_t_dark pre .hljs-keyword,
+.l_t_dark pre .hljs-selector-tag,
+.l_t_dark pre .hljs-literal,
+.l_t_dark pre .hljs-title,
+.l_t_dark pre .hljs-section,
+.l_t_dark pre .hljs-doctag,
+.l_t_dark pre .hljs-type,
+.l_t_dark pre .hljs-name,
+.l_t_dark pre .hljs-strong {
+  font-weight: bold !important;
+}
+.l_t_dark pre .hljs-literal,
+.l_t_dark pre .hljs-number {
+  color: #87c6fa !important;
+}
+.l_t_dark pre .hljs-emphasis {
+  font-style: italic !important;
+}
