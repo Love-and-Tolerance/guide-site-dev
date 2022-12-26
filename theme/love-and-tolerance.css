@@ -4,29 +4,29 @@
   --sidebar-bg: #ececec;
   --sidebar-fg: #181818;
   --sidebar-non-existant: #6c7086;
-  --sidebar-active: #f5e0dc;
+  --sidebar-active: #0077ff;
   --sidebar-spacer: #6c7086;
-  --scrollbar: #5785a3;
-  --icons: #6c7086;
-  --icons-hover: #7f849c;
+  --scrollbar: #0099e0;
+  --icons: #2457ff;
+  --icons-hover: #ff24da;
   --links: #ff48ad;
   --inline-code-color: #9f4bff;
-  --theme-popup-bg: #181825;
+  --theme-popup-bg: #ececec;
   --theme-popup-border: #6c7086;
-  --theme-hover: #6c7086;
-  --quote-bg: #181825;
-  --quote-border: #11111b;
+  --theme-hover: #c5c5c5;
+  --quote-bg: #ececec;
+  --quote-border: #ececec;
   --table-border-color: #ececec;
   --table-header-bg: #d8d8d8;
   --table-alternate-bg: #ececec;
-  --searchbar-border-color: #11111b;
-  --searchbar-bg: #181825;
-  --searchbar-fg: #cdd6f4;
+  --searchbar-border-color: #444444;
+  --searchbar-bg: #ececec;
+  --searchbar-fg: #000000;
   --searchbar-shadow-color: #11111b;
   --searchresults-header-fg: #cdd6f4;
-  --searchresults-border-color: #11111b;
+  --searchresults-border-color: #ececec;
   --searchresults-li-bg: #1e1e2e;
-  --search-mark-bg: #fab387;
+  --search-mark-bg: #fa87ce;
 }
 
 .l_t_dark {
@@ -39,7 +39,7 @@
   --sidebar-spacer: #7af162;
   --scrollbar: #71ff7d;
   --icons: #768bff;
-  --icons-hover: #7f849c;
+  --icons-hover: #ff24da;
   --links: #f76dc4;
   --inline-code-color: #bd87fa;
   --theme-popup-bg: #1a1a1a;
