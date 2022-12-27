@@ -1,33 +1,5 @@
 # Minecraft Java Resource Pack Creation Guide <!-- omit in toc -->
 
-## Introduction
-
-This guide will walk you through the steps of making your very own resource pack for Minecraft. One thing different about this guide is, it’s also a resource pack! Everything covered in this guide will also be in the resource pack, so you can download it and get hands-on with everything we cover. To download the latest version, go to the releases page.
-
-This guide has been hosted on GitHub for a reason; we want you to help make this guide the best it can be. If you see something that is wrong, or think you can expand a section to make it better, we encourage you to Fork this repository and do a Pull Request with your additions (don't forget to add yourself to the credits)!
-
-## FAQ
-
-Let’s start off by answering some questions you may have about resource packs.
-
-**What is a resource pack?**\
-A resource pack is a folder or .zip that changes the “assets” loaded into Minecraft. It is a way to customize or completely change how the game looks and sounds.
-
-**Are resource packs the same as texture packs?**\
-These terms are sometimes used that way, but “texture packs” were for Minecraft 1.5.2 and before, and only changed the images the game used for things like blocks, items and GUIs. Resource packs replaced this functionality, and can also manage models, sounds, and much more.
-
-**Are they hard to make?**\
-No, they are rather easy to do once you have an understanding of how Minecraft structures its assets folder. This guide will help you with that.
-
-**Do I have to change every texture?**\
-No, the great thing about Minecraft is you only need to texture the stuff you want to change. Minecraft loads your pack(s) over top of the default textures, so anything you don't change will remain the default.
-
-**What programs do I need to make a resource pack?**\
-For most resource packs, all you need is an archive tool, a plain text editor, and an image editor.
-
-**So what is a “plain” text editor?**\
-A plain text editor is a program that edits text files, but does not have fancy features like fonts, bold or colored text, and text size. Notepad and Notepad++ are examples of these. “Rich” text editors will not work, and using them will break any minecraft asset you edit with them, probably permanently. (Rich text editors include programs like Microsoft Word, Google Docs, etc.)
-
 ## Useful Links
 
 Here are some links which will be useful or needed to make a resource pack.

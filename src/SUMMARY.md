@@ -2,8 +2,8 @@
 
 - [Chapter 1](./chapter_1.md)
 
-- [Introduction]()
-- [FAQ]()
+- [Introduction](README.md)
+- [FAQ](faq.md)
 - [Useful Links]()
 - [Base Texturepack]()
 - [Essential Software]()
