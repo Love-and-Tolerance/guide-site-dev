@@ -2,6 +2,8 @@
 
 Documentation | About
 --|--
-[Optifine Documentation]|The official documentation for Optifine, use it if you want advanced help on some of the features optifine provides for us!
+[Optifine Documentation] | Optifine documentation website.
+[Optifine Github Documentation] | Optifine's old documentation.
 
-[Optifine Documentation]: https://github.com/sp614x/optifine/tree/master/OptiFineDoc/doc
+[Optifine Documentation]: https://optifine.readthedocs.io/
+[Optifine Github Documentation]: https://github.com/sp614x/optifine/tree/master/OptiFineDoc/doc

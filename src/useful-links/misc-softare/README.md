@@ -1,5 +1,5 @@
 # Miscellaneous Software
 
-- [Useful software](useful-software.md)
+- [3D Modeling Software](3d-model-software.md)
 - [Texture/Resource Pack Converters](converters.md)
 - [Other Software](misc-software.md)

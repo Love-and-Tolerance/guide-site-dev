@@ -207,8 +207,6 @@ Pack Format | Minecraft Versions
 |11| 22w42a to 22w44a
 |12| 1.19.3
 
-Changes between these versions can be read [here][Pack Formats].
-
 Change this to the version you will be making the pack for.
 
 The description is what appears in the game on the resource pack selection screen, It can be customized with different colors and such. See the link above about formatting codes for how this works.
@@ -1172,8 +1170,6 @@ Minecraft uses `.ogg` files at 96kb/s for its sounds. If using Audacity to make 
 - Additional editor programs
 
 <!-- Links go here -->
-[Pack Formats]: https://minecraft.fandom.com/wiki/Resource_pack#Pack_format
-
 [README Raw]: https://github.com/Love-and-Tolerance/Resource-Pack-Guide/raw/master/README.md
 [Markdown Guide]: https://guides.github.com/features/mastering-markdown/
 
