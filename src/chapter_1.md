@@ -1,40 +1,5 @@
 # Minecraft Java Resource Pack Creation Guide <!-- omit in toc -->
 
-## Useful Keybinds
-
-Here are some useful key binds I will mention in this guide!
-
-### Minecraft
-
-Action| Keybind
---|--
-F3 + T|Reload resources
-F3 + D|Clear Chat logs
-F1 | Toggle UI visiblity
-
-### GIMP
-
-Action|Keybind
---|--
-Pencil| N
-Undo| Ctrl + Z
-Redo| Ctrl + Y
-Zoom| Ctrl + mouse wheel in and out
-Color picker | Ctrl + primary mouse click (only works when pencil/paintbrush is the selected tool)
-Pan | Hold the spacebar and drag the mouse.
-
-### Paint.NET
-
-Action|Keybind
---|--
-Pencil| P
-Line Tool|O
-Pan| Hold the spacebar and left click and drag (alternatively press H to select the pan tool)
-Color picker | K
-Eraser| E
-Paint Bucket | F
-Shape tool | O, O (press O twice)
-
 ## Helpful Advice
 
 ### General Advice
