@@ -1,23 +1,5 @@
 # Minecraft Java Resource Pack Creation Guide <!-- omit in toc -->
 
-## Helpful Advice
-
-### General Advice
-
-Before we get started I'm going to give some general advice when creating your resource pack:
-
-- It is best to stick to one resolution size for your pack, changing resolution on a texture by texture basis can be jarring to players as well as potentially stress the texture system.
-- If you want to make sure builds using default textures look good with your pack, or vice versa, use the same colors as the default texture.
-- While you don't have to follow any of this advice, I recommend following them at least while you are learning how to make a resource pack.
-
-### Common mistakes
-
-Here are some common mistakes to avoid while making your texture pack.
-
-- Do not just copy Minecraft’s assets folder and make your texture pack on top of it, this bloats the size of your resource pack and makes it hard to find and fix problems in the future. Minecraft loads your pack overtop of the default assets so this is not needed and is not recommended. (seriously, you will thank me later)
-- Make sure your textures have the exact same name as default Minecraft.
-- Make sure you place your textures in the right folders.
-
 ## Resource Pack Structure
 
 Before we start making a resource pack, I’m going to go over how a resource pack is structured.
