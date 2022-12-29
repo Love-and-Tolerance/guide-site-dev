@@ -25,7 +25,7 @@
   - [Paint.NET](keybinds/paint-net.md)
 - [Helpful Advice](advice/README.md)
   - [General Advice](advice/general.md)
-  - [Common mistakes](advice/mistakes.md)
+  - [Common Mistakes](advice/mistakes.md)
 - [Resource Pack Structure]()
 - [Making a New Pack]()
   - [Resource Pack Folder]()

@@ -1,4 +1,4 @@
-# Common mistakes
+# Common Mistakes
 
 Here are some common mistakes to avoid while making your texture pack.
 
