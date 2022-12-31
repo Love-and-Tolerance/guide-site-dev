@@ -1,3 +1,5 @@
-src/*/*/guide
-src/*/*/theme
+src/guides/*/guide
+src/guides/*/theme
+src/site/guide
+src/site/theme
 deploy
