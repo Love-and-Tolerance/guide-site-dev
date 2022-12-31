@@ -1,0 +1,16 @@
+[book]
+authors = ["Silk Rose"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Love & Tolerance Guides"
+
+[build]
+build-dir = "guide"
+
+[output.html]
+default-theme = "l_t"
+preferred-dark-theme = "l_t_dark"
+additional-css = ["./theme/love-and-tolerance.css", "./theme/love-and-tolerance-highlight.css", "./theme/catppuccin.css", "./theme/catppuccin-highlight.css"]
+git-repository-url = "https://github.com/Love-and-Tolerance/Resource-Pack-Guide"
+no-section-label = true
