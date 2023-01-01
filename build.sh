@@ -35,16 +35,18 @@ cd ../..
 cp -r src/site/guide/* ./deploy
 cp src/site/guide/.nojekyll ./deploy
 
-folders="css, FontAwesome, fonts, theme"
+folders="css FontAwesome fonts theme"
 
-files="404.html, ayu-highlight.css, book.js, clipboard.min.js, elasticlunr.min.js, favicon.png, favicon.svg, highlight.css, highlight.js, ,mark.min.js, print.html, searcher.js, searchindex.js, searchindex.json, tomorrow-night.css, .nojekyll"
+files="404.html ayu-highlight.css book.js clipboard.min.js elasticlunr.min.js favicon.png favicon.svg highlight.css highlight.js mark.min.js print.html searcher.js searchindex.js searchindex.json tomorrow-night.css .nojekyll"
 
+pwd
 for guide in ./src/guides/*/
 do
     guide_path=${guide%*/}
     guide_name=${guide_path##*/}
     echo "$guide_name"
     echo "$guide_path"
+    pwd
     cd "$guide_path" || exit 2
     rm -rf guide theme
     mkdir guide theme
@@ -54,13 +56,36 @@ do
     mdbook build
     cd guide || exit 2
     for folder in $folders; do
-        rm -rf "$(echo "$folder" | tr -d ",")"
+        rm -rf "$folder"
     done
     for file in $files; do
-        rm -rf "$(echo "$file" | tr -d ",")"
+        rm -rf "$file"
     done
     cd ../../../..
     mkdir deploy/"$guide_name"
     cp -r "$guide_path"/guide/* ./deploy/"$guide_name"/
+    cd deploy/$guide_name/ || exit 2
+    for file in `find -name '*.html'`
+    do
+        depth=0
+        i=0
+        while [ $i -lt `expr length $file` ]; do
+            char=`expr substr "$file" $((i+1)) 1`
+            if [ "$char" = '/' ]; then
+                depth=$((depth+1))
+            fi
+            i=$((i+1))
+        done
+        relative_to_root=""
+        i=0
+        while [ $i -lt $depth ]; do
+            relative_to_root="$relative_to_root../"
+            i=$((i+1))
+        done
+        relative_to_root=$(echo "$relative_to_root" | awk '{sub(/\/$/,"",$1); print $1}')
+        awk '{gsub(/\{mane\}/,"'"$relative_to_root"'")} 1' "$file" > "$file".tmp
+        mv "$file".tmp "$file"
+    done
+    cd ../..
 done
 

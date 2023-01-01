@@ -21,32 +21,32 @@
         <meta name="theme-color" content="#ffffff" />
 
         {{#if favicon_svg}}
-        <link rel="icon" href="../favicon.svg">
+        <link rel="icon" href="{mane}/favicon.svg">
         {{/if}}
         {{#if favicon_png}}
-        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="shortcut icon" href="{mane}/favicon.png">
         {{/if}}
-        <link rel="stylesheet" href="../css/variables.css">
-        <link rel="stylesheet" href="../css/general.css">
-        <link rel="stylesheet" href="{{ path_to_root }}css/chrome.css">
+        <link rel="stylesheet" href="{mane}/css/variables.css">
+        <link rel="stylesheet" href="{mane}/css/general.css">
+        <link rel="stylesheet" href="{mane}/css/chrome.css">
         {{#if print_enable}}
-        <link rel="stylesheet" href="../css/print.css" media="print">
+        <link rel="stylesheet" href="{mane}/css/print.css" media="print">
         {{/if}}
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="{mane}/FontAwesome/css/font-awesome.css">
         {{#if copy_fonts}}
-        <link rel="stylesheet" href="../fonts/fonts.css">
+        <link rel="stylesheet" href="{mane}/fonts/fonts.css">
         {{/if}}
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="../highlight.css">
-        <link rel="stylesheet" href="../tomorrow-night.css">
-        <link rel="stylesheet" href="../ayu-highlight.css">
+        <link rel="stylesheet" href="{mane}/highlight.css">
+        <link rel="stylesheet" href="{mane}/tomorrow-night.css">
+        <link rel="stylesheet" href="{mane}/ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
         {{#each additional_css}}
-        <link rel="stylesheet" href="../theme/{{ this }}">
+        <link rel="stylesheet" href="{mane}/{{ this }}">
         {{/each}}
 
         {{#if mathjax_support}}
@@ -145,7 +145,7 @@
 
                     <div class="right-buttons">
                         {{#if print_enable}}
-                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                        <a href="{mane}/print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         {{/if}}
@@ -284,18 +284,18 @@
         {{/if}}
 
         {{#if search_js}}
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{mane}/elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{mane}/mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{mane}/searcher.js" type="text/javascript" charset="utf-8"></script>
         {{/if}}
 
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{mane}/clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{mane}/highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{mane}/book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
         {{#each additional_js}}
-        <script type="text/javascript" src="{{ ../path_to_root }}{{this}}"></script>
+        <script type="text/javascript" src="{mane}/{{this}}"></script>
         {{/each}}
 
         {{#if is_print}}
