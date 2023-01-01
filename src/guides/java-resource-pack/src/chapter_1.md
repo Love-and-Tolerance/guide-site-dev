@@ -1126,61 +1126,61 @@ Minecraft uses `.ogg` files at 96kb/s for its sounds. If using Audacity to make 
 [XCRunnerS]:https://github.com/XCRunnerS
 
 <!-- Image links go here -->
-[Resource Pack Template Mane]: /assets/resourcepackguide/images/structure/template-mane.png
-[Resource Pack Template Assets]: /assets/resourcepackguide/images/structure/template-assets.png
-[Resource Pack Reamls Mod Example]: /assets/resourcepackguide/images/structure/realms-mod-assets-example.png
-[Resource Pack Minecraft Empty]: /assets/resourcepackguide/images/structure/template-mc-empty.png
-[Default Minecraft Assets]: /assets/resourcepackguide/images/structure/default-mc.png
-[Default Minecraft Models]: /assets/resourcepackguide/images/structure/default-models.png
-[Default Minecraft Textures]: /assets/resourcepackguide/images/structure/default-textures.png
+[Resource Pack Template Mane]: ./assets/resourcepackguide/images/structure/template-mane.png
+[Resource Pack Template Assets]: ./assets/resourcepackguide/images/structure/template-assets.png
+[Resource Pack Reamls Mod Example]: ./assets/resourcepackguide/images/structure/realms-mod-assets-example.png
+[Resource Pack Minecraft Empty]: ./assets/resourcepackguide/images/structure/template-mc-empty.png
+[Default Minecraft Assets]: ./assets/resourcepackguide/images/structure/default-mc.png
+[Default Minecraft Models]: ./assets/resourcepackguide/images/structure/default-models.png
+[Default Minecraft Textures]: ./assets/resourcepackguide/images/structure/default-textures.png
 
-[Open Resource Pack Folder]: /assets/resourcepackguide/images/making-a-pack/open-rp-folder.png
-[Copy Template Here]: /assets/resourcepackguide/images/making-a-pack/copy-template.png
-[Template mane]: /assets/resourcepackguide/images/making-a-pack/template-mane.png
-[License File]: /assets/resourcepackguide/images/making-a-pack/license.png
-[Pack Mcmeta]: /assets/resourcepackguide/images/making-a-pack/pack-mcmeta.png
-[Make Textures Folder]: /assets/resourcepackguide/images/making-a-pack/make-textures-folder.png
-[Make Block Folder]: /assets/resourcepackguide/images/making-a-pack/make-block-folder.png
+[Open Resource Pack Folder]: ./assets/resourcepackguide/images/making-a-pack/open-rp-folder.png
+[Copy Template Here]: ./assets/resourcepackguide/images/making-a-pack/copy-template.png
+[Template mane]: ./assets/resourcepackguide/images/making-a-pack/template-mane.png
+[License File]: ./assets/resourcepackguide/images/making-a-pack/license.png
+[Pack Mcmeta]: ./assets/resourcepackguide/images/making-a-pack/pack-mcmeta.png
+[Make Textures Folder]: ./assets/resourcepackguide/images/making-a-pack/make-textures-folder.png
+[Make Block Folder]: ./assets/resourcepackguide/images/making-a-pack/make-block-folder.png
 
-[Up To Minecraft Folder]: /assets/resourcepackguide/images/extracting-the-jar/up-folder-to-dotmc.png
-[Into Versions Folder]: /assets/resourcepackguide/images/extracting-the-jar/versions.png
-[1.16.4 Folder]: /assets/resourcepackguide/images/extracting-the-jar/1.16.4.png
-[Jar File]: /assets/resourcepackguide/images/extracting-the-jar/jar-file.png
-[Inside Extracted Jar]: /assets/resourcepackguide/images/extracting-the-jar/jar-extracted.png
-[Default Assets Folder]: /assets/resourcepackguide/images/extracting-the-jar/default-assets.png
-[Default Minecraft]: /assets/resourcepackguide/images/extracting-the-jar/default-mc.png
-[Default Textures]: /assets/resourcepackguide/images/extracting-the-jar/default-textures.png
-[Default block]: /assets/resourcepackguide/images/extracting-the-jar/default-block.png
+[Up To Minecraft Folder]: ./assets/resourcepackguide/images/extracting-the-jar/up-folder-to-dotmc.png
+[Into Versions Folder]: ./assets/resourcepackguide/images/extracting-the-jar/versions.png
+[1.16.4 Folder]: ./assets/resourcepackguide/images/extracting-the-jar/1.16.4.png
+[Jar File]: ./assets/resourcepackguide/images/extracting-the-jar/jar-file.png
+[Inside Extracted Jar]: ./assets/resourcepackguide/images/extracting-the-jar/jar-extracted.png
+[Default Assets Folder]: ./assets/resourcepackguide/images/extracting-the-jar/default-assets.png
+[Default Minecraft]: ./assets/resourcepackguide/images/extracting-the-jar/default-mc.png
+[Default Textures]: ./assets/resourcepackguide/images/extracting-the-jar/default-textures.png
+[Default block]: ./assets/resourcepackguide/images/extracting-the-jar/default-block.png
 
-[Search For Block]: /assets/resourcepackguide/images/making-a-texture/block-search.png
-[Block Copied]: /assets/resourcepackguide/images/making-a-texture/stone-copied.png
-[Gimp Open]: /assets/resourcepackguide/images/making-a-texture/gimp-open.png
-[Gimp Zoom]: /assets/resourcepackguide/images/making-a-texture/gimp-zoom.png
-[Gimp Set Pencil To 1]: /assets/resourcepackguide/images/making-a-texture/gimp-pencil-1.png
-[Stone Done]: /assets/resourcepackguide/images/making-a-texture/stone-new.png
-[Gimp Overwrite]: /assets/resourcepackguide/images/making-a-texture/stone-overwrite.png
+[Search For Block]: ./assets/resourcepackguide/images/making-a-texture/block-search.png
+[Block Copied]: ./assets/resourcepackguide/images/making-a-texture/stone-copied.png
+[Gimp Open]: ./assets/resourcepackguide/images/making-a-texture/gimp-open.png
+[Gimp Zoom]: ./assets/resourcepackguide/images/making-a-texture/gimp-zoom.png
+[Gimp Set Pencil To 1]: ./assets/resourcepackguide/images/making-a-texture/gimp-pencil-1.png
+[Stone Done]: ./assets/resourcepackguide/images/making-a-texture/stone-new.png
+[Gimp Overwrite]: ./assets/resourcepackguide/images/making-a-texture/stone-overwrite.png
 
-[Move-To-Active]: /assets/resourcepackguide/images/seeing-first-texture-in-game/move-to-active.png
-[Stone-In-Game]: /assets/resourcepackguide/images/seeing-first-texture-in-game/stone-in-game.png
+[Move-To-Active]: ./assets/resourcepackguide/images/seeing-first-texture-in-game/move-to-active.png
+[Stone-In-Game]: ./assets/resourcepackguide/images/seeing-first-texture-in-game/stone-in-game.png
 
-[Sealantern Image]: /assets/resourcepackguide/images/texture-animation/sea-lantern-png.png
-[Sealantern Mcmeta]: /assets/resourcepackguide/images/texture-animation/sea-lantern-mcmeta.png
-[Glowstone Image]: /assets/resourcepackguide/images/texture-animation/glowstone.png
-[Gimp Canvas]: /assets/resourcepackguide/images/texture-animation/canvas.png
-[Gimp Height]: /assets/resourcepackguide/images/texture-animation/canvas-hieght.png
-[Glowstone Six]: /assets/resourcepackguide/images/texture-animation/glowstone-6.png
-[Glowstone Six Done]: /assets/resourcepackguide/images/texture-animation/glowstone-6-done.png
-[Glowstone In Game]: /assets/resourcepackguide/images/texture-animation/glowstone-in-game.gif
+[Sealantern Image]: ./assets/resourcepackguide/images/texture-animation/sea-lantern-png.png
+[Sealantern Mcmeta]: ./assets/resourcepackguide/images/texture-animation/sea-lantern-mcmeta.png
+[Glowstone Image]: ./assets/resourcepackguide/images/texture-animation/glowstone.png
+[Gimp Canvas]: ./assets/resourcepackguide/images/texture-animation/canvas.png
+[Gimp Height]: ./assets/resourcepackguide/images/texture-animation/canvas-hieght.png
+[Glowstone Six]: ./assets/resourcepackguide/images/texture-animation/glowstone-6.png
+[Glowstone Six Done]: ./assets/resourcepackguide/images/texture-animation/glowstone-6-done.png
+[Glowstone In Game]: ./assets/resourcepackguide/images/texture-animation/glowstone-in-game.gif
 
-[Honey Files]: /assets/resourcepackguide/images/different-looks-different-states/bee-files.png
-[honey level In Game]: /assets/resourcepackguide/images/different-looks-different-states/honey-level-in-game.png
+[Honey Files]: ./assets/resourcepackguide/images/different-looks-different-states/bee-files.png
+[honey level In Game]: ./assets/resourcepackguide/images/different-looks-different-states/honey-level-in-game.png
 
-[Variants Files]: /assets/resourcepackguide/images/variant-textures/6-diamond-textures.png
-[Copy Variant Models]: /assets/resourcepackguide/images/variant-textures/variants-model-copy.png
-[Edit Variant Model Files]: /assets/resourcepackguide/images/variant-textures/edit-models.png
-[Variants In Game]: /assets/resourcepackguide/images/variant-textures/variants-in-game.png
+[Variants Files]: ./assets/resourcepackguide/images/variant-textures/6-diamond-textures.png
+[Copy Variant Models]: ./assets/resourcepackguide/images/variant-textures/variants-model-copy.png
+[Edit Variant Model Files]: ./assets/resourcepackguide/images/variant-textures/edit-models.png
+[Variants In Game]: ./assets/resourcepackguide/images/variant-textures/variants-in-game.png
 
-[Barrel Texture Files]: /assets/resourcepackguide/images/weighted-variants/barrel-texture-files.png
-[Barrel closed In Game]: /assets/resourcepackguide/images/weighted-variants/closed-barrel-in-game.png
-[Barrel Normal Open]: /assets/resourcepackguide/images/weighted-variants/open-barrel-in-game.png
-[Barrel Ponk Open]: /assets/resourcepackguide/images/weighted-variants/ponk-barrel-in-game.png
+[Barrel Texture Files]: ./assets/resourcepackguide/images/weighted-variants/barrel-texture-files.png
+[Barrel closed In Game]: ./assets/resourcepackguide/images/weighted-variants/closed-barrel-in-game.png
+[Barrel Normal Open]: ./assets/resourcepackguide/images/weighted-variants/open-barrel-in-game.png
+[Barrel Ponk Open]: ./assets/resourcepackguide/images/weighted-variants/ponk-barrel-in-game.png
