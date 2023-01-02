@@ -1,0 +1,30 @@
+name: Build and Deploy Guide Site
+
+on:
+  push:
+    branches:
+      - deploy
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Setup
+      uses: actions/checkout@v3
+      uses: actions/setup-rust@v1
+      with:
+        rust-version: stable
+    - run: cargo install mdbook oxipng
+
+    - name: Build
+      run: ./build-gh-pages.sh
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages
+        folder: deploy
