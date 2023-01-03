@@ -1,0 +1,1074 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js l_t">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 1 - Resource Pack Guide</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/love-and-tolerance.css">
+        <link rel="stylesheet" href="../theme/love-and-tolerance-highlight.css">
+        <link rel="stylesheet" href="../theme/catppuccin.css">
+        <link rel="stylesheet" href="../theme/catppuccin-highlight.css">
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "l_t_dark" : "l_t";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('l_t')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="chapter_1.html" class="active">Chapter 1</a></li><li class="chapter-item expanded "><a href="index.html">Introduction</a></li><li class="chapter-item expanded "><a href="faq.html">FAQ</a></li><li class="chapter-item expanded "><a href="useful-links/index.html">Useful Links</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="useful-links/base-pack/index.html">Base Resource Pack</a></li><li class="chapter-item expanded "><a href="useful-links/essential-softare/index.html">Essential Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="useful-links/essential-softare/image-editors.html">Image Editors</a></li><li class="chapter-item expanded "><a href="useful-links/essential-softare/archive-tools.html">Archival Tools</a></li><li class="chapter-item expanded "><a href="useful-links/essential-softare/text-editors.html">Text Editors</a></li></ol></li><li class="chapter-item expanded "><a href="useful-links/misc-softare/index.html">Miscellaneous Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="useful-links/misc-softare/3d-model-software.html">3D Modeling Software</a></li><li class="chapter-item expanded "><a href="useful-links/misc-softare/converters.html">Texture/Resource Pack Converters</a></li><li class="chapter-item expanded "><a href="useful-links/misc-softare/misc-software.html">Other Software</a></li></ol></li><li class="chapter-item expanded "><a href="useful-links/informative-links/index.html">Information and Resources</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="useful-links/informative-links/mc-wiki.html">Minecraft Wiki</a></li><li class="chapter-item expanded "><a href="useful-links/informative-links/other-guides.html">Other Guides</a></li><li class="chapter-item expanded "><a href="useful-links/informative-links/other-docs.html">Other Documentation</a></li><li class="chapter-item expanded "><a href="useful-links/informative-links/share-and-help.html">Share and Get Help</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="keybinds/index.html">Useful Keybinds</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="keybinds/minecraft.html">Minecraft</a></li><li class="chapter-item expanded "><a href="keybinds/gimp.html">GIMP</a></li><li class="chapter-item expanded "><a href="keybinds/paint-net.html">Paint.NET</a></li></ol></li><li class="chapter-item expanded "><a href="advice/index.html">Helpful Advice</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="advice/general.html">General Advice</a></li><li class="chapter-item expanded "><a href="advice/mistakes.html">Common Mistakes</a></li></ol></li><li class="chapter-item expanded "><div>Resource Pack Structure</div></li><li class="chapter-item expanded "><div>Making a New Pack</div></li><li><ol class="section"><li class="chapter-item expanded "><div>Resource Pack Folder</div></li><li class="chapter-item expanded "><div>Extracting the .jar File</div></li></ol></li><li class="chapter-item expanded "><div>Blocks and Items</div></li><li><ol class="section"><li class="chapter-item expanded "><div>Making Your First Texture</div></li></ol></li><li class="chapter-item expanded "><div>Texture Animation</div></li><li class="chapter-item expanded "><div>Resolution</div></li><li class="chapter-item expanded "><div>Changing Models</div></li><li class="chapter-item expanded "><div>Blockstates</div></li><li><ol class="section"><li class="chapter-item expanded "><div>Different Looks for Different Cases</div></li><li class="chapter-item expanded "><div>Variant Textures</div></li></ol></li><li class="chapter-item expanded "><div>Weighted Variants</div></li><li class="chapter-item expanded "><div>Plant Color</div></li><li class="chapter-item expanded "><div>GUI</div></li><li><ol class="section"><li class="chapter-item expanded "><div>Making a title screen panorama (WIP)</div></li></ol></li><li class="chapter-item expanded "><div>Entities</div></li><li class="chapter-item expanded "><div>Other Visuals</div></li><li class="chapter-item expanded "><div>Debugging</div></li><li><ol class="section"><li class="chapter-item expanded "><div>Common Problems</div></li><li><ol class="section"><li class="chapter-item expanded "><div>Pack Missing from Menu</div></li><li class="chapter-item expanded "><div>Pack Listed as Out of Date</div></li><li class="chapter-item expanded "><div>Changes are Missing</div></li><li class="chapter-item expanded "><div>Purple and Black Texture</div></li><li class="chapter-item expanded "><div>Animated textures not working/look weird</div></li></ol></li><li class="chapter-item expanded "><div>The Output Log</div></li><li><ol class="section"><li class="chapter-item expanded "><div>Activating the Output Log</div></li><li class="chapter-item expanded "><div>Interpreting the Output Log</div></li></ol></li></ol></li><li class="chapter-item expanded "><div>Optifine</div></li><li class="chapter-item expanded "><div>Language Files</div></li><li><ol class="section"><li class="chapter-item expanded "><div>Changing Text</div></li><li class="chapter-item expanded "><div>Changing Text Color & Format</div></li></ol></li><li class="chapter-item expanded "><div>Sounds</div></li><li class="chapter-item expanded "><div>Credits</div></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="l_t">L&T</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="l_t_dark">L&T Dark</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Resource Pack Guide</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Love-and-Tolerance/guide-site-dev" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/Love-and-Tolerance/guide-site-dev/edit/dev/src/guides/java-resource-pack/src/chapter_1.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="minecraft-java-resource-pack-creation-guide"><a class="header" href="#minecraft-java-resource-pack-creation-guide">Minecraft Java Resource Pack Creation Guide <!-- omit in toc --></a></h1>
+<h2 id="resource-pack-structure"><a class="header" href="#resource-pack-structure">Resource Pack Structure</a></h2>
+<p>Before we start making a resource pack, I’m going to go over how a resource pack is structured.</p>
+<p>Pictured below is the resource pack template I provided the link to earlier:<br />
+<img src="./assets/resourcepackguide/images/structure/template-mane.png" alt="Resource Pack Template Mane" /></p>
+<p>This is the main folder of your resource pack; let's go over the files inside it.</p>
+<p><strong>LICENSE</strong> - This file is not needed, but is included in all the packs I manage. It lets anyone know this resource pack has this license and in what ways they may use it. You can edit it to be for your pack or delete it entirely.</p>
+<p><strong>pack.mcmeta</strong> - This file is needed for Minecraft to recognize your texture pack. This tells Minecraft what pack format your pack is (aka what version is it compatible with), what the description of your pack in-game is, and it also tells Minecraft if you have any custom language files (which we’ll get into later).</p>
+<p><strong>pack.png</strong> - This file is the icon for your pack in the resource pack menu in Minecraft.</p>
+<p><strong>README.md</strong> - This file is not needed but is included in all my packs to give information about the pack and credit everyone who works on it. This file can be deleted if not desired.</p>
+<p>Now let's go one folder deeper into the pack. Pictured below is the assets folder:<br />
+<img src="./assets/resourcepackguide/images/structure/template-assets.png" alt="Resource Pack Template Assets" /></p>
+<p>The assets folder holds all the textures for Minecraft. If you want to support Minecraft Realms or any mods, then you add the mod folder to the assets folder. Below is an example:<br />
+<img src="./assets/resourcepackguide/images/structure/realms-mod-assets-example.png" alt="Resource Pack Reamls Mod Example" /></p>
+<p>The <code>realms</code> folder holds textures for Minecraft Realms, and the <code>minelittlepony</code> folder is for textures for that mod.</p>
+<p>For now, we will only be covering textures for default Minecraft. Let's go one level deeper into the minecraft folder:<br />
+<img src="./assets/resourcepackguide/images/structure/template-mc-empty.png" alt="Resource Pack Minecraft Empty" /></p>
+<p>That's right, it's empty. This is where you're going to need to make folders for the areas of minecraft you will want to change.</p>
+<p>Let's figure that out by looking at the default minecraft structure:<br />
+<img src="./assets/resourcepackguide/images/structure/default-mc.png" alt="Default Minecraft Assets" /></p>
+<p>Your resource pack can contain any of these folders. Let's go over them:</p>
+<p><strong>blockstates</strong> - These point Minecraft to the models used in-game for every block.</p>
+<p><strong>font</strong> - Contains information about the size and location of each letter in the font. Most font changes happen at the texture level, you probably won't need this folder.</p>
+<p><strong>lang</strong> - Contains the language files, this is where you put your custom language or edit the default one.</p>
+<p><strong>models</strong> - These are the in-game models for every item and block, they tell Minecraft what shape it is and what texture to use for each side.</p>
+<p><strong>optifine</strong> - (not pictured above) This is where you would put files for optifine support like connected textures.</p>
+<p><strong>particles</strong> - These point Minecraft to the texture file for each particle effect.</p>
+<p><strong>shaders</strong> - The shaders for the old in-game ‘super secret settings’ button that have since been removed. Not modified by most resource packs.</p>
+<p><strong>sounds</strong> - (not pictured above) The sounds go into this folder but do not appear when you extract the Minecraft jar file as they are stored separately.</p>
+<p><strong>texts</strong> - contains the text files for the credits, the end poem, and the title screen splashes.</p>
+<p><strong>textures</strong> - this is where all the textures are stored, this is where you will do most of your work.</p>
+<p><strong>gpu_warnlist.json</strong> - This is a default vanilla file you don't need in your texture pack.</p>
+<p>Two of these folders have sub folders, we will now go over those.</p>
+<p>models:<br />
+<img src="./assets/resourcepackguide/images/structure/default-models.png" alt="Default Minecraft Models" /></p>
+<p>These subfolders are pretty self-explanatory:</p>
+<p><strong>blocks</strong> - block models go here</p>
+<p><strong>items</strong> - item models go here</p>
+<p>textures:<br />
+<img src="./assets/resourcepackguide/images/structure/default-textures.png" alt="Default Minecraft Textures" /></p>
+<p>Let's go over the folders in the above image.</p>
+<p><strong>block</strong> - All the block textures are here. (This is for versions 1.13+; For 1.12.2 and under use <code>blocks</code>)</p>
+<p><strong>colormap</strong> - The grass and foliage colormaps are here.</p>
+<p><strong>effect</strong> - Contains the dither texture, which is used in the notch shading effect that has been removed from default Minecraft.</p>
+<p><strong>entity</strong> - Contains all the mob, NPC, and entity textures, like signs, boats, etc.</p>
+<p><strong>environment</strong> - Contains the sun, moon, rain, snow, clouds, and end sky textures.</p>
+<p><strong>font</strong> - Contains the font textures.</p>
+<p><strong>gui</strong> - Contains all the UI textures, from menus, to the hot bar, containers and more.</p>
+<p><strong>item</strong> - Contains all the item textures. (This is for versions 1.13+; For 1.12.2 and under use <code>items</code>)</p>
+<p><strong>map</strong> - Contains the map icons and background textures.</p>
+<p><strong>misc</strong> - Contains misc textures, from enchantment glint to unknown server &amp; pack.</p>
+<p><strong>mob effect</strong> - Contains all the status effect textures, like strength &amp; speed.</p>
+<p><strong>models</strong> - Contains the textures for the armor in the game.</p>
+<p><strong>painting</strong> - Contains the painting textures.</p>
+<p><strong>particle</strong> - contains all the particles, like explosions, anger, bubble, etc.</p>
+<h2 id="making-a-new-pack"><a class="header" href="#making-a-new-pack">Making a New Pack</a></h2>
+<h3 id="resource-pack-folder"><a class="header" href="#resource-pack-folder">Resource Pack Folder</a></h3>
+<p>Now that you have a basic understanding of how a texture pack is structured, let's start making one. You're going to want to find your resource pack folder; it can be found at:</p>
+<div class="table-wrapper"><table><thead><tr><th>Operating System</th><th>Location</th></tr></thead><tbody>
+<tr><td>Windows</td><td><code>%APPDATA%\.minecraft\resourcepacks</code></td></tr>
+<tr><td>MacOS</td><td><code>~/Library/Application Support/minecraft/resourcepacks</code></td></tr>
+<tr><td>Linux</td><td><code>~/.minecraft/resourcepacks</code></td></tr>
+</tbody></table>
+</div>
+<p>You can also get to it by clicking <code>Open Pack Folder</code> in Minecraft:<br />
+<img src="./assets/resourcepackguide/images/making-a-pack/open-rp-folder.png" alt="Open Resource Pack Folder" /></p>
+<h3 id="extracting-the-jar-file"><a class="header" href="#extracting-the-jar-file">Extracting the .jar File</a></h3>
+<p>Once this folder is open, you are going to want to extract the template and copy that folder here:<br />
+<img src="./assets/resourcepackguide/images/making-a-pack/copy-template.png" alt="Copy Template Here" /></p>
+<p>Once it is copied over, you can rename the folder to what you want your resource pack to be named. I recommend you use dashes <code>-</code> or underscores <code>_</code> rather than spaces, but you don't have to.</p>
+<p>Right-click the template folder and click <code>Open in new window</code>. Minimize the old window, as we will come back to it when we are done editing the template.</p>
+<p>Inside, the template pack looks like this:<br />
+<img src="./assets/resourcepackguide/images/making-a-pack/template-mane.png" alt="Template mane" /></p>
+<p>Right-click the <code>LICENSE</code> file and click <code>Open with Brackets</code> or <code>Edit with Notepad++</code>.</p>
+<p>Read the license and if you plan on keeping it, change the Copyright at the top in this red box to your resource packs name:<br />
+<img src="./assets/resourcepackguide/images/making-a-pack/license.png" alt="License File" /></p>
+<p>If you are going to use it, save after editing and close Brackets. If you don't want to use the License, delete the file.</p>
+<p>Now right-click the pack.mcmeta file and click <code>Open with Brackets</code>.<br />
+<img src="./assets/resourcepackguide/images/making-a-pack/pack-mcmeta.png" alt="Pack Mcmeta" /></p>
+<p>The pack format tells Minecraft what versions this pack will work with:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Pack Format</th><th style="text-align: center">Minecraft Versions</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td style="text-align: center">1.6.1 to 1.8.9</td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: center">1.9 to 1.10.2</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: center">1.11 to 1.12.2</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: center">1.13 to 1.14.4</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: center">1.15 to 1.16.1</td></tr>
+<tr><td style="text-align: center">6</td><td style="text-align: center">1.16.2 to 1.16.4</td></tr>
+<tr><td style="text-align: center">7</td><td style="text-align: center">1.17 to 1.17.1</td></tr>
+<tr><td style="text-align: center">8</td><td style="text-align: center">1.18 to 1.18.2</td></tr>
+<tr><td style="text-align: center">9</td><td style="text-align: center">1.19 to 1.19.2</td></tr>
+<tr><td style="text-align: center">11</td><td style="text-align: center">22w42a to 22w44a</td></tr>
+<tr><td style="text-align: center">12</td><td style="text-align: center">1.19.3</td></tr>
+</tbody></table>
+</div>
+<p>Change this to the version you will be making the pack for.</p>
+<p>The description is what appears in the game on the resource pack selection screen, It can be customized with different colors and such. See the link above about formatting codes for how this works.</p>
+<p>Once you've made your changes, save and close Brackets.</p>
+<p>The last text file in this folder is <code>README.md</code>. If you plan on keeping it, open it in Brackets and edit it to be what you want. I like to have information about the pack and any relevant links for that specific pack and a credits listing everyone who has worked on it. This entire guide has been written in Markdown, <a href="https://github.com/Love-and-Tolerance/Resource-Pack-Guide/raw/master/README.md">here</a> is the raw code. <a href="https://guides.github.com/features/mastering-markdown/">Here</a> is a guide to Markdown. Having a README file is especially useful if you have your resource pack on GitHub, as it is what people see when they look at your repository.</p>
+<p>Once you are done with that, go into the assets folder, then into the minecraft folder. Right-click and hover over <code>New</code> then select <code>Folder</code>, name this folder <code>textures</code> like this:<br />
+<img src="./assets/resourcepackguide/images/making-a-pack/make-textures-folder.png" alt="Make Textures Folder" /></p>
+<p>Next, you are going to go into the textures folder and make a new folder inside it, called <code>block</code>, like this:<br />
+<img src="./assets/resourcepackguide/images/making-a-pack/make-block-folder.png" alt="Make Block Folder" /></p>
+<p>After that, go into the block folder. Now we are going to minimize this window down and go extract the Minecraft .jar file.</p>
+<p>Open up the window you minimized earlier. In the resource pack folder, click the up arrow to get to the .minecraft directory:<br />
+<img src="./assets/resourcepackguide/images/extracting-the-jar/up-folder-to-dotmc.png" alt="Up To Minecraft Folder" /></p>
+<p>Once inside your .minecraft folder, you will want to go into the versions' folder:<br />
+<img src="./assets/resourcepackguide/images/extracting-the-jar/versions.png" alt="Into Versions Folder" /></p>
+<p>Once inside, you will see a folder for each Minecraft version you have installed. You will want to go into the folder for the version you are making the resource pack for. We will be using 1.16.4 for this guide:<br />
+<img src="./assets/resourcepackguide/images/extracting-the-jar/1.16.4.png" alt="1.16.4 Folder" /></p>
+<p>Once inside you are going to see the Minecraft .jar file. This is where all the default assets are for Minecraft:<br />
+<img src="./assets/resourcepackguide/images/extracting-the-jar/jar-file.png" alt="Jar File" /></p>
+<p>You are going to want to extract it. If using 7-Zip, right-click the .jar file and hover over the 7-Zip submenu, then click <code>Extract to 1.16.4\</code>.</p>
+<p>Wait a few seconds for it to finish, then go into the folder it made:<br />
+<img src="./assets/resourcepackguide/images/extracting-the-jar/jar-extracted.png" alt="Inside Extracted Jar" /></p>
+<p>Most of these files are pointless to you. The only thing we care about is the <code>assets</code> folder at the top; go into it:<br />
+<img src="./assets/resourcepackguide/images/extracting-the-jar/default-assets.png" alt="Default Assets Folder" /></p>
+<p>Starting to look familiar? Go into the <code>minecraft</code> folder:<br />
+<img src="./assets/resourcepackguide/images/extracting-the-jar/default-mc.png" alt="Default Minecraft" /></p>
+<h2 id="blocks-and-items"><a class="header" href="#blocks-and-items">Blocks and Items</a></h2>
+<h3 id="making-your-first-texture"><a class="header" href="#making-your-first-texture">Making Your First Texture</a></h3>
+<p>Now go into the <code>textures</code> folder:<br />
+<img src="./assets/resourcepackguide/images/extracting-the-jar/default-textures.png" alt="Default Textures" /></p>
+<p>Next go into the <code>block</code> folder:<br />
+<img src="./assets/resourcepackguide/images/extracting-the-jar/default-block.png" alt="Default Block" /></p>
+<p>There are a lot of files in here; these are all the default block textures. For now, we are going to search for one block at a time. I’m going to be using stone for this example, but you can use any block you want.</p>
+<p>Search for the block you want to make a texture for:<br />
+<img src="./assets/resourcepackguide/images/making-a-texture/block-search.png" alt="Search For Block" /></p>
+<p>Right-click the image and click copy. Move back to your other window and paste it:<br />
+<img src="./assets/resourcepackguide/images/making-a-texture/stone-copied.png" alt="Block Copied" /></p>
+<p>Now right click that copied image, hover over <code>Open with</code> and click <code>GIMP</code>. It will take a few seconds to open up, but you should be met with a screen like this:<br />
+<img src="./assets/resourcepackguide/images/making-a-texture/gimp-open.png" alt="Gimp Open" /></p>
+<p>That texture is tiny. Zoom in by holding down Ctrl and scrolling the mouse wheel in:<br />
+<img src="./assets/resourcepackguide/images/making-a-texture/gimp-zoom.png" alt="Gimp Zoom" /></p>
+<p>Now that's better. Hit the N key to switch the selected tool to the Pencil. On the left side of the screen you will see a menu of tool options; you will want to set size to 1:<br />
+<img src="./assets/resourcepackguide/images/making-a-texture/gimp-pencil-1.png" alt="Gimp Set Pencil To 1" /></p>
+<p>Now it's time to make your texture. If you're reusing the existing colors in the texture, hold down Ctrl and click the color in the image you want to use. This will make it the active color.</p>
+<p>Use the colors in the texture and make a new texture you like. This may take a while and several attempts, but don't give up. Making textures can be hard, but I know you can do it!</p>
+<p>Here is what I came up with for stone:<br />
+<img src="./assets/resourcepackguide/images/making-a-texture/stone-new.png" alt="Stone Done" /></p>
+<p>Once you are happy with the texture you have made you are going to want to export it. Hit the file menu button and click <code>Overwrite stone.png</code>:<br />
+<img src="./assets/resourcepackguide/images/making-a-texture/stone-overwrite.png" alt="Gimp Overwrite" /></p>
+<p>Seeing Your Texture In-Game:<br />
+Once your texture has finished exporting, open up Minecraft and go to the resource packs menu, find your pack on the left, and click the arrow to move it to the active side:<br />
+<img src="./assets/resourcepackguide/images/seeing-first-texture-in-game/move-to-active.png" alt="move-To-Active" /></p>
+<p>Now hit done and wait for it to reload resources. Once back at the menu, create a new world and go see your texture in game:<br />
+<img src="./assets/resourcepackguide/images/seeing-first-texture-in-game/stone-in-game.png" alt="Stone-In-Game" /></p>
+<p>(The above texture has been made for demonstration purposes only; it is not used in any packs. It is loosely based on the stone in “Love &amp; Tolerance”.)</p>
+<h2 id="texture-animation"><a class="header" href="#texture-animation">Texture Animation</a></h2>
+<p>Any block or item texture in Minecraft can be animated. Let’s take a look at one from default Minecraft, to see how they work. Pictured below is <code>sealantern.png</code>:<br />
+<img src="./assets/resourcepackguide/images/texture-animation/sea-lantern-png.png" alt="Sealantern Image" /></p>
+<p>As you can see, it looks like it has 5 textures stacked on top each other. These are actually the frames of the animation on the block.</p>
+<p>Each block or item with animated textures must have a .mcmeta file to work. It is very important this file is named correctly and includes the .png in the filename. Pictured below is the <code>sealantern.png.mcmeta</code> file:<br />
+<img src="./assets/resourcepackguide/images/texture-animation/sea-lantern-mcmeta.png" alt="Sealantern Mcmeta" /></p>
+<p>The <code>frametime</code> parameter above, tells Minecraft to hold each frame for 5 in-game ticks before going to the next one.</p>
+<p>By default, Minecraft will play these in order. If you wanted to play them out of order, you would use the <code>frames</code> parameter, as shown below:</p>
+<pre><code class="language-JSON">{
+  &quot;animation&quot;: {
+    &quot;frametime&quot;: 8,
+    &quot;interpolate&quot;: true,
+    &quot;frames&quot;: [
+      0,
+      1,
+      2
+    ]
+  }
+}
+</code></pre>
+<p>In the code above, the <code>0</code>, <code>1</code>, and <code>2</code> are the frames, and can be placed in any order. They can even repeat.</p>
+<p>Some key things to remember is Minecraft starts with a <code>0</code> when counting frames, and the last item in a list does not need the comma <code>,</code> at the end.</p>
+<p>The <code>interpolate</code> parameter, if <code>true</code>, means Minecraft will generate frames in between the frames of the image if the frametime is more than 1 between those frames.</p>
+<p>There are two more parameters you can use in conjunction with the <code>frames</code> parameter; <code>index</code>, and <code>time</code>.</p>
+<p>Index refers to which frame of the texture you are specifying and time refers to how long to hold that frame in game ticks.</p>
+<p>Now that we have a general idea of how animated textures work, let's make one. I’m going to be making an animated texture for glowstone. Here is the texture I am going to animate:<br />
+<img src="./assets/resourcepackguide/images/texture-animation/glowstone.png" alt="Glowstone Image" /></p>
+<p>As you can see, right now it is just a regular texture. To make it animated, we need to increase the height proportional to the number of frames we want. I want to add 5 frames, and the current height is 16 pixels. 16 x 6 is 96. Remember to include the original frame in your calculation. In GIMP, click the image button, then click canvas size:<br />
+<img src="./assets/resourcepackguide/images/texture-animation/canvas.png" alt="Gimp Canvas" /></p>
+<p>A window will pop up like this:<br />
+<img src="./assets/resourcepackguide/images/texture-animation/canvas-hieght.png" alt="Gimp Height" /></p>
+<p>Set this to what you calculated earlier; I will use 96. After it changes, you will notice some blank space under the original texture. Hit <code>Ctrl + C</code>, then <code>Ctrl + V</code> to copy and paste the original texture. Use the move tool, and move them so they are stacked on top each other, like this:<br />
+<img src="./assets/resourcepackguide/images/texture-animation/glowstone-6.png" alt="Glowstone Six" /></p>
+<p>Now, you need to make your edits to make it animated. I will make a simple expanding ring for demonstration:<br />
+<img src="./assets/resourcepackguide/images/texture-animation/glowstone-6-done.png" alt="Glowstone Six Done" /></p>
+<p>After you make your texture, save it, and copy it to your resource pack. In the same folder, create a new file, and name it, <code>glowstone.png.mcmeta</code>. After that, open it up. It should be blank. We need to tell minecraft this is an animation. Start by typing:</p>
+<pre><code class="language-JSON">{
+  &quot;animation&quot;: {
+  }
+}
+</code></pre>
+<p>We are going to want to add some parameters to this to make it work the way we want. I'm going to add the <code>frametime</code> and <code>frames</code> parameters, like this:</p>
+<pre><code class="language-JSON">{
+  &quot;animation&quot;: {
+    &quot;frametime&quot;: 2,
+    &quot;frames&quot;: [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}
+</code></pre>
+<p>I don't want it to constantly repeat. I want it to hold on the first frame for a bit, I’ll do this by adding the <code>index</code> and <code>time</code> parameters to the first frame in the <code>frames</code> parameter like this:</p>
+<pre><code class="language-JSON">{
+  &quot;animation&quot;: {
+    &quot;frametime&quot;: 2,
+    &quot;frames&quot;: [
+      {
+        &quot;index&quot;: 0,
+        &quot;time&quot;: 10
+      },
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}
+</code></pre>
+<p>Now save the file and go into Minecraft to see how it turned out:<br />
+<img src="./assets/resourcepackguide/images/texture-animation/glowstone-in-game.gif" alt="Glowstone In Game" /></p>
+<p>Works great, yay!</p>
+<h2 id="resolution"><a class="header" href="#resolution">Resolution</a></h2>
+<p>Resource packs come in a wide variety of resolutions, but what does resolution mean?</p>
+<p>Resolution refers to the width and height in pixels of the textures in your pack, usually measured by the resolution of block textures.</p>
+<p>Default Minecraft uses a resolution of 16 pixels by 16 pixels. Your resource pack can be any &quot;power-of-two&quot; resolution you want, from 1x1 all the way to 1024x1024. (The powers of two are: 1, 2, 4, 8, 16, 32 etc.)</p>
+<p>For best performance, it is generally advised to use 256x256 or smaller.</p>
+<h2 id="changing-models"><a class="header" href="#changing-models">Changing Models</a></h2>
+<p>Coming Soon.™</p>
+<h2 id="blockstates"><a class="header" href="#blockstates">Blockstates</a></h2>
+<h3 id="different-looks-for-different-cases"><a class="header" href="#different-looks-for-different-cases">Different Looks for Different Cases</a></h3>
+<p>Some blocks can use different textures or models depending on their in-game <code>block state</code>. The simplest and most common alternative state is rotation, such as how dispensers look different depending on their orientation. Other common blockstates include on or off, full or empty, growth level, connected or disconnected, etc. It can be useful to understand these blockstates if you want to change the way a block with multiple states will look.</p>
+<p>Some blocks have multiple states, but look the same in the vanilla resource pack. That doesn’t mean they have to in yours! For example, you could make a pack wherein beehives look different depending on how much honey they contain, or wherein saplings get bigger when they are half-way to growing into a tree!</p>
+<p>In this example we are going to make beehives show their exact honey level, rather than just full or not like in vanilla.</p>
+<p>By default, beehives have two models. One used by completely full hives, and the other by empty, or partially full hives. The game knows which model to use by referencing the <code>beehive.json</code> blockstate file in the <code>assets/minecraft/blockstates</code> folder.</p>
+<p>By default, this file looks like this:</p>
+<pre><code class="language-JSON">{
+  &quot;variants&quot;: {
+    &quot;facing=east,honey_level=0&quot;: {
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=east,honey_level=1&quot;: {
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=east,honey_level=2&quot;: {
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=east,honey_level=3&quot;: {
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=east,honey_level=4&quot;: {
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=east,honey_level=5&quot;: {
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/beehive_honey&quot;
+    },
+    &quot;facing=north,honey_level=0&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=north,honey_level=1&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=north,honey_level=2&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=north,honey_level=3&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=north,honey_level=4&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=north,honey_level=5&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/beehive_honey&quot;
+    },
+    &quot;facing=south,honey_level=0&quot;: {
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=south,honey_level=1&quot;: {
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=south,honey_level=2&quot;: {
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=south,honey_level=3&quot;: {
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=south,honey_level=4&quot;: {
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=south,honey_level=5&quot;: {
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/beehive_honey&quot;
+    },
+    &quot;facing=west,honey_level=0&quot;: {
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=west,honey_level=1&quot;: {
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=west,honey_level=2&quot;: {
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=west,honey_level=3&quot;: {
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=west,honey_level=4&quot;: {
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=west,honey_level=5&quot;: {
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/beehive_honey&quot;
+    }
+  }
+}
+</code></pre>
+<p>Each <code>variant</code> in this list refers to one model for the game to use. But wait; didn’t I say there were only two? Well if you look carefully, four of these entries actually refer to the same model <code>beehive_honey</code>, which is the model full of honey. They simply instruct the game to rotate the block based on its facing. For example:</p>
+<ul>
+<li><code>&quot;facing = west,honey_level=5&quot;</code> means “if the block is facing west, and has 5 levels of honey”.</li>
+<li><code>&quot;Model&quot;: &quot;minecraft:block/beehive_honey&quot;</code> means use the <code>beehive_honey.json</code> model file from <code>assets/minecraft/block</code>.</li>
+<li><code>&quot;Y&quot;: 270</code> means rotate that model 270 degrees around the vertical axis.</li>
+</ul>
+<p>The other 20 all refer to the <code>beehive</code> model, in each combination of honey level and rotation.</p>
+<p>To tell the game to use a different model for each honey level, all we have to do, is make new models and textures for each case, (see sections above for more detail) and refer to those models accordingly. My recommendation would be to simply copy the existing <code>beehive_honey.json</code> model file and <code>beehive_front_honey.png</code> 4 times each, and rename those copies <code>beehive_1.json</code> through <code>beehive_4.json</code>, and <code>beehive_front_1.png</code> through <code>beehive_front_4.png</code>. In each of these model files, simply edit the <code>honey</code> texture references to the appropriate number, and edit your texture files to look however you want. These are the ones I used:<br />
+<img src="./assets/resourcepackguide/images/different-looks-different-states/bee-files.png" alt="Honey Files" /><br />
+(Note: I also edited the empty and full textures to better match my new style.)</p>
+<p>Finally, change the appropriate lines in the blockstate file to refer to your new model filenames. Your <code>assets/minecraft/blockstates/beehive.json</code> file should end up looking something like this:</p>
+<pre><code class="language-JSON">{
+  &quot;variants&quot;: {
+    &quot;facing=east,honey_level=0&quot;: {
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=east,honey_level=1&quot;: {
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/beehive_1&quot;
+    },
+    &quot;facing=east,honey_level=2&quot;: {
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/beehive_2&quot;
+    },
+    &quot;facing=east,honey_level=3&quot;: {
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/beehive_3&quot;
+    },
+    &quot;facing=east,honey_level=4&quot;: {
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/beehive_4&quot;
+    },
+    &quot;facing=east,honey_level=5&quot;: {
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/beehive_honey_5&quot;
+    },
+    &quot;facing=north,honey_level=0&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=north,honey_level=1&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/beehive_1&quot;
+    },
+    &quot;facing=north,honey_level=2&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/beehive_2&quot;
+    },
+    &quot;facing=north,honey_level=3&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/beehive_3&quot;
+    },
+    &quot;facing=north,honey_level=4&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/beehive_4&quot;
+    },
+    &quot;facing=north,honey_level=5&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/beehive_honey&quot;
+    },
+    &quot;facing=south,honey_level=0&quot;: {
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=south,honey_level=1&quot;: {
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/beehive_1&quot;
+    },
+    &quot;facing=south,honey_level=2&quot;: {
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/beehive_2&quot;
+    },
+    &quot;facing=south,honey_level=3&quot;: {
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/beehive_3&quot;
+    },
+    &quot;facing=south,honey_level=4&quot;: {
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/beehive_4&quot;
+    },
+    &quot;facing=south,honey_level=5&quot;: {
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/beehive_honey&quot;
+    },
+    &quot;facing=west,honey_level=0&quot;: {
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/beehive&quot;
+    },
+    &quot;facing=west,honey_level=1&quot;: {
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/beehive_1&quot;
+    },
+    &quot;facing=west,honey_level=2&quot;: {
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/beehive_2&quot;
+    },
+    &quot;facing=west,honey_level=3&quot;: {
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/beehive_3&quot;
+    },
+    &quot;facing=west,honey_level=4&quot;: {
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/beehive_4&quot;
+    },
+    &quot;facing=west,honey_level=5&quot;: {
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/beehive_honey&quot;
+    }
+  }
+}
+</code></pre>
+<p>Once done, go in game and see how it looks:<br />
+<img src="./assets/resourcepackguide/images/different-looks-different-states/honey-level-in-game.png" alt="Honey Level In Game" /></p>
+<h3 id="variant-textures"><a class="header" href="#variant-textures">Variant Textures</a></h3>
+<p>Minecraft supports the ability to have more than one model for a single block. With this we can make it so blocks have variant textures, to make the world look more alive.</p>
+<p>To do this we are going to need a few things. First we are going to need a texture for each variant you plan to have. Here are the textures I will be using:<br />
+<img src="./assets/resourcepackguide/images/variant-textures/6-diamond-textures.png" alt="Variants Files" /></p>
+<p>As you can see above, I have 6 diamond ore textures. The first one is named exactly like default and the rest have a <code>_2</code>, <code>_3</code>, <code>_4</code>, <code>_5</code>, <code>_6</code> after. You will want to copy these textures into your block folder in your resource pack.</p>
+<p>Once we have done that, we are going to need to get the blockstate file for diamond ore. Go into your extracted minecraft .jar folder, go into the blockstates folder, and copy the blockstate for the block you want to use.</p>
+<p>Go into your resource pack, into the minecraft folder, and make a folder called blockstate. Then, go into it and paste the blockstate you copied earlier. Now, right-click the blockstate and open it in brackets. This is how it looks:</p>
+<pre><code class="language-JSON">{
+  &quot;variants&quot;: {
+    &quot;&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/diamond_ore&quot;
+    }
+  }
+}
+</code></pre>
+<p>As you can see there is only 1 variant at the moment. We want to add 5 more. We do this by adding more models like this:</p>
+<pre><code class="language-JSON">{
+  &quot;variants&quot;: {
+    &quot;&quot;: [
+    { &quot;model&quot;: &quot;minecraft:block/diamond_ore&quot; },
+    { &quot;model&quot;: &quot;minecraft:block/diamond_ore_2&quot; },
+    { &quot;model&quot;: &quot;minecraft:block/diamond_ore_3&quot; },
+    { &quot;model&quot;: &quot;minecraft:block/diamond_ore_4&quot; },
+    { &quot;model&quot;: &quot;minecraft:block/diamond_ore_5&quot; },
+    { &quot;model&quot;: &quot;minecraft:block/diamond_ore_6&quot; }
+    ]
+  }
+}
+</code></pre>
+<p>To add a list in JSON, you need to use <code>[</code> to start it and <code>]</code> to end it. Notice where we place these in the file: after the <code>:</code> that tells minecraft the state to apply these models to, and at the end of the list.</p>
+<p>The last step is to make the model files. Start by going into the default minecraft models folder, go into blocks, and find <code>diamond_ore.json</code>. Copy it, and place it in the same folder in your pack <code>/assets/minecraft/models/block</code>. Once copied there, you will want to make a copy of it for each variant that you want. Rename these to what you put in the blockstates file:<br />
+<img src="./assets/resourcepackguide/images/variant-textures/variants-model-copy.png" alt="Copy Variant Models" /></p>
+<p>Now, you are going to want to open each model, and edit it to point to the correct texture, like this:<br />
+<img src="./assets/resourcepackguide/images/variant-textures/edit-models.png" alt="Edit Variant Model Files" /></p>
+<p>Once you have done that for all of them, we can go in game and try it out. Here are my results:<br />
+<img src="./assets/resourcepackguide/images/variant-textures/variants-in-game.png" alt="Variants In Game" /></p>
+<h2 id="weighted-variants"><a class="header" href="#weighted-variants">Weighted Variants</a></h2>
+<p>Blockstates also can support weighted variants, meaning we can create scarcity in our variant textures. A fun idea for this, is to hide stuff inside the barrel. We are going to be hiding a pink pony inside 15% of the barrels when they are open.</p>
+<p>You're going to want to start off again, by having textures already made:<br />
+<img src="./assets/resourcepackguide/images/weighted-variants/barrel-texture-files.png" alt="Barrel Texture Files" /></p>
+<p>As you can see, I have 2 barrel open textures. One is normal and one has a little surprise in it. We are going to want to copy these to our block textures folder.</p>
+<p>After that, you will want to copy the default blockstate file for the barrel into the blockstate folder for your pack. Opening it up, we see that it is rather long:</p>
+<pre><code class="language-JSON">{
+  &quot;variants&quot;: {
+    &quot;facing=down,open=false&quot;: {
+      &quot;x&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel&quot;
+    },
+    &quot;facing=down,open=true&quot;: {
+      &quot;x&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;
+    },
+    &quot;facing=east,open=false&quot;: {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/barrel&quot;
+    },
+    &quot;facing=east,open=true&quot;: {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;
+    },
+    &quot;facing=north,open=false&quot;: {
+      &quot;x&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/barrel&quot;
+    },
+    &quot;facing=north,open=true&quot;: {
+      &quot;x&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;
+    },
+    &quot;facing=south,open=false&quot;: {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel&quot;
+    },
+    &quot;facing=south,open=true&quot;: {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;
+    },
+    &quot;facing=up,open=false&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/barrel&quot;
+    },
+    &quot;facing=up,open=true&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;
+    },
+    &quot;facing=west,open=false&quot;: {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/barrel&quot;
+    },
+    &quot;facing=west,open=true&quot;: {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;
+    }
+  }
+}
+</code></pre>
+<p>The barrel has quite a lot going on in its blockstate, but don't be intimidated by how complex it looks; it's easy to understand. The <code>facing</code> parameter refers to the direction the front or top of the block is facing. In this case, the barrel is directed by the top side. The <code>x</code> and <code>y</code> parameters refer to the rotation of the model on that axis, when facing that direction. The <code>open</code> parameter refers to whether the barrel is being used by a player. If true it switches to an open-top texture. Lastly, the <code>model</code> parameter refers to the model it will use in that state.</p>
+<p>Now we are going to want to add our variant. We are also going to want to add the <code>weight</code> parameter to each open barrel model. Start by making a list for each open barrel model, with <code>[</code> right after <code>open=true”:</code> and place one at the end of the model, right after <code>}</code>. After you do this, copy the model and paste it below itself like this:</p>
+<pre><code class="language-JSON">    &quot;facing=down,open=true&quot;: [ {
+      &quot;x&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;
+    },
+      {
+      &quot;x&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;
+    } ],
+</code></pre>
+<p>Let’s fix the formatting a bit, by moving the close of the first model, and open of the second to the same line. Also, let’s change the second model to be our variant, like this:</p>
+<pre><code class="language-JSON">    &quot;facing=down,open=true&quot;: [ {
+      &quot;x&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;
+    }, {
+      &quot;x&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open_ponk&quot;
+    } ],
+</code></pre>
+<p>Now let’s add our weight. Do this by adding a comma <code>,</code> after the model, and putting <code>“weight”: 85</code> for the top model, and <code>weight”: 15</code> for the second model, like this:</p>
+<pre><code class="language-JSON">    &quot;facing=down,open=true&quot;: [ {
+      &quot;x&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;,
+      &quot;weight&quot;: 85
+    }, {
+      &quot;x&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open_ponk&quot;,
+      &quot;weight&quot;: 15
+    } ],
+</code></pre>
+<p>Do this same process for all the open barrel variants. When done, it should look like this:</p>
+<pre><code class="language-JSON">{
+  &quot;variants&quot;: {
+    &quot;facing=down,open=false&quot;: {
+      &quot;x&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel&quot;
+    },
+    &quot;facing=down,open=true&quot;: [ {
+      &quot;x&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;,
+      &quot;weight&quot;: 85
+    }, {
+      &quot;x&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open_ponk&quot;,
+      &quot;weight&quot;: 15
+    } ],
+    &quot;facing=east,open=false&quot;: {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/barrel&quot;
+    },
+    &quot;facing=east,open=true&quot;: [ {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;,
+      &quot;weight&quot;: 85
+    }, {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open_ponk&quot;,
+      &quot;weight&quot;: 15
+    } ],
+    &quot;facing=north,open=false&quot;: {
+      &quot;x&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/barrel&quot;
+    },
+    &quot;facing=north,open=true&quot;: [ {
+      &quot;x&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;,
+      &quot;weight&quot;: 85
+    }, {
+      &quot;x&quot;: 90,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open_ponk&quot;,
+      &quot;weight&quot;: 15
+    } ],
+    &quot;facing=south,open=false&quot;: {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel&quot;
+    },
+    &quot;facing=south,open=true&quot;: [ {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;,
+      &quot;weight&quot;: 85
+    }, {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 180,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open_ponk&quot;,
+      &quot;weight&quot;: 15
+    } ],
+    &quot;facing=up,open=false&quot;: {
+      &quot;model&quot;: &quot;minecraft:block/barrel&quot;
+    },
+    &quot;facing=up,open=true&quot;: [ {
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;,
+      &quot;weight&quot;: 85
+    }, {
+      &quot;model&quot;: &quot;minecraft:block/barrel_open_ponk&quot;,
+      &quot;weight&quot;: 15
+    } ],
+    &quot;facing=west,open=false&quot;: {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/barrel&quot;
+    },
+    &quot;facing=west,open=true&quot;: [ {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open&quot;,
+      &quot;weight&quot;: 85
+    }, {
+      &quot;x&quot;: 90,
+      &quot;y&quot;: 270,
+      &quot;model&quot;: &quot;minecraft:block/barrel_open_ponk&quot;,
+      &quot;weight&quot;: 15
+    } ]
+  }
+}
+</code></pre>
+<p>After you are done with the blockstate file, you are going to want to copy both default barrel models from minecraft, into your resource pack. Make a copy of the barrel open model and change its name to <code>barrel_open_ponk.json</code>. After that, edit the file to point to the <code>barrel_open_ponk.png</code> texture. Save this file, then you are done.</p>
+<p>Once you are done with everything, it's time to go test it in game. Here is what the barrels look like closed:<br />
+<img src="./assets/resourcepackguide/images/weighted-variants/closed-barrel-in-game.png" alt="Barrel closed In Game" /></p>
+<p>Here is what most of them look like when they are opened:<br />
+<img src="./assets/resourcepackguide/images/weighted-variants/open-barrel-in-game.png" alt="Barrel Normal Open" /></p>
+<p>Here is what is hiding inside 15% of them:<br />
+<img src="./assets/resourcepackguide/images/weighted-variants/ponk-barrel-in-game.png" alt="Barrel Ponk Open" /></p>
+<h2 id="plant-color"><a class="header" href="#plant-color">Plant Color</a></h2>
+<p>Most grass and foliage in Minecraft derive its color from one of two colormaps called <code>grass.png</code> for grass and <code>foliage.png</code> for foliage, we can edit these to change how grass looks in our world.</p>
+<p>Here is a template made by Word_Wizard:</p>
+<p>As the template says it is pixel perfect, we are going to use it to adjust our own colors for the grass and foliage. Download the template (Download). Now go into your extracted jar and go into the colormaps folder <code>/assets/minecraft/textures/colormaps/</code>. Inside you will see 2 files, this template works on both, so I will only be covering how to do this on one, you can repeat this for the other.</p>
+<p>Unchangeable plant and foliage colors:<br />
+Some plant colors can't be changed in default minecraft, to do that you will need to use Optifine.</p>
+<p>Here is a list of everything that you need Optifine to change:</p>
+<h2 id="gui"><a class="header" href="#gui">GUI</a></h2>
+<p>More Coming Soon.™</p>
+<h3 id="making-a-title-screen-panorama-wip"><a class="header" href="#making-a-title-screen-panorama-wip">Making a title screen panorama (WIP)</a></h3>
+<p>Making a panorama is pretty easy. To get started, you are going to want to find the spot in the world you want to use. I will be using this spot:</p>
+<p>Once you find your spot, you will want to close the game and relaunch the launcher. Then go to the installations tab</p>
+<p>Find the installation you want to use and click on the 3 dots to the right. Click edit. At the bottom of the screen that pops up, will be “Resolution”. You will want to set this to a square resolution; I recommend 1024 if your monitor supports it:</p>
+<p>Once you have it set, hit save, then go back to the play tab and launch the installation you edited. When you get to the menu, you will want to go to options. At the top, you will need to set your FOV: to 90. After this, go into the world you want to use for your panorama. In the chat, type this command:</p>
+<p><code>/tp @p ~ ~ ~ 0 0</code></p>
+<p>This will center you perfectly on the block. Press F1 to hide your UI and then F2 to take a screenshot. Do this 5 more times after running each of these commands:</p>
+<p><code>/tp @p ~ ~ ~ 90 0</code><br />
+<code>/tp @p ~ ~ ~ 180 0</code><br />
+<code>/tp @p ~ ~ ~ 270 0</code><br />
+<code>/tp @p ~ ~ ~ 0 -90</code><br />
+<code>/tp @p ~ ~ ~ 0 90</code></p>
+<p>Once you have all 6 screenshots done, you will want to move them into this folder on your resource pack: <code>/assets/minecraft/textures/gui/title/background</code> Like this:</p>
+<p>Now you will want to rename them like this:</p>
+<p>Start with <code>panorma_0</code> and go to <code>_5</code>.</p>
+<h2 id="entities"><a class="header" href="#entities">Entities</a></h2>
+<p>Coming Soon.™</p>
+<h2 id="other-visuals"><a class="header" href="#other-visuals">Other Visuals</a></h2>
+<p>Particles, Icons, Environmental Textures and various other visual effects can be edited in the same way as the other textures, but advanced changes, such as to resolution variation, models, animation etc are generally not supported in the vanilla game (see Optifine below). Paintings can also be altered, including adjusting their resolution.</p>
+<h2 id="debugging"><a class="header" href="#debugging">Debugging</a></h2>
+<h3 id="common-problems"><a class="header" href="#common-problems">Common Problems</a></h3>
+<h4 id="pack-missing-from-menu"><a class="header" href="#pack-missing-from-menu">Pack Missing from Menu</a></h4>
+<p>Make sure your folder structure is accurate. In particular:</p>
+<ol>
+<li>Ensure the folder structure is as follows: <code>.minecraft/resourcepacks/packName/pack.mcmeta</code></li>
+<li>Ensure the pack.mcmeta file is correctly formatted</li>
+<li>Ensure you have file-extensions shown, and it is not actually <code>pack.mcmeta.txt</code></li>
+<li>Check the output log (see below) to see if there’s another problem preventing the back from loading.</li>
+</ol>
+<h4 id="pack-listed-as-out-of-date"><a class="header" href="#pack-listed-as-out-of-date">Pack Listed as Out of Date</a></h4>
+<p>Ensure your pack.mcmeta file lists the latest <code>“pack_format”</code>. (Mojang simply changes this number any time they change something that might break old packs, so players know which packs might not work anymore. The change might not actually apply to your pack.)</p>
+<h4 id="changes-are-missing"><a class="header" href="#changes-are-missing">Changes are Missing</a></h4>
+<p>If one or more of your changes hasn’t taken effect, an error in the <code>output log</code> (see below) may solve your problem. If no relevant errors are listed there, make sure the relevant files are named appropriately, and in the right places.</p>
+<h4 id="purple-and-black-texture"><a class="header" href="#purple-and-black-texture">Purple and Black Texture</a></h4>
+<p>This is the default texture the game uses when it knows it’s supposed to use a custom texture, but gets confused. The good news is, if you see this error, you can guarantee the output log (see below) will have some information to help.</p>
+<h4 id="animated-textures-not-workinglook-weird"><a class="header" href="#animated-textures-not-workinglook-weird">Animated textures not working/look weird</a></h4>
+<p>All animated textures in Minecraft need a .mcmeta file for them to work. Make sure you have one, that it is formatted correctly and that the filename includes the exact name of the texture you want to animate, including the <code>.png</code>.</p>
+<h3 id="the-output-log"><a class="header" href="#the-output-log">The Output Log</a></h3>
+<p>The output log is a handy little window which tracks a wide variety of things, mostly useful for debugging purposes. If you load your resource pack, and something isn’t working right, there’s a good chance the output log will tell you why, or at least narrow down the options.</p>
+<h4 id="activating-the-output-log"><a class="header" href="#activating-the-output-log">Activating the Output Log</a></h4>
+<ol>
+<li>In the Minecraft launcher, go to settings in the bottom left.</li>
+<li>Check <code>Open output log when minecraft starts</code>.</li>
+</ol>
+<p>This will run a little window in the background, which keeps track of some things. You're looking for yellow or red text in the log, either when the game is launching, or when the resource pack is reloaded (reload your active resource packs with F3+T, or by switching packs)</p>
+<h4 id="interpreting-the-output-log"><a class="header" href="#interpreting-the-output-log">Interpreting the Output Log</a></h4>
+<p>The output log will be full of all sorts of stuff, but only a few lines will be useful for our purpose.</p>
+<p>There are common error types that are valuable to debugging your resource pack:</p>
+<p>File Not Found Exception:</p>
+<p>This error means the game was looking for a particular file in your pack, but couldn’t find it. Usually it’s a simple fix.</p>
+<p>This error will look something like this:</p>
+<pre><code class="language-txt">Unable to load model: 'minecraft:block/stone' referenced from: minecraft:stone#:
+java.io.FileNotFoundException: minecraft:models/block/stone.json
+</code></pre>
+<p>This looks complicated, but is straightforward once you know what you’re looking at. Let’s break it down.</p>
+<ul>
+<li>“Unable to load model” means it’s the model file it couldn’t deal with, as opposed to a blockstate file or a texture file for example.</li>
+<li>“'minecraft:block/stone'” Tells us it’s the “stone” model that it couldn’t load</li>
+<li>“FileNotFoundException” tells us it couldn’t load the file because it couldn’t find it (for other exceptions, see the other sections of this guide)</li>
+<li>“minecraft:models/block/stone.json” tells you that it’s your “stone” model it had trouble finding, and that it expected to find it in the “block” folder, itself in the “models” folder</li>
+</ul>
+<p>File not found exceptions are caused by two problems:</p>
+<ol>
+<li>The file is mistitled or in the wrong place</li>
+<li>You misspelled the name of the file when you referenced it elsewhere (such as referencing the model file-path in a blockstate file, or a texture file in a model file)</li>
+</ol>
+<p>Malformed Json Exception:</p>
+<p>Malformed exceptions are caused when there's a typo in the model file, it will try to tell you where that error is. It may look something like this:</p>
+<pre><code class="language-txt">Unable to load model: 'minecraft:block/stone' referenced from: minecraft:stone:
+com.google.gson.JsonSyntaxException:
+com.google.gson.stream.MalformedJsonException: Unterminated object at line
+24 column 22 path $.elements[0].faces.north
+</code></pre>
+<p>This is more complicated to interpret than the file not found exception, but we can still break it down:</p>
+<ul>
+<li>“Unable to load model” means it’s the model file it couldn’t deal with, as opposed to a blockstate file for example.</li>
+<li>“'minecraft:block/stone'” tells us it’s the “stone” model that it couldn’t load</li>
+<li>“MalformedJsonException” tells us it couldn’t load the file because there was something inside it couldn’t understand (for other exceptions, see the other sections of this guide)</li>
+<li>“Line 24 column 22” tells us it thinks the problem is the 22nd character on line 24. It is quite likely however, that the problem is actually somewhere later. For example, if you open a ‘{‘ on line 24, but forget to close it with ‘}’ on line 45, it will still think the problem is line 24.</li>
+<li>“path $.elements[0].faces.north” This tells us what section it thinks is a problem. Usually, a typo will confuse where the sections start and end though, so rarely as helpful as the line number.</li>
+<li>It usually attempts to guess what kind of typo it was. Some examples below:
+<ul>
+<li>“Unterminated object” or “java.io.EOFException: End of input at” means there’s something off about your parentheses, brackets, braces or commas. (Probably an extra or one missing)</li>
+<li>“Expected ‘:’ at” means basically what it says on the tin, but it could easily be confused. Check your nearby quotation marks if the problem isn’t otherwise obvious</li>
+<li>“Unknown facing: souh” this means you’ve made a typo in a variable name (in this case, “south” is a real facing, while “souh” (missing the ‘t’)is not.</li>
+</ul>
+</li>
+</ul>
+<h2 id="optifine"><a class="header" href="#optifine">Optifine</a></h2>
+<p>Coming Soon.™</p>
+<h2 id="language-files"><a class="header" href="#language-files">Language Files</a></h2>
+<p>Minecraft is translated into over 120 languages. We can take advantage of this, by modifying the files the game references to do this.</p>
+<p>These files are stored in assets/minecraft/lang, and are named in the format “en_us.json”, where the first two letters stand for the language, and the second two letters stand for the regional variant (in this case, American English). You do not need to make a file for every language, but be aware that players that use your pack in a language you have not altered, will not see your language changes. (A full list of supported languages can be found ____)</p>
+<p>Each piece of text is called a “string”. Strings can be anything from a single character, like the Roman numeral “I” used as part of the potion tooltip, or entire paragraphs, like in some options screens. Each line of the .json file tells the game how to display one string.</p>
+<h3 id="changing-text"><a class="header" href="#changing-text">Changing Text</a></h3>
+<p>Let’s say you are annoyed that oak trees drop apples, so you want to rename them to apple trees.</p>
+<ol>
+<li>Make a copy of the language file for each language you wish to support</li>
+<li>Delete every string that you don’t intend to change (every one that doesn’t reference “oak”), making sure to keep the “{“ and  “}” at the ends of the file</li>
+<li>Change the text in the second set of parentheses as you see fit</li>
+<li>Ensure every string but the last has a comma after</li>
+</ol>
+<p>So for our example,<br />
+<code>&quot;block.minecraft.oak_planks&quot;: &quot;Oak Leaves&quot;,</code>
+becomes<br />
+<code>&quot;block.minecraft.oak_planks&quot;: &quot;Apple Leaves&quot;,</code></p>
+<p>“%s” and &quot;%1$s” refer to variables such as a number or another string. The number after the percentage references the order. For example, we could change the string
+<code>&quot;%1$s was blown up by %2$s&quot;</code><br />
+(which might say “Cultist_O was blown up by Creeper”)
+to
+<code>&quot;%2$s blew %1$s up&quot;,</code><br />
+(which would instead say “Creeper blew Cultist_O up”)</p>
+<h3 id="changing-text-color--format"><a class="header" href="#changing-text-color--format">Changing Text Color &amp; Format</a></h3>
+<p>Sometimes you may want to change the color or format of text, for example, if you want to change the color of a GUI to something that would make light-grey text hard to read.</p>
+<p>To do this, simply use the “§” symbol, followed by the number for the appropriate color or format. For example,</p>
+<p>&quot;container.inventory&quot;: &quot;§9Inventory&quot;,</p>
+<p>would result in the word “Inventory” appearing light blue, while</p>
+<p>&quot;enchantment.minecraft.luck_of_the_sea&quot;: &quot;§2Luck§r of the §1§lSea&quot;,</p>
+<p>would result in the word “Luck” being green, and “Sea” being both blue and bold.</p>
+<p>Better examples including support for colored text can be found on the Minecraft Wiki <a href="https://minecraft.fandom.com/wiki/Formatting_codes">Page for Formatting Codes</a></p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Code</th><th style="text-align: center">Color/Formatting</th></tr></thead><tbody>
+<tr><td style="text-align: center">§0</td><td style="text-align: center">Black</td></tr>
+<tr><td style="text-align: center">§1</td><td style="text-align: center">Blue</td></tr>
+<tr><td style="text-align: center">§2</td><td style="text-align: center">Green</td></tr>
+<tr><td style="text-align: center">§3</td><td style="text-align: center">Cyan</td></tr>
+<tr><td style="text-align: center">§4</td><td style="text-align: center">Red</td></tr>
+<tr><td style="text-align: center">§5</td><td style="text-align: center">Magenta</td></tr>
+<tr><td style="text-align: center">§6</td><td style="text-align: center">Yellow</td></tr>
+<tr><td style="text-align: center">§7</td><td style="text-align: center">Gray</td></tr>
+<tr><td style="text-align: center">§8</td><td style="text-align: center">Dark Gray</td></tr>
+<tr><td style="text-align: center">§9</td><td style="text-align: center">Light Blue</td></tr>
+<tr><td style="text-align: center">§a</td><td style="text-align: center">Light Green</td></tr>
+<tr><td style="text-align: center">§b</td><td style="text-align: center">Light Cyan</td></tr>
+<tr><td style="text-align: center">§c</td><td style="text-align: center">Light Red</td></tr>
+<tr><td style="text-align: center">§d</td><td style="text-align: center">Light Magenta</td></tr>
+<tr><td style="text-align: center">§e</td><td style="text-align: center">Light Yellow</td></tr>
+<tr><td style="text-align: center">§f</td><td style="text-align: center">White</td></tr>
+<tr><td style="text-align: center"><code>--Non-Colored--</code></td><td style="text-align: center"><code>--Format--</code></td></tr>
+<tr><td style="text-align: center">§l</td><td style="text-align: center">Bold</td></tr>
+<tr><td style="text-align: center">§m</td><td style="text-align: center">Strikethrough</td></tr>
+<tr><td style="text-align: center">§n</td><td style="text-align: center">Underline</td></tr>
+<tr><td style="text-align: center">§o</td><td style="text-align: center">Italic</td></tr>
+<tr><td style="text-align: center">§r</td><td style="text-align: center">Reset</td></tr>
+<tr><td style="text-align: center">§k</td><td style="text-align: center">Obfuscated <code>(Characters that cycle randomly)</code></td></tr>
+</tbody></table>
+</div>
+<p>Things to Consider:</p>
+<ul>
+<li>Try not to make the text too long. It may not fit in the GUI properly, and look bad</li>
+<li>Some strings appear in several places. “Done” for example is used in several places.</li>
+<li>If you make a resource pack for a language with variants, (English for example) it’s often fairly easy to copy the language file and change the name to support variants. Canadian English for example (en_ca), only has a few strings that should be different from en_us.</li>
+</ul>
+<p>Splash Texts:</p>
+<ul>
+<li>These are the yellow text that hovers next to the minecraft logo on the main menu. The game randomly pics a line from this list to show each time the menu is accessed.</li>
+</ul>
+<p>End Poem &amp; Credits</p>
+<ul>
+<li>These files are found in assets/minecraft/texts. Editing them should be fairly self-explanatory. Note that PLAYERNAME will be replaced with the player’s name in the end poem.</li>
+</ul>
+<!-- Fonts -->
+<h2 id="sounds"><a class="header" href="#sounds">Sounds</a></h2>
+<p>Minecraft sound files do not show up when you use a normal archive extraction tool. We can use a specific program to extract them though. Linked above is a program made specifically to extract Minecraft's sounds. After they are extracted, you can see where to put sounds in your resource pack.</p>
+<p>Minecraft uses <code>.ogg</code> files at 96kb/s for its sounds. If using Audacity to make your sound files, when exporting as OGG, use quality setting 3 if you want to match default minecraft kb/s.</p>
+<h2 id="credits"><a class="header" href="#credits">Credits</a></h2>
+<p><strong><a href="https://github.com/SilkRose">Silk Rose</a></strong></p>
+<ul>
+<li>Initiative</li>
+<li>Most of the work</li>
+</ul>
+<p><strong><a href="https://www.reddit.com/user/Cultist_O">Cultist_O</a></strong></p>
+<ul>
+<li>Debugging &amp; Output Log</li>
+<li>Language &amp; Text Files</li>
+<li>Blockstates Part 1</li>
+<li>“Partially Filled Hives” Example Resource Pack &amp; Textures</li>
+<li>Light Editing and Proofreading</li>
+</ul>
+<p><strong><a href="http://www.twitter.com/epicacrylic">Epic Acrylic</a></strong></p>
+<ul>
+<li>Proofreading</li>
+<li>Alternative image/text/model editor programs</li>
+<li>Light fact checking</li>
+</ul>
+<p><strong><a href="https://github.com/XCRunnerS">XCRunnerS</a></strong></p>
+<ul>
+<li>Reformatting tables</li>
+<li>Additional tables</li>
+<li>Additional editor programs</li>
+</ul>
+<!-- Links go here -->
+<!-- Image links go here -->
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+                            <a rel="next" href="index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+                    <a rel="next" href="index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
