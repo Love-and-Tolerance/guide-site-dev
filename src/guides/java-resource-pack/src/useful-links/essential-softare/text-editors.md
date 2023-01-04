@@ -6,7 +6,7 @@ Software | Price | OS
 --|--|--
 [VSCodium] | Free | Windows, Mac, Linux
 [Visual Studio Code] | Free | Windows, Mac, Linux
-[Pulsar] | Free | windows, mac, linux
+[Pulsar] | Free | Windows, Mac, Linux
 [Notepad++] | Free | Windows
 [Notepadqq] | Free | Linux
 

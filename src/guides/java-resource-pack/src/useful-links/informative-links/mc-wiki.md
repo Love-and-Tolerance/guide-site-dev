@@ -4,9 +4,9 @@ Useful Minecraf Wiki pages.
 
 Minecraft Wiki Page Title | Description
 --|--
-[Resource Packs] | The official wiki on Minecraft resource packs, updated regularly per update/snapshot, documenting changes between versions.
-[Creating a Resource Pack] | Will be updated regularly per update/snapshot, documenting changes between versions.
-[Texture Packs] | Useful information on texture packs for Minecraft versions 1.6.0 and newer.
+[Resource Packs] | The official wiki on Minecraft resource packs.
+[Creating a Resource Pack] | The official wiki on creating Minecraft resource packs.
+[Texture Packs] | Useful information on texture packs for Minecraft versions 1.6.0 and older.
 [Creating a Texture Pack] | Has useful info on making texture packs for Minecraft 1.6.0 and older.
 [Formatting codes] | Useful reference when editing text files such as pack.mcmeta and credits.txt.
 [Models] | Has a lot of useful info about blockstates and model files.
