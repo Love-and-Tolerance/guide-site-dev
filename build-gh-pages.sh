@@ -41,7 +41,7 @@ cp src/site/guide/.nojekyll ./deploy
 folders="css FontAwesome fonts theme"
 
 # Set the list of files to delete
-files="404.html ayu-highlight.css book.js clipboard.min.js elasticlunr.min.js favicon.png favicon.svg highlight.css highlight.js mark.min.js print.html searcher.js searchindex.js searchindex.json tomorrow-night.css .nojekyll"
+files="404.html ayu-highlight.css book.js clipboard.min.js elasticlunr.min.js favicon.png favicon.svg highlight.css highlight.js mark.min.js print.html searcher.js tomorrow-night.css .nojekyll"
 
 # Loop through all the directories in './src/guides/'
 for guide in ./src/guides/*/
