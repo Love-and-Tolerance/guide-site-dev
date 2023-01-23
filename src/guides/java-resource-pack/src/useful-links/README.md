@@ -3,10 +3,10 @@
 This section contains links to software required to make a pack and a lot of resources to help create a pack.
 
 - [Base Resource Pack](base-pack/README.md)
-- [Essential Software](essential-softare/README.md)
-  - [Image Editors](essential-softare/image-editors.md)
-  - [Archival Tools](essential-softare/archive-tools.md)
-  - [Text Editors](essential-softare/text-editors.md)
+- [Essential Software](essential-software/README.md)
+  - [Image Editors](essential-software/image-editors.md)
+  - [Archival Tools](essential-software/archive-tools.md)
+  - [Text Editors](essential-software/text-editors.md)
 - [Miscellaneous Software](misc-software/README.md)
   - [3D Modeling Software](misc-softare/3d-model-software.md)
   - [Texture/Resource Pack Converters](misc-softare/converters.md)
